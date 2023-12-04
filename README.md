@@ -43,7 +43,11 @@ We welcome contributions from the community to enhance and expand the Chemical S
 
 ## Acknowledgements
 
-* [BIG-MAP](http://www.big-map.eu/); Grant Agreement No: 957189 <img src="documentation/images/bigmap_logo.png" alt="BIG-MAP" width="30">
+This project has received support from European Unition research and innovation programs, under grant agreement numbers:
+
+* 957189 - [BIG-MAP](http://www.big-map.eu/) 
+
+<img src="documentation/images/flag_of_europe.png" alt="BIG-MAP" width="50">
 
 ## License
 
