@@ -53,4 +53,4 @@ This project has received support from European Unition research and innovation 
 
 The Chemical Substance Domain Ontology is released under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode) license (CC BY 4.0).
 
-Please cite this 
+Please cite this content using the following DOI: [10.5281/zenodo.10254978](https://zenodo.org/doi/10.5281/zenodo.10254978)
