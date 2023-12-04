@@ -47,7 +47,9 @@ This project has received support from European Unition research and innovation 
 
 * 957189 - [BIG-MAP](http://www.big-map.eu/) 
 
-<img src="documentation/images/flag_of_europe.png" alt="BIG-MAP" width="50">
+<div style="text-align:center">
+  <img src="documentation/images/flag_of_europe.png" alt="EU-Flag" width="50">
+</div>
 
 ## License
 
