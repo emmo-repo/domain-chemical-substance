@@ -12,6 +12,7 @@
   "Open locally built documentation in browser"
   (interactive)
   (browse-url (concat docdir "_build/html/index.html"))
+  
   )
 
 (defun battinfodoc-build ()
