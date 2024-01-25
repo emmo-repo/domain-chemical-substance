@@ -12,7 +12,9 @@
 
 <https://w3id.org/emmo/domain/chemicalsubstance/chemicalsubstance> rdf:type owl:Ontology ;
                                                         owl:versionIRI <https://w3id.org/emmo/domain/chemicalsubstance/0.2.0/chemicalsubstance> ;
-                                                        owl:imports <http://emmo.info/emmo/1.0.0-beta5> ;
+                                                        owl:imports <http://emmo.info/emmo/1.0.0-beta5/perspectives/physicalistic> ,
+                                                                    <http://emmo.info/emmo/1.0.0-beta5/perspectives/perceptual> ,
+                                                                    <http://emmo.info/emmo/1.0.0-beta5/disciplines/chemistry> ;
                                                         dcterms:abstract "This ontology provides terms for chemical substances that can be referenced and re-used other resources."@en ;
                                                         dcterms:contributor "Jesper Friis" ;
                                                         dcterms:creator "Simon Clark" ;
