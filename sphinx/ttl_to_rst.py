@@ -93,16 +93,24 @@ def entities_to_rst(entities: list[dict]) -> str:
 
         rst += "* " + item['IRI'] + "\n\n"
         
+        rst += ".. raw:: html\n\n"
+        indent = "  "
+        rst += indent + "<table class=\"element-table\">\n"
         for key, value in item.items():
 
             if (key not in ['IRI', 'prefLabel']) & (value != "None") & (value != ""):
 
-                # if value.startswith("http"):
-                    # rst += f"""<p class="entity"><i>{key}</i>: <a href='{value}'>{value}</a></p>"""
-                # else:
-                    rst += key + ":\n"
-                    rst += "   " + value + "\n"                    
+                rst += indent + "<tr>\n"
+                rst += indent + "<td class=\"element-table-key\"><span class=\"element-table-key\">" + key + "</span></td>\n"
+                if value.startswith("http"):
+                    value = f"""<a href='{value}'>{value}</a>"""
+                value = value.encode('ascii', 'xmlcharrefreplace')
+                value = value.decode('utf-8')
+                value = value.replace('\n', '\n' + indent)
+                rst += indent + "<td class=\"element-table-value\">" + value + "</td>\n"
+                rst += indent + "</tr>\n"
 
+        rst += indent + "</table>\n"
         rst += "\n\n"
 
     return rst
@@ -124,14 +132,14 @@ def rendering_workflow():
 
     # PAGES
     ttl_modules = [
-        {"section title": "Quantities used in Electrochemistry",
-         "path": "./electrochemicalquantities.ttl"},
-        {"section title": "Electrochemistry Concepts",
-         "path": "./electrochemistry.ttl"}
+        {"section title": "Battery Concepts",
+         "path": "./battery.ttl"},
+        {"section title": "Battery Quantities",
+         "path": "./batteryquantities.ttl"}
     ]
 
     # GENERATE PAGES
-    rst_filename = "electrochemistry.rst"
+    rst_filename = "battery.rst"
 
     rst = render_rst_top()
 
@@ -150,7 +158,7 @@ def rendering_workflow():
 
     rst += render_rst_bottom()
 
-    with open("./sphinx/"+ rst_filename, "w", encoding="utf-8") as f:
+    with open("./sphinx/"+ rst_filename, "w+", encoding="utf-8") as f:
         f.write(rst)
 
 
