@@ -4,6 +4,8 @@
 
    About <about>
    self
+   Class Index <battery>
+   Resources <resources>
    Contribute <contribute>
 
    
