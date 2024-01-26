@@ -4,7 +4,7 @@
 
    About <about>
    self
-   Class Index <battery>
+   Class Index <chemicalsubstance>
    Resources <resources>
    Contribute <contribute>
 
