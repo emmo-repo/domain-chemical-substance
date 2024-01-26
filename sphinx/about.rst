@@ -1,5 +1,5 @@
-About Electrochemistry Domain Ontology
-======================================
+About Chemical Substance Domain Ontology
+========================================
 
 Contributors
 ------------
