@@ -3,45 +3,45 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix emmo: <http://emmo.info/emmo#> .
+@prefix emmo: <https://w3id.org/emmo#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix annotations: <http://emmo.info/emmo/top/annotations#> .
+@prefix annotations: <https://w3id.org/emmo/top/annotations#> .
 @base <https://w3id.org/emmo/domain/chemicalsubstance/chemicalsubstance> .
 
 <https://w3id.org/emmo/domain/chemicalsubstance/chemicalsubstance> rdf:type owl:Ontology ;
 
-                                                                    owl:versionIRI <https://w3id.org/emmo/domain/chemicalsubstance/0.3.0-beta/chemicalsubstance> ;
-                                                                    owl:imports <http://emmo.info/emmo/1.0.0-beta5> ;
+                                                                    owl:versionIRI <https://w3id.org/emmo/domain/chemicalsubstance/0.4.0-beta/chemicalsubstance> ;
+                                                                    owl:imports <https://w3id.org/emmo/1.0.0-beta7> ;
                                                                     dcterms:abstract "This ontology provides terms for chemical substances that can be referenced and re-used other resources."@en ;
                                                                     dcterms:contributor "Jesper Friis" ;
                                                                     dcterms:creator "Simon Clark" ;
-                                                                    owl:versionInfo "0.3.0-beta" .
+                                                                    owl:versionInfo "0.4.0-beta" .
 
 #################################################################
 #    Annotation properties
 #################################################################
 
-###  http://emmo.info/emmo#EMMO_371f5265_fa29_4081_b722_2c530b1fdddb
+###  https://w3id.org/emmo#EMMO_371f5265_fa29_4081_b722_2c530b1fdddb
 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb rdf:type owl:AnnotationProperty ;
                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Pubchem URI for a compound or substance ID."@en ;
                                                skos:prefLabel "pubChemReference"@en ;
                                                rdfs:subPropertyOf rdfs:seeAlso .
 
 
-###  http://emmo.info/emmo#EMMO_b292d30e_4d60_43f5_9f3e_9c4e00e17a10
+###  https://w3id.org/emmo#EMMO_b292d30e_4d60_43f5_9f3e_9c4e00e17a10
 emmo:EMMO_b292d30e_4d60_43f5_9f3e_9c4e00e17a10 rdf:type owl:AnnotationProperty .
 
 
-###  http://emmo.info/emmo#EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919
+###  https://w3id.org/emmo#EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919
 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 rdf:type owl:AnnotationProperty ;
                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Corresponds to the molecular formula of the compound."@en ;
                                                skos:prefLabel "molecularFormula"@en ;
                                                rdfs:subPropertyOf rdfs:seeAlso .
 
 
-###  http://emmo.info/emmo#EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba
+###  https://w3id.org/emmo#EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba
 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba rdf:type owl:AnnotationProperty ;
                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Corresponds to the IUPAC name of the compound."@en ;
                                                skos:prefLabel "IUPACName"@en ;
