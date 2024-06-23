@@ -5,52 +5,86 @@
 
 # Chemical Substance Domain Ontology
 
-## Overview
+<img src="docs/assets/img/fig/svg/domain-chemical-substance-logo.svg" alt="domain-chemical-substance-logo" width="100%">
 
-The Chemical Substance Domain Ontology is a specialized ontology designed to provide persistent machine-readable identifiers for chemical substances within the broader context of the Elementary Multiperspective Materials Ontology (EMMO). It plays a crucial role in enhancing the semantic representation of chemical entities and their relationships within materials science and related domains.
+<!-- [![CI tests](https://github.com/emmo-repo/domain-chemical-substance/workflows/CI%20tests/badge.svg)](https://github.com/emmo-repo/domain-chemical-substance/actions/) -->
+The Chemical Substance Domain Ontology is a domain of the [Elementary Multiperspective Materials Ontology (EMMO)][1], for describing chemical substances. Its primary objective is to support the creation of [FAIR](https://www.go-fair.org/fair-principles/), [Linked Data](https://en.wikipedia.org/wiki/Linked_data). This ontology serves as a foundational resource for harmonizing knowledge representation, enhancing data interoperability, and accelerating progress in materials research and development.
 
-### Integration with EMMO
+Reference documentation is available [here](https://emmo-repo.github.io/domain-chemical-substance/index.html).
 
-The primary purpose of the Chemical Substance Domain Ontology is to seamlessly integrate chemical substances into the EMMO ontology ecosystem. EMMO serves as the top-level ontology for materials science and modeling, providing a standardized framework for describing materials, processes, and phenomena. By establishing a domain ontology for chemical substances, we bridge the gap between materials modeling and chemistry, ensuring consistent and interoperable knowledge representation.
+# Quick Start
 
-### Persistent Identifiers
+Here is some information to help you get started working with the ontology in python and creating you own instances of Linked Data. For more information, please see the [Getting Started](https://emmo-repo.github.io/domain-chemical-substance/pages/getstarted.html) and [Examples](https://emmo-repo.github.io/domain-chemical-substance/pages/examples.html) section of the documentation. 
 
-This ontology assigns persistent machine-readable identifiers to chemical substances. These identifiers are essential for accurate referencing and linking of chemical data, ensuring data consistency, and facilitating data exchange and interoperability among various tools and systems. It includes annotations to other sources of information including [PubChem](https://pubchem.ncbi.nlm.nih.gov/) and [Wikidata](https://www.wikidata.org/). 
+## Reference IRIs
 
-### Standardized Nomenclature
+The table below contains a quick cheat sheet of IRIs for accessing different files from the ontology
+The import structure is summarized in the following table:
 
-The ontology includes standardized nomenclature for chemical substances, relying on [IUPAC](https://iupac.org/what-we-do/nomenclature/) recommendations for naming coneventions. IUPAC is the universally-recognized authority on chemical nomenclature and terminology. This consistency in naming conventions enhances collaboration and data sharing.
+| IRI                                                            | Description                   |
+| -------------------------------------------------------------- | ----------------------------- |
+| `https://w3id.org/emmo/domain/chemical-substance`                | Base Asserted Ontology*       |
+| `https://w3id.org/emmo/domain/chemical-substance/inferred`       | Base Pre-Inferred Ontology*   |
+| `https://w3id.org/emmo/domain/chemical-substance/latest`         | Latest Asserted Ontology*     |
+| `https://w3id.org/emmo/domain/chemical-substance/source`         | Source of Asserted Ontology*  |
+| `https://w3id.org/emmo/domain/chemical-substance/context`        | Latest JSON-LD Context File   |
+| `https://w3id.org/emmo/domain/chemical-substance/{VERSION}`      | Version of Asserted Ontology* |
+| `https://w3id.org/emmo/domain/chemical-substance/{VERSION}/...`  | ... follows same logic above  |
 
-## Key Features
+*IRI directs to human readable documentation if called from the web browser and to the source .ttl file if called from an application
 
-- Seamless integration with the EMMO ontology.
-- Provides persistent machine-readable identifiers for chemical substances.
-- Standardized nomenclature for chemical entities.
-- Facilitates data exchange and interoperability within the EMMO ecosystem.
+## Python
+There are two common ways to work with the ontology in python: loading the ontology as a graph using [rdflib](https://rdflib.readthedocs.io/en/stable/) or exploring the content of the ontology using [EMMOntoPy](https://github.com/emmo-repo/EMMOntoPy). Examples of both are provided below.
+
+### rdflib
+In [rdflib](https://rdflib.readthedocs.io/en/stable/), you can import the ontology as a graph, e.g. to run SPARQL queries:
+
+```python
+from rdflib import Graph
+
+# Define the IRI of the ontology
+echo = "https://w3id.org/emmo/domain/chemical-substance"
+
+# Create an empty graph
+g = Graph()
+
+# Load the ontology from the IRI
+g.parse(echo, format="ttl")
+
+# Print the number of triples in the graph
+print(f"Graph has {len(g)} triples.")
+```
+### EMMOntoPy
+In [EMMOntoPy](https://github.com/emmo-repo/EMMOntoPy), you can choose to import the ontology directly from the web:
+
+```python
+from ontopy import get_ontology
+
+# Loading from web
+echo = get_ontology('https://w3id.org/emmo/domain/chemical-substance').load()
+```
 
 ## Usage
 
-Researchers, domain experts, and developers within the materials science and chemistry communities can utilize the Chemical Substance Domain Ontology for various purposes, including:
+This domain ontology supports the creation of Linked Data in any RDF-supported format. Below is an example using [JSON-LD](https://json-ld.org/) to desecribe ... . Please see the documentation for [more examples](https://emmo-repo.github.io/domain-chemical-substance/pages/examples.html). 
 
-- Incorporating consistent and standardized chemical substance information into their modeling and simulation activities.
-- Enhancing data interoperability between materials modeling tools, databases, and platforms.
-- Supporting research projects that require precise and standardized chemical entity representation.
-- Building applications, databases, or knowledge graphs that leverage EMMO and require chemical substance information.
+```json
+{
+    "@context": "https://w3id.org/emmo/domain/chemical-substance/context"
+}
+```
 
-## Contributing
+### Acknowledgements
 
-We welcome contributions from the community to enhance and expand the Chemical Substance Domain Ontology. If you have suggestions, improvements, or additional chemical substance information to contribute, please refer to our [Contribution Guidelines](CONTRIBUTING.md).
+<img src="docs/assets/img/Flag_of_Europe.png" alt="EU-Flag" width="100">
 
-## Acknowledgements
-
-<img src="documentation/images/flag_of_europe.png" alt="EU-Flag" width="100">
-
-This project has received support from European Unition research and innovation programs, under grant agreement numbers:
+This project has received support from European Union research and innovation programs, under grant agreement numbers:
 
 * 957189 - [BIG-MAP](http://www.big-map.eu/) 
 
 ## License
 
-The Chemical Substance Domain Ontology is released under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode) license (CC BY 4.0).
+The Electrochemistry Domain Ontology is released under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode) license (CC BY 4.0).
 
-Please cite this content using the following DOI: [10.5281/zenodo.10254978](https://zenodo.org/doi/10.5281/zenodo.10254978)
+[1]: https://github.com/emmo-repo/EMMO
+[2]: https://www.big-map.eu
