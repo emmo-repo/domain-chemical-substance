@@ -35,21 +35,24 @@ jobs:
 
     - name: Configure Git
       run: |
-        git config --local user.email "${{ env.GIT_USER_EMAIL }}"
-        git config --local user.name "${{ env.GIT_USER_NAME }}"
+        git config --local user.email "BattINFO@big-map.org"
+        git config --local user.name "BattINFO Developers"
 
-    - name: Commit any changes before pulling
+    - name: Check for changes in README.md
       run: |
-        git add -A
-        git diff --staged --quiet || git commit -m "Stash changes before pull"
-
-    - name: Pull latest changes
-      run: git pull origin main --rebase
+        git add README.md
+        git status
+        git diff --staged
 
     - name: Commit changes
       run: |
         git add README.md
-        git diff --staged --quiet || git commit -m "Update FOOPS score badge"
+        git commit -m "Update FOOPS score badge" || echo "No changes to commit"
+
+    - name: Push changes
+      run: git push origin HEAD:main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Push changes
       run: git push origin HEAD:main
