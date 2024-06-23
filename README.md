@@ -1,4 +1,4 @@
-[![FOOPS Score](https://img.shields.io/badge/FOOPS%20Score-71.0%25-brightgreen)](https://foops.linkeddata.es/FAIR_validator.html)
+[![FOOPS Score](https://img.shields.io/badge/FOOPS%20Score-78.0%25-brightgreen)](https://foops.linkeddata.es/FAIR_validator.html)
 ![reason](https://github.com/emmo-repo/domain-chemical-substance/actions/workflows/reason.yml/badge.svg)
 ![docs](https://github.com/emmo-repo/domain-chemical-substance/actions/workflows/doc.yml/badge.svg)
 
