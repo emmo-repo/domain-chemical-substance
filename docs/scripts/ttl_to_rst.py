@@ -140,8 +140,6 @@ def rendering_workflow():
 
     # PAGES
     ttl_modules = [
-        {"section title": "Quantities used in Chemical Substance",
-         "path": "./electrochemicalquantities.ttl"},
         {"section title": "Chemical Substance Concepts",
          "path": "./chemical-substance.ttl"}
     ]
