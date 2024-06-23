@@ -44,7 +44,7 @@ jobs:
         git diff --staged --quiet || git commit -m "Stash changes before pull"
 
     - name: Pull latest changes
-      run: git pull origin master --rebase
+      run: git pull origin main --rebase
 
     - name: Commit changes
       run: |
@@ -52,6 +52,6 @@ jobs:
         git diff --staged --quiet || git commit -m "Update FOOPS score badge"
 
     - name: Push changes
-      run: git push origin HEAD:master
+      run: git push origin HEAD:main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
