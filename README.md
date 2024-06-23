@@ -1,4 +1,6 @@
-
+[![FOOPS Score](https://img.shields.io/badge/FOOPS%20Score-71.0%25-brightgreen)](https://foops.linkeddata.es/FAIR_validator.html)
+![reason](https://github.com/emmo-repo/domain-chemical-substance/actions/workflows/reason.yml/badge.svg)
+![docs](https://github.com/emmo-repo/domain-chemical-substance/actions/workflows/doc.yml/badge.svg)
 
 <!-- markdownlint-disable MD033 -->
 [![DOI](https://zenodo.org/badge/697870611.svg)](https://zenodo.org/doi/10.5281/zenodo.10254978)
