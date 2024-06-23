@@ -10,7 +10,7 @@
 <img src="docs/assets/img/fig/svg/domain-chemical-substance-logo.svg" alt="domain-chemical-substance-logo" width="100%">
 
 <!-- [![CI tests](https://github.com/emmo-repo/domain-chemical-substance/workflows/CI%20tests/badge.svg)](https://github.com/emmo-repo/domain-chemical-substance/actions/) -->
-The Chemical Substance Domain Ontology is a domain of the [Elementary Multiperspective Materials Ontology (EMMO)][1], for describing chemical substances. Its primary objective is to support the creation of [FAIR](https://www.go-fair.org/fair-principles/), [Linked Data](https://en.wikipedia.org/wiki/Linked_data). This ontology serves as a foundational resource for harmonizing knowledge representation, enhancing data interoperability, and accelerating progress in materials research and development.
+The Chemical Substance Domain Ontology is a domain of the [Elementary Multiperspective Materials Ontology (EMMO)][1], for describing chemical substances. Its primary objective is to support the creation of [FAIR](https://www.go-fair.org/fair-principles/), [Linked Data](https://en.wikipedia.org/wiki/Linked_data). This ontology serves as a foundational resource for harmonizing knowledge representation, enhancing data interoperability, and accelerating progress in materials research and development. 
 
 Reference documentation is available [here](https://emmo-repo.github.io/domain-chemical-substance/index.html).
 
