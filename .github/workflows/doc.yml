@@ -1,4 +1,4 @@
-name: "Sphinx: Render docs"
+name: "docs"
 
 on: 
   push:
@@ -30,28 +30,97 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install Markdown==3.4.3 rdflib==6.3.2  # Add any other dependencies if needed
+        pip install Markdown==3.4.3 rdflib==6.3.2  pandoc # Add any other dependencies if needed
         
     - name: Render documentation from ttl
-      run: python sphinx/ttl_to_rst.py
+      run: python docs/scripts/ttl_to_rst.py
 
     - name: Build HTML
       uses: ammaraskar/sphinx-action@master
       with:
-        docs-folder: "sphinx/"
+        docs-folder: "docs/"
         pre-build-command: "apt-get update -y; apt-get install -y pandoc"
-        
+
+    - name: Create context file from ttl
+      run: python docs/scripts/ttl_to_context.py
+
+    - name: Check if HTML context directory exists
+      run: |
+        if [ ! -d "docs/_build/html/context/" ]; then
+          echo "Creating HTML context directory"
+          sudo mkdir -p docs/_build/html/context/
+        else
+          echo "HTML context directory already exists"
+        fi
+
+        if [ ! -d "docs/_build/html/assets/" ]; then
+          echo "Creating HTML context directory"
+          sudo mkdir -p docs/_build/html/assets/
+        else
+          echo "HTML assets directory already exists"
+        fi
+
+        if [ ! -d "docs/_build/html/versions/" ]; then
+          echo "Creating HTML versions directory"
+          sudo mkdir -p docs/_build/html/versions/
+        else
+          echo "HTML version directory already exists"
+        fi
+
+    - name: Copy assets directory to HTML directory
+      run: sudo cp -r docs/assets/* docs/_build/html/assets/
+    
+    - name: Copy context file to HTML directory
+      run: sudo cp context/context.json docs/_build/html/context/
+
+    - name: Commit changes
+      run: |
+        git config --local user.email "${{ env.GIT_USER_EMAIL }}"
+        git config --local user.name "${{ env.GIT_USER_NAME }}"
+        git add context/context.json
+        # Check for any changes to commit
+        git diff --staged --quiet || git commit -m "Update context.json file"
+
+    - name: Push changes
+      run: git push origin HEAD:main
+
+    - name: Fetch all tags and create version directories
+      run: |
+        git fetch --tags
+        git tag | while read TAG; do
+          sudo mkdir -p "docs/_build/html/versions/$TAG"
+          python docs/scripts/apply_foops_recommendations.py chemical-substance.ttl chemical-substance-foops.ttl
+          sudo cp "chemical-substance-foops.ttl" "docs/_build/html/versions/$TAG/chemical-substance.ttl"
+          sudo cp "chemical-substance-inferred.ttl" "docs/_build/html/versions/$TAG/"
+
+        if [ -d "context" ]; then
+          echo "Context directory exists, copying context.json to $TAG"
+          # Make sure the context directory exists in the version-specific directory
+          sudo mkdir -p "docs/_build/html/versions/$TAG/context"
+          # Copy context.json to the tag-specific context directory
+          sudo cp "context/context.json" "docs/_build/html/versions/$TAG/context"
+        else
+          echo "No context directory found in the source directory."
+        fi
+        done
+
+    - name: Copy TTL files to HTML directory
+      run: |
+        python docs/scripts/apply_foops_recommendations.py chemical-substance.ttl chemical-substance-foops.ttl
+        sudo cp "chemical-substance-foops.ttl" "docs/_build/html/chemical-substance.ttl"
+        sudo cp "chemical-substance-inferred.ttl" "docs/_build/html/chemical-substance-inferred.ttl"
+
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
         name: documentationHTML
-        path: sphinx/_build/html/
+        path: docs/_build/html/
         
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       if: github.ref == 'refs/heads/main'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: sphinx/_build/html
+        publish_dir: docs/_build/html
 
       
