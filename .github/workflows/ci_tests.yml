@@ -22,19 +22,11 @@ jobs:
         pip install -U setuptools wheel
         pip install -r requirements.txt
 
-    - name: Run EMMO Check - electrochemistry
+    - name: Run EMMO Check - chemical-substance
       run: |
         emmocheck --verbose --url-from-catalog \
           --skip test_namespace \
           --skip test_quantity_dimension \
           --configfile=.github/utils/emmocheck_config.yml \
-          electrochemistry.ttl
-
-    - name: Run EMMO Check - electrochemicalquantities
-      run: |
-        emmocheck --verbose --url-from-catalog \
-          --skip test_namespace \
-          --skip test_quantity_dimension \
-          --configfile=.github/utils/emmocheck_config.yml \
-          electrochemicalquantities.ttl
+          chemical-substance.ttl
 
