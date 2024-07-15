@@ -142,7 +142,8 @@ emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba rdf:type owl:AnnotationProperty ;
 #################################################################
 
 ###  https://schema.org/Person
-schema:Person rdf:type owl:Class .
+schema:Person rdf:type owl:Class ;
+              skos:prefLabel "Person"@en .
 
 
 ###  https://w3id.org/emmo/domain//chemical-substance#substance_69ce48e4_23e3_4758_84ae_f00ed3f79518
@@ -564,7 +565,7 @@ schema:Person rdf:type owl:Class .
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_0f2f65a7_5cc4_4c86_a4d0_676771c646f1
 :substance_0f2f65a7_5cc4_4c86_a4d0_676771c646f1 rdf:type owl:Class ;
                                                 rdfs:subClassOf emmo:EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b ;
-                                                rdfs:label "Solvent"@en ;
+                                                skos:prefLabel "Solvent" ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q146505" ;
                                                 emmo:EMMO_50c298c2_55a2_4068_b3ac_4e948c33181f "https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-01-06" ;
                                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a substance into which another substance is dissolved"@en ;
@@ -1257,7 +1258,7 @@ schema:Person rdf:type owl:Class .
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_2c939a73_6363_435a_bbc4_4f6ae02f30d1
 :substance_2c939a73_6363_435a_bbc4_4f6ae02f30d1 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_5a5e8609_83bf_46d1_a1b0_eaafa27aaed4 ;
-                                                skos:prefLabel "Tetrafluoroborate"@en ;
+                                                skos:prefLabel "TetraFluoroBorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q27118029"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/26255" ;
                                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Tetrafluoroborate(1-) is a boron fluoride. It is a conjugate base of a tetrafluoroboric acid. It derives from a hydride of a borohydride."@en ;
@@ -1662,7 +1663,7 @@ schema:Person rdf:type owl:Class .
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_3899a9c9_9b34_443e_8ce6_0257589bb38a
 :substance_3899a9c9_9b34_443e_8ce6_0257589bb38a rdf:type owl:Class ;
                                                 rdfs:subClassOf emmo:EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b ;
-                                                rdfs:label "Solute"@en ;
+                                                skos:prefLabel "Solute"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q1079788" ;
                                                 emmo:EMMO_50c298c2_55a2_4068_b3ac_4e948c33181f "https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-01-05" ;
                                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a substance dissolved into another substance"@en .
@@ -2729,7 +2730,7 @@ schema:Person rdf:type owl:Class .
                                                 rdfs:subClassOf emmo:EMMO_4e659c69_ca2d_4569_8a96_f99857a1fa32 ,
                                                                 :substance_de038959_9251_48d1_a141_3684f14d957f ;
                                                 skos:altLabel "NH2OH"@en ;
-                                                skos:prefLabel "Hydroxylamine "@en ;
+                                                skos:prefLabel "Hydroxylamine"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q259997"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/787" ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "H3NO" ;
@@ -2852,7 +2853,7 @@ schema:Person rdf:type owl:Class .
 :substance_60441902_f7f6_4747_99c7_e15eb8c73706 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_5a5e8609_83bf_46d1_a1b0_eaafa27aaed4 ;
                                                 skos:altLabel "Triflate"@en ;
-                                                skos:prefLabel "Trifluoromethanesulfonate"@en ;
+                                                skos:prefLabel "TriFluoroMethaneSulfonate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q27121260"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/2758875" ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CF3O3S-" ;
@@ -3665,7 +3666,7 @@ schema:Person rdf:type owl:Class .
 :substance_7e9bbc33_c681_467a_b0d7_5de0e71230b4 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_5a5e8609_83bf_46d1_a1b0_eaafa27aaed4 ;
                                                 skos:altLabel "BOB"@en ;
-                                                skos:prefLabel "Bis(oxalato)borate"@en ;
+                                                skos:prefLabel "BisOxalatoBorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q81982574"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/11275562" ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C4BO8-" ;
@@ -3971,7 +3972,7 @@ schema:Person rdf:type owl:Class .
 :substance_88d380f4_1207_4a30_a117_8472bb3d1d81 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_5a5e8609_83bf_46d1_a1b0_eaafa27aaed4 ;
                                                 skos:altLabel "TFSI"@en ;
-                                                skos:prefLabel "Bistriflimide"@en ;
+                                                skos:prefLabel "BisTriflimide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q4918589"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/4176748" ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C2F6NO4S2-" ;
@@ -4074,7 +4075,7 @@ schema:Person rdf:type owl:Class .
 :substance_8ab6b726_e711_41d7_b237_b21094383239 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_5a5e8609_83bf_46d1_a1b0_eaafa27aaed4 ;
                                                 skos:altLabel "BMB"@en ;
-                                                skos:prefLabel "Bis(malonato)borate"@en ;
+                                                skos:prefLabel "BisMalonatoBorate"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/59687871" ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C6H4BO8-" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "1,5,7,11-tetraoxa-6-boranuidaspiro[5.5]undecane-2,4,8,10-tetrone" ;
@@ -5430,7 +5431,7 @@ schema:Person rdf:type owl:Class .
 :substance_bafc6512_126d_4d9a_9c08_2b210317e77f rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_5a5e8609_83bf_46d1_a1b0_eaafa27aaed4 ;
                                                 skos:altLabel "Fluoroarsenate"@en ;
-                                                skos:prefLabel "Hexafluoroarsenate"@en ;
+                                                skos:prefLabel "HexaFluoroArsenate"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/23515" ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "AsF6-" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Hexafluoroarsenate"@en ;
@@ -6624,7 +6625,7 @@ schema:Person rdf:type owl:Class .
 :substance_dd746094_1893_4b77_9c07_13b3bd94a742 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_5a5e8609_83bf_46d1_a1b0_eaafa27aaed4 ;
                                                 skos:altLabel "PF6"@en ;
-                                                skos:prefLabel "Hexafluorophosphate"@en ;
+                                                skos:prefLabel "HexaFluoroPhosphate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q2786508"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/9886" ;
                                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Hexafluorophosphate(1-) is a phosphorus halide."@en ;
@@ -6716,7 +6717,7 @@ schema:Person rdf:type owl:Class .
 :substance_df72af75_cc1c_4286_aeb8_66de90ef276d rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_5a5e8609_83bf_46d1_a1b0_eaafa27aaed4 ;
                                                 skos:altLabel "FSI"@en ;
-                                                skos:prefLabel "Bis(fluorosulfonyl)amide"@en ;
+                                                skos:prefLabel "BisFluorosulfonylAmide"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/5257893" ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "F2NO4S2-" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "bis(fluorosulfonyl)azanide" ;
