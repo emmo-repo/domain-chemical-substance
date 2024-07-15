@@ -11,9 +11,24 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+dcterms:bibliographicCitation a owl:AnnotationProperty .
+
+dcterms:created a owl:AnnotationProperty .
+
+dcterms:issued a owl:AnnotationProperty .
+
+dcterms:modified a owl:AnnotationProperty .
+
 dcterms:source a owl:AnnotationProperty .
 
-<https://orcid.org/0000-0001-8869-3718> a schema:Person ;
+bibo:doi a owl:AnnotationProperty .
+
+vann:preferredNamespacePrefix a owl:AnnotationProperty .
+
+vann:preferredNamespaceUri a owl:AnnotationProperty .
+
+<https://orcid.org/0000-0001-8869-3718> a owl:NamedIndividual,
+        schema:Person ;
     rdfs:label "Francesca Lonstad Bleken" ;
     skos:prefLabel "Francesca Lonstad Bleken" ;
     schema:additionalName "Lonstad" ;
@@ -22,7 +37,8 @@ dcterms:source a owl:AnnotationProperty .
     schema:name "Francesca Lonstad Bleken" ;
     emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "" .
 
-<https://orcid.org/0000-0002-2547-155X> a schema:Person ;
+<https://orcid.org/0000-0002-2547-155X> a owl:NamedIndividual,
+        schema:Person ;
     rdfs:label "Casper Welzel Andersen" ;
     skos:prefLabel "Casper Welzel Andersen" ;
     schema:additionalName "Welzel" ;
@@ -31,13 +47,22 @@ dcterms:source a owl:AnnotationProperty .
     schema:name "Casper Welzel Andersen" ;
     emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "" .
 
-<https://orcid.org/0000-0003-2954-1233> a schema:Person ;
+<https://orcid.org/0000-0003-2954-1233> a owl:NamedIndividual,
+        schema:Person ;
     rdfs:label "Eibar Flores" ;
     skos:prefLabel "Eibar Flores" ;
     schema:familyName "Flores" ;
     schema:givenName "Eibar" ;
     schema:name "Eibar Flores" ;
     emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "" .
+
+schema:additionalName a owl:AnnotationProperty .
+
+schema:familyName a owl:AnnotationProperty .
+
+schema:givenName a owl:AnnotationProperty .
+
+schema:name a owl:AnnotationProperty .
 
 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb a owl:AnnotationProperty ;
     rdfs:label "pubChemReference"@en ;
@@ -80,21 +105,20 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     dcterms:contributor <https://orcid.org/0000-0002-1560-809X> ;
     dcterms:created "2023-09-28"^^xsd:date ;
     dcterms:creator <https://orcid.org/0000-0002-8758-6109> ;
-    dcterms:issued "2024-06-23"^^xsd:date ;
+    dcterms:issued "2024-07-15"^^xsd:date ;
     dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode" ;
-    dcterms:modified "2024-06-23"^^xsd:date ;
+    dcterms:modified "2024-07-15"^^xsd:date ;
     dcterms:publisher "EMMO" ;
     dcterms:source " " ;
     dcterms:title "Chemical Substance Domain Ontology"@en ;
     bibo:doi "10.5281/zenodo.10254978" ;
-    bibo:status "unstable" ;
     vann:preferredNamespacePrefix "chems" ;
     vann:preferredNamespaceUri "https://w3id.org/emmo/domain/chemical-substance" ;
     owl:backwardCompatibleWith " " ;
     owl:imports <https://w3id.org/emmo/1.0.0-beta7> ;
-    owl:priorVersion "0.5.0-beta" ;
-    owl:versionIRI <https://w3id.org/emmo/domain/chemical-substance/0.6.0-beta/chemical-substance> ;
-    owl:versionInfo "0.6.0-beta" ;
+    owl:priorVersion "0.6.0-beta" ;
+    owl:versionIRI <https://w3id.org/emmo/domain/chemical-substance/0.7.0-beta/chemical-substance> ;
+    owl:versionInfo "0.7.0-beta" ;
     foaf:logo " " .
 
 :substance_00db9ba1_7259_4180_a82e_7ed4dafc29a9 a owl:Class ;
@@ -1032,10 +1056,10 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/HI.K/h1H;/q;+1/p-1" .
 
 :substance_2c939a73_6363_435a_bbc4_4f6ae02f30d1 a owl:Class ;
-    rdfs:label "Tetrafluoroborate"@en ;
+    rdfs:label "TetraFluoroBorate"@en ;
     rdfs:comment "Tetrafluoroborate(1-) is a boron fluoride. It is a conjugate base of a tetrafluoroboric acid. It derives from a hydride of a borohydride."@en ;
     rdfs:subClassOf :substance_5a5e8609_83bf_46d1_a1b0_eaafa27aaed4 ;
-    skos:prefLabel "Tetrafluoroborate"@en ;
+    skos:prefLabel "TetraFluoroBorate"@en ;
     emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q27118029"@en ;
     emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/26255" ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Tetrafluoroborate(1-) is a boron fluoride. It is a conjugate base of a tetrafluoroboric acid. It derives from a hydride of a borohydride."@en ;
@@ -2318,11 +2342,11 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2ClH.Pb/h2*1H;/q;;+2/p-2" .
 
 :substance_5b24c742_1149_4533_8d48_41473396d06d a owl:Class ;
-    rdfs:label "Hydroxylamine "@en ;
+    rdfs:label "Hydroxylamine"@en ;
     rdfs:subClassOf emmo:EMMO_4e659c69_ca2d_4569_8a96_f99857a1fa32,
         :substance_de038959_9251_48d1_a141_3684f14d957f ;
     skos:altLabel "NH2OH"@en ;
-    skos:prefLabel "Hydroxylamine "@en ;
+    skos:prefLabel "Hydroxylamine"@en ;
     emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q259997"@en ;
     emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/787" ;
     emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "H3NO" ;
@@ -2432,10 +2456,10 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2ClHO4.Mg/c2*2-1(3,4)5;/h2*(H,2,3,4,5);/q;;+2/p-2" .
 
 :substance_60441902_f7f6_4747_99c7_e15eb8c73706 a owl:Class ;
-    rdfs:label "Trifluoromethanesulfonate"@en ;
+    rdfs:label "TriFluoroMethaneSulfonate"@en ;
     rdfs:subClassOf :substance_5a5e8609_83bf_46d1_a1b0_eaafa27aaed4 ;
     skos:altLabel "Triflate"@en ;
-    skos:prefLabel "Trifluoromethanesulfonate"@en ;
+    skos:prefLabel "TriFluoroMethaneSulfonate"@en ;
     emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q27121260"@en ;
     emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/2758875" ;
     emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CF3O3S-" ;
@@ -3119,10 +3143,10 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/Ni.H2O.O/h;1H2;/q+1;;/p-1" .
 
 :substance_7e9bbc33_c681_467a_b0d7_5de0e71230b4 a owl:Class ;
-    rdfs:label "Bis(oxalato)borate"@en ;
+    rdfs:label "BisOxalatoBorate"@en ;
     rdfs:subClassOf :substance_5a5e8609_83bf_46d1_a1b0_eaafa27aaed4 ;
     skos:altLabel "BOB"@en ;
-    skos:prefLabel "Bis(oxalato)borate"@en ;
+    skos:prefLabel "BisOxalatoBorate"@en ;
     emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q81982574"@en ;
     emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/11275562" ;
     emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C4BO8-" ;
@@ -3385,10 +3409,10 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/K" .
 
 :substance_88d380f4_1207_4a30_a117_8472bb3d1d81 a owl:Class ;
-    rdfs:label "Bistriflimide"@en ;
+    rdfs:label "BisTriflimide"@en ;
     rdfs:subClassOf :substance_5a5e8609_83bf_46d1_a1b0_eaafa27aaed4 ;
     skos:altLabel "TFSI"@en ;
-    skos:prefLabel "Bistriflimide"@en ;
+    skos:prefLabel "BisTriflimide"@en ;
     emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q4918589"@en ;
     emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/4176748" ;
     emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C2F6NO4S2-" ;
@@ -3480,10 +3504,10 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2H3N.S/h2*1H3;/q;;-2/p+2" .
 
 :substance_8ab6b726_e711_41d7_b237_b21094383239 a owl:Class ;
-    rdfs:label "Bis(malonato)borate"@en ;
+    rdfs:label "BisMalonatoBorate"@en ;
     rdfs:subClassOf :substance_5a5e8609_83bf_46d1_a1b0_eaafa27aaed4 ;
     skos:altLabel "BMB"@en ;
-    skos:prefLabel "Bis(malonato)borate"@en ;
+    skos:prefLabel "BisMalonatoBorate"@en ;
     emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/59687871" ;
     emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C6H4BO8-" ;
     emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "1,5,7,11-tetraoxa-6-boranuidaspiro[5.5]undecane-2,4,8,10-tetrone" ;
@@ -4649,10 +4673,10 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/C9H12/c1-7-4-5-8(2)9(3)6-7/h4-6H,1-3H3" .
 
 :substance_bafc6512_126d_4d9a_9c08_2b210317e77f a owl:Class ;
-    rdfs:label "Hexafluoroarsenate"@en ;
+    rdfs:label "HexaFluoroArsenate"@en ;
     rdfs:subClassOf :substance_5a5e8609_83bf_46d1_a1b0_eaafa27aaed4 ;
     skos:altLabel "Fluoroarsenate"@en ;
-    skos:prefLabel "Hexafluoroarsenate"@en ;
+    skos:prefLabel "HexaFluoroArsenate"@en ;
     emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/23515" ;
     emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "AsF6-" ;
     emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Hexafluoroarsenate"@en ;
@@ -5670,11 +5694,11 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/Mn.2O" .
 
 :substance_dd746094_1893_4b77_9c07_13b3bd94a742 a owl:Class ;
-    rdfs:label "Hexafluorophosphate"@en ;
+    rdfs:label "HexaFluoroPhosphate"@en ;
     rdfs:comment "Hexafluorophosphate(1-) is a phosphorus halide."@en ;
     rdfs:subClassOf :substance_5a5e8609_83bf_46d1_a1b0_eaafa27aaed4 ;
     skos:altLabel "PF6"@en ;
-    skos:prefLabel "Hexafluorophosphate"@en ;
+    skos:prefLabel "HexaFluoroPhosphate"@en ;
     emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q2786508"@en ;
     emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/9886" ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Hexafluorophosphate(1-) is a phosphorus halide."@en ;
@@ -5749,10 +5773,10 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/3Ni.2H3O4P/c;;;2*1-5(2,3)4/h;;;2*(H3,1,2,3,4)/q3*+2;;/p-6" .
 
 :substance_df72af75_cc1c_4286_aeb8_66de90ef276d a owl:Class ;
-    rdfs:label "Bis(fluorosulfonyl)amide"@en ;
+    rdfs:label "BisFluorosulfonylAmide"@en ;
     rdfs:subClassOf :substance_5a5e8609_83bf_46d1_a1b0_eaafa27aaed4 ;
     skos:altLabel "FSI"@en ;
-    skos:prefLabel "Bis(fluorosulfonyl)amide"@en ;
+    skos:prefLabel "BisFluorosulfonylAmide"@en ;
     emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/5257893" ;
     emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "F2NO4S2-" ;
     emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "bis(fluorosulfonyl)azanide" ;
@@ -6650,6 +6674,20 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "lead" ;
     :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/Pb" .
 
+<https://w3id.org/emmo/domain/electrochemistry#electrochemistry_808e94df_e002_4e64_a6db_182ed75078c6> a owl:ObjectProperty ;
+    rdfs:label "hasSolvent"@en ;
+    rdfs:domain emmo:EMMO_2031516a_2be7_48e8_9af7_7e1270e308fe ;
+    rdfs:range emmo:EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b ;
+    rdfs:subPropertyOf emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ;
+    skos:prefLabel "hasSolvent"@en .
+
+<https://w3id.org/emmo/domain/electrochemistry#electrochemistry_8784ef24_320b_4a3d_b200_654aec6c271c> a owl:ObjectProperty ;
+    rdfs:label "hasSolute"@en ;
+    rdfs:domain emmo:EMMO_2031516a_2be7_48e8_9af7_7e1270e308fe ;
+    rdfs:range emmo:EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b ;
+    rdfs:subPropertyOf emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ;
+    skos:prefLabel "hasSolute"@en .
+
 <https://w3id.org/emmo/domain/electrochemistry#electrochemistry_a7b05629_80d7_402b_be1a_69933d24c4cb> a owl:Class ;
     rdfs:label "Water"@en ;
     rdfs:comment "chemical compound with raw molecular formula H2O"@en ;
@@ -6661,7 +6699,8 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "chemical compound with raw molecular formula H2O"@en ;
     emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Water"@en .
 
-<https://orcid.org/0000-0002-1560-809X> a schema:Person ;
+<https://orcid.org/0000-0002-1560-809X> a owl:NamedIndividual,
+        schema:Person ;
     rdfs:label "Jesper Friis" ;
     skos:prefLabel "Jesper Friis" ;
     schema:familyName "Friis" ;
@@ -6669,7 +6708,8 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     schema:name "Jesper Friis" ;
     emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "" .
 
-<https://orcid.org/0000-0002-8758-6109> a schema:Person ;
+<https://orcid.org/0000-0002-8758-6109> a owl:NamedIndividual,
+        schema:Person ;
     rdfs:label "Simon Clark" ;
     skos:prefLabel "Simon Clark" ;
     schema:familyName "Clark" ;
@@ -6706,6 +6746,7 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     rdfs:label "Solute"@en ;
     rdfs:comment "a substance dissolved into another substance"@en ;
     rdfs:subClassOf emmo:EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b ;
+    skos:prefLabel "Solute"@en ;
     emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q1079788" ;
     emmo:EMMO_50c298c2_55a2_4068_b3ac_4e948c33181f "https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-01-05" ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a substance dissolved into another substance"@en .
@@ -6858,6 +6899,10 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     rdfs:subClassOf :substance_edae7b22_461b_432b_b737_3c93feb69b0e ;
     skos:prefLabel "AlkalineEarthMetalSaltCompound"@en .
 
+schema:Person a owl:Class ;
+    rdfs:label "Person"@en ;
+    skos:prefLabel "Person"@en .
+
 :substance_68e4028b_0ec6_46da_8d1c_d00c644e8c82 a owl:Class ;
     rdfs:label "AlkaliMetalElementalSubstance"@en ;
     rdfs:subClassOf emmo:EMMO_436b11bd_1756_4821_9f14_c9ed6b67552e ;
@@ -6941,9 +6986,10 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     skos:prefLabel "ReactiveNonMetalElementalSubstance"@en .
 
 :substance_0f2f65a7_5cc4_4c86_a4d0_676771c646f1 a owl:Class ;
-    rdfs:label "Solvent"@en ;
+    rdfs:label "Solvent" ;
     rdfs:comment "a substance into which another substance is dissolved"@en ;
     rdfs:subClassOf emmo:EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b ;
+    skos:prefLabel "Solvent" ;
     emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q146505" ;
     emmo:EMMO_50c298c2_55a2_4068_b3ac_4e948c33181f "https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-01-06" ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a substance into which another substance is dissolved"@en ;

@@ -1937,8 +1937,8 @@ BerylliumHydroxide
 
    <div id="substance_df72af75_cc1c_4286_aeb8_66de90ef276d"></div>
 
-Bis(fluorosulfonyl)amide
-------------------------
+BisFluorosulfonylAmide
+----------------------
 
 * https://w3id.org/emmo/domain/chemical-substance#substance_df72af75_cc1c_4286_aeb8_66de90ef276d
 
@@ -1956,8 +1956,8 @@ Bis(fluorosulfonyl)amide
 
    <div id="substance_8ab6b726_e711_41d7_b237_b21094383239"></div>
 
-Bis(malonato)borate
--------------------
+BisMalonatoBorate
+-----------------
 
 * https://w3id.org/emmo/domain/chemical-substance#substance_8ab6b726_e711_41d7_b237_b21094383239
 
@@ -1975,8 +1975,8 @@ Bis(malonato)borate
 
    <div id="substance_7e9bbc33_c681_467a_b0d7_5de0e71230b4"></div>
 
-Bis(oxalato)borate
-------------------
+BisOxalatoBorate
+----------------
 
 * https://w3id.org/emmo/domain/chemical-substance#substance_7e9bbc33_c681_467a_b0d7_5de0e71230b4
 
@@ -1990,6 +1990,33 @@ Bis(oxalato)borate
   <tr>
   <td class="element-table-key"><span class="element-table-key">Wikidata Reference</span></td>
   <td class="element-table-value"><a href='https://www.wikidata.org/wiki/Q81982574'>https://www.wikidata.org/wiki/Q81982574</a></td>
+  </tr>
+  </table>
+
+
+.. raw:: html
+
+   <div id="substance_88d380f4_1207_4a30_a117_8472bb3d1d81"></div>
+
+BisTriflimide
+-------------
+
+* https://w3id.org/emmo/domain/chemical-substance#substance_88d380f4_1207_4a30_a117_8472bb3d1d81
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Alternative Label(s)</span></td>
+  <td class="element-table-value">TFSI</td>
+  </tr>
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Wikipedia Reference</span></td>
+  <td class="element-table-value"><a href='https://en.wikipedia.org/wiki/Bistriflimide'>https://en.wikipedia.org/wiki/Bistriflimide</a></td>
+  </tr>
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Wikidata Reference</span></td>
+  <td class="element-table-value"><a href='https://www.wikidata.org/wiki/Q4918589'>https://www.wikidata.org/wiki/Q4918589</a></td>
   </tr>
   </table>
 
@@ -2013,33 +2040,6 @@ Bismuth
   <tr>
   <td class="element-table-key"><span class="element-table-key">Wikidata Reference</span></td>
   <td class="element-table-value"><a href='https://www.wikidata.org/wiki/Q942'>https://www.wikidata.org/wiki/Q942</a></td>
-  </tr>
-  </table>
-
-
-.. raw:: html
-
-   <div id="substance_88d380f4_1207_4a30_a117_8472bb3d1d81"></div>
-
-Bistriflimide
--------------
-
-* https://w3id.org/emmo/domain/chemical-substance#substance_88d380f4_1207_4a30_a117_8472bb3d1d81
-
-.. raw:: html
-
-  <table class="element-table">
-  <tr>
-  <td class="element-table-key"><span class="element-table-key">Alternative Label(s)</span></td>
-  <td class="element-table-value">TFSI</td>
-  </tr>
-  <tr>
-  <td class="element-table-key"><span class="element-table-key">Wikipedia Reference</span></td>
-  <td class="element-table-value"><a href='https://en.wikipedia.org/wiki/Bistriflimide'>https://en.wikipedia.org/wiki/Bistriflimide</a></td>
-  </tr>
-  <tr>
-  <td class="element-table-key"><span class="element-table-key">Wikidata Reference</span></td>
-  <td class="element-table-value"><a href='https://www.wikidata.org/wiki/Q4918589'>https://www.wikidata.org/wiki/Q4918589</a></td>
   </tr>
   </table>
 
@@ -5389,7 +5389,7 @@ Helium
 
    <div id="substance_bafc6512_126d_4d9a_9c08_2b210317e77f"></div>
 
-Hexafluoroarsenate
+HexaFluoroArsenate
 ------------------
 
 * https://w3id.org/emmo/domain/chemical-substance#substance_bafc6512_126d_4d9a_9c08_2b210317e77f
@@ -5412,7 +5412,7 @@ Hexafluoroarsenate
 
    <div id="substance_dd746094_1893_4b77_9c07_13b3bd94a742"></div>
 
-Hexafluorophosphate
+HexaFluoroPhosphate
 -------------------
 
 * https://w3id.org/emmo/domain/chemical-substance#substance_dd746094_1893_4b77_9c07_13b3bd94a742
@@ -5624,8 +5624,8 @@ HydrogenIodide
 
    <div id="substance_5b24c742_1149_4533_8d48_41473396d06d"></div>
 
-Hydroxylamine 
---------------
+Hydroxylamine
+-------------
 
 * https://w3id.org/emmo/domain/chemical-substance#substance_5b24c742_1149_4533_8d48_41473396d06d
 
@@ -12798,6 +12798,64 @@ SodiumTrifluoromethanesulfonyloxalatoborate
 
 .. raw:: html
 
+   <div id="substance_3899a9c9_9b34_443e_8ce6_0257589bb38a"></div>
+
+Solute
+------
+
+* https://w3id.org/emmo/domain/chemical-substance#substance_3899a9c9_9b34_443e_8ce6_0257589bb38a
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">a substance dissolved into another substance</td>
+  </tr>
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">IEC Reference</span></td>
+  <td class="element-table-value"><a href='https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-01-05'>https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-01-05</a></td>
+  </tr>
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Wikidata Reference</span></td>
+  <td class="element-table-value"><a href='https://www.wikidata.org/wiki/Q1079788'>https://www.wikidata.org/wiki/Q1079788</a></td>
+  </tr>
+  </table>
+
+
+.. raw:: html
+
+   <div id="substance_0f2f65a7_5cc4_4c86_a4d0_676771c646f1"></div>
+
+Solvent
+-------
+
+* https://w3id.org/emmo/domain/chemical-substance#substance_0f2f65a7_5cc4_4c86_a4d0_676771c646f1
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">a substance into which another substance is dissolved</td>
+  </tr>
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">IEC Reference</span></td>
+  <td class="element-table-value"><a href='https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-01-06'>https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-01-06</a></td>
+  </tr>
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Wikipedia Reference</span></td>
+  <td class="element-table-value"><a href='https://en.wikipedia.org/wiki/Solvent'>https://en.wikipedia.org/wiki/Solvent</a></td>
+  </tr>
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Wikidata Reference</span></td>
+  <td class="element-table-value"><a href='https://www.wikidata.org/wiki/Q146505'>https://www.wikidata.org/wiki/Q146505</a></td>
+  </tr>
+  </table>
+
+
+.. raw:: html
+
    <div id="substance_81b90332_8b8e_407b_a8fd_517306d56a59"></div>
 
 SolventCompound
@@ -13768,6 +13826,33 @@ Tellurium
 
 .. raw:: html
 
+   <div id="substance_2c939a73_6363_435a_bbc4_4f6ae02f30d1"></div>
+
+TetraFluoroBorate
+-----------------
+
+* https://w3id.org/emmo/domain/chemical-substance#substance_2c939a73_6363_435a_bbc4_4f6ae02f30d1
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">Tetrafluoroborate(1-) is a boron fluoride. It is a conjugate base of a tetrafluoroboric acid. It derives from a hydride of a borohydride.</td>
+  </tr>
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Wikipedia Reference</span></td>
+  <td class="element-table-value"><a href='https://en.wikipedia.org/wiki/Tetrafluoroborate'>https://en.wikipedia.org/wiki/Tetrafluoroborate</a></td>
+  </tr>
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Wikidata Reference</span></td>
+  <td class="element-table-value"><a href='https://www.wikidata.org/wiki/Q27118029'>https://www.wikidata.org/wiki/Q27118029</a></td>
+  </tr>
+  </table>
+
+
+.. raw:: html
+
    <div id="substance_385410f6_0c03_4942_b35f_52a664b5622c"></div>
 
 TetraethylOrthosilicate
@@ -13789,33 +13874,6 @@ TetraethylOrthosilicate
   <tr>
   <td class="element-table-key"><span class="element-table-key">Wikidata Reference</span></td>
   <td class="element-table-value"><a href='https://www.wikidata.org/wiki/Q421458'>https://www.wikidata.org/wiki/Q421458</a></td>
-  </tr>
-  </table>
-
-
-.. raw:: html
-
-   <div id="substance_2c939a73_6363_435a_bbc4_4f6ae02f30d1"></div>
-
-Tetrafluoroborate
------------------
-
-* https://w3id.org/emmo/domain/chemical-substance#substance_2c939a73_6363_435a_bbc4_4f6ae02f30d1
-
-.. raw:: html
-
-  <table class="element-table">
-  <tr>
-  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
-  <td class="element-table-value">Tetrafluoroborate(1-) is a boron fluoride. It is a conjugate base of a tetrafluoroboric acid. It derives from a hydride of a borohydride.</td>
-  </tr>
-  <tr>
-  <td class="element-table-key"><span class="element-table-key">Wikipedia Reference</span></td>
-  <td class="element-table-value"><a href='https://en.wikipedia.org/wiki/Tetrafluoroborate'>https://en.wikipedia.org/wiki/Tetrafluoroborate</a></td>
-  </tr>
-  <tr>
-  <td class="element-table-key"><span class="element-table-key">Wikidata Reference</span></td>
-  <td class="element-table-value"><a href='https://www.wikidata.org/wiki/Q27118029'>https://www.wikidata.org/wiki/Q27118029</a></td>
   </tr>
   </table>
 
@@ -14324,6 +14382,29 @@ TransitionMetalSaltCompound
 
 .. raw:: html
 
+   <div id="substance_60441902_f7f6_4747_99c7_e15eb8c73706"></div>
+
+TriFluoroMethaneSulfonate
+-------------------------
+
+* https://w3id.org/emmo/domain/chemical-substance#substance_60441902_f7f6_4747_99c7_e15eb8c73706
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Alternative Label(s)</span></td>
+  <td class="element-table-value">Triflate</td>
+  </tr>
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Wikidata Reference</span></td>
+  <td class="element-table-value"><a href='https://www.wikidata.org/wiki/Q27121260'>https://www.wikidata.org/wiki/Q27121260</a></td>
+  </tr>
+  </table>
+
+
+.. raw:: html
+
    <div id="substance_9e25f281_5f69_4300_82a7_9025ea2061c4"></div>
 
 Trichlorofluoromethane
@@ -14345,29 +14426,6 @@ Trichlorofluoromethane
   <tr>
   <td class="element-table-key"><span class="element-table-key">Wikidata Reference</span></td>
   <td class="element-table-value"><a href='https://www.wikidata.org/wiki/Q423000'>https://www.wikidata.org/wiki/Q423000</a></td>
-  </tr>
-  </table>
-
-
-.. raw:: html
-
-   <div id="substance_60441902_f7f6_4747_99c7_e15eb8c73706"></div>
-
-Trifluoromethanesulfonate
--------------------------
-
-* https://w3id.org/emmo/domain/chemical-substance#substance_60441902_f7f6_4747_99c7_e15eb8c73706
-
-.. raw:: html
-
-  <table class="element-table">
-  <tr>
-  <td class="element-table-key"><span class="element-table-key">Alternative Label(s)</span></td>
-  <td class="element-table-value">Triflate</td>
-  </tr>
-  <tr>
-  <td class="element-table-key"><span class="element-table-key">Wikidata Reference</span></td>
-  <td class="element-table-value"><a href='https://www.wikidata.org/wiki/Q27121260'>https://www.wikidata.org/wiki/Q27121260</a></td>
   </tr>
   </table>
 
@@ -15575,6 +15633,36 @@ deprecate_OrganicCompound
 -------------------------
 
 * https://w3id.org/emmo#material_c5c9cf9f_252e_4b28_90f6_56b500db67fc
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="electrochemistry_8784ef24_320b_4a3d_b200_654aec6c271c"></div>
+
+hasSolute
+---------
+
+* https://w3id.org/emmo/domain/electrochemistry#electrochemistry_8784ef24_320b_4a3d_b200_654aec6c271c
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="electrochemistry_808e94df_e002_4e64_a6db_182ed75078c6"></div>
+
+hasSolvent
+----------
+
+* https://w3id.org/emmo/domain/electrochemistry#electrochemistry_808e94df_e002_4e64_a6db_182ed75078c6
 
 .. raw:: html
 
