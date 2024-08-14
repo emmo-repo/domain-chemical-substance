@@ -10227,6 +10227,21 @@ NobleGasElementalSubstance
 
 .. raw:: html
 
+   <div id="substance_de2123d1_7ba2_4d3a_837d_a51a5c9170b8"></div>
+
+NonMetalOxide
+-------------
+
+* https://w3id.org/emmo/domain/chemical-substance#substance_de2123d1_7ba2_4d3a_837d_a51a5c9170b8
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
    <div id="substance_ee2e195f_7b51_4444_a472_f76ea9bb5943"></div>
 
 OXylene
@@ -11956,6 +11971,87 @@ Silicon
   <tr>
   <td class="element-table-key"><span class="element-table-key">Wikidata Reference</span></td>
   <td class="element-table-value"><a href='https://www.wikidata.org/wiki/Q670'>https://www.wikidata.org/wiki/Q670</a></td>
+  </tr>
+  </table>
+
+
+.. raw:: html
+
+   <div id="substance_fef7bf51_9187_4c3b_94e8_91ac7593fd21"></div>
+
+SiliconDioxide
+--------------
+
+* https://w3id.org/emmo/domain/chemical-substance#substance_fef7bf51_9187_4c3b_94e8_91ac7593fd21
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Alternative Label(s)</span></td>
+  <td class="element-table-value">SiO2, Silica</td>
+  </tr>
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Wikipedia Reference</span></td>
+  <td class="element-table-value"><a href='https://en.wikipedia.org/wiki/Silicon_dioxide'>https://en.wikipedia.org/wiki/Silicon_dioxide</a></td>
+  </tr>
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Wikidata Reference</span></td>
+  <td class="element-table-value"><a href='https://www.wikidata.org/wiki/Q116269'>https://www.wikidata.org/wiki/Q116269</a></td>
+  </tr>
+  </table>
+
+
+.. raw:: html
+
+   <div id="substance_c4b64c5b_2a2c_4e19_a4c5_2c9ac037d3e3"></div>
+
+SiliconMonoxide
+---------------
+
+* https://w3id.org/emmo/domain/chemical-substance#substance_c4b64c5b_2a2c_4e19_a4c5_2c9ac037d3e3
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Alternative Label(s)</span></td>
+  <td class="element-table-value">SiO</td>
+  </tr>
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Wikipedia Reference</span></td>
+  <td class="element-table-value"><a href='https://en.wikipedia.org/wiki/Silicon_monoxide'>https://en.wikipedia.org/wiki/Silicon_monoxide</a></td>
+  </tr>
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Wikidata Reference</span></td>
+  <td class="element-table-value"><a href='https://www.wikidata.org/wiki/Q414909'>https://www.wikidata.org/wiki/Q414909</a></td>
+  </tr>
+  </table>
+
+
+.. raw:: html
+
+   <div id="substance_0160f86c_e567_40d4_a457_25cf170e7ef2"></div>
+
+SiliconOxide
+------------
+
+* https://w3id.org/emmo/domain/chemical-substance#substance_0160f86c_e567_40d4_a457_25cf170e7ef2
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">an oxide of silicon with the general form SiOx where the stoichiometry of oxygen, x, is between 1 and 2</td>
+  </tr>
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Alternative Label(s)</span></td>
+  <td class="element-table-value">NonStoichiometricSiliconOxide, SiOx</td>
+  </tr>
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Wikidata Reference</span></td>
+  <td class="element-table-value"><a href='https://www.wikidata.org/wiki/Q110930085'>https://www.wikidata.org/wiki/Q110930085</a></td>
   </tr>
   </table>
 
@@ -15618,6 +15714,21 @@ ZirconiumOxideCompound
 ----------------------
 
 * https://w3id.org/emmo/domain/chemical-substance#substance_a9218f8f_2e80_497e_b968_b4947cf21802
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="substance_7fd07cf9_9736_48be_963c_f924ada8ac46"></div>
+
+canonicalSMILES
+---------------
+
+* https://w3id.org/emmo/domain/chemical-substance#substance_7fd07cf9_9736_48be_963c_f924ada8ac46
 
 .. raw:: html
 

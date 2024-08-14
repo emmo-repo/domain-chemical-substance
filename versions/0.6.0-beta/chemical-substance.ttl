@@ -105,9 +105,9 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     dcterms:contributor <https://orcid.org/0000-0002-1560-809X> ;
     dcterms:created "2023-09-28"^^xsd:date ;
     dcterms:creator <https://orcid.org/0000-0002-8758-6109> ;
-    dcterms:issued "2024-07-15"^^xsd:date ;
+    dcterms:issued "2024-08-14"^^xsd:date ;
     dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode" ;
-    dcterms:modified "2024-07-15"^^xsd:date ;
+    dcterms:modified "2024-08-14"^^xsd:date ;
     dcterms:publisher "EMMO" ;
     dcterms:source " " ;
     dcterms:title "Chemical Substance Domain Ontology"@en ;
@@ -116,9 +116,9 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     vann:preferredNamespaceUri "https://w3id.org/emmo/domain/chemical-substance" ;
     owl:backwardCompatibleWith " " ;
     owl:imports <https://w3id.org/emmo/1.0.0-beta7> ;
-    owl:priorVersion "0.6.0-beta" ;
-    owl:versionIRI <https://w3id.org/emmo/domain/chemical-substance/0.7.0-beta/chemical-substance> ;
-    owl:versionInfo "0.7.0-beta" ;
+    owl:priorVersion "0.7.0-beta" ;
+    owl:versionIRI <https://w3id.org/emmo/domain/chemical-substance/0.8.0-beta/chemical-substance> ;
+    owl:versionInfo "0.8.0-beta" ;
     foaf:logo " " .
 
 :substance_00db9ba1_7259_4180_a82e_7ed4dafc29a9 a owl:Class ;
@@ -3164,6 +3164,11 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "aluminum;trifluoromethanesulfonate" ;
     :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/3CHF3O3S.Al/c3*2-1(3,4)8(5,6)7;/h3*(H,5,6,7);/q;;;+3/p-3" .
 
+:substance_7fd07cf9_9736_48be_963c_f924ada8ac46 a owl:AnnotationProperty ;
+    rdfs:label "canonicalSMILES"@en ;
+    rdfs:subPropertyOf rdfs:seeAlso ;
+    skos:prefLabel "canonicalSMILES"@en .
+
 :substance_7fdf54d6_5503_4f83_8627_537805542c5b a owl:Class ;
     rdfs:label "BariumSulfide"@en ;
     rdfs:subClassOf :substance_7dd5ebb3_1084_485a_9fbf_05954cd2da84 ;
@@ -4986,6 +4991,19 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "dimethyl carbonate" ;
     :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/C3H6O3/c1-5-3(4)6-2/h1-2H3" .
 
+:substance_c4b64c5b_2a2c_4e19_a4c5_2c9ac037d3e3 a owl:Class ;
+    rdfs:label "SiliconMonoxide"@en ;
+    rdfs:subClassOf :substance_0160f86c_e567_40d4_a457_25cf170e7ef2 ;
+    skos:altLabel "SiO" ;
+    skos:prefLabel "SiliconMonoxide"@en ;
+    emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q414909" ;
+    emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/66241" ;
+    emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "SiO" ;
+    emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Silicon_monoxide" ;
+    emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "oxosilicon" ;
+    :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/OSi/c1-2" ;
+    :substance_7fd07cf9_9736_48be_963c_f924ada8ac46 "O=[Si]" .
+
 :substance_c4d116ed_258d_482c_8632_5c8229e7b245 a owl:Class ;
     rdfs:label "LacticAcid"@en ;
     rdfs:subClassOf :substance_b325bdd7_0adf_4522_a4ef_20cd6929e094 ;
@@ -6626,6 +6644,20 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "tribromoalumane" ;
     :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/Al.3BrH/h;3*1H/q+3;;;/p-3" .
 
+:substance_fef7bf51_9187_4c3b_94e8_91ac7593fd21 a owl:Class ;
+    rdfs:label "SiliconDioxide"@en ;
+    rdfs:subClassOf :substance_0160f86c_e567_40d4_a457_25cf170e7ef2 ;
+    skos:altLabel "SiO2",
+        "Silica"@en ;
+    skos:prefLabel "SiliconDioxide"@en ;
+    emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q116269" ;
+    emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24261" ;
+    emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "SiO2" ;
+    emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Silicon_dioxide" ;
+    emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "dioxosilane"@en ;
+    :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/O2Si/c1-3-2" ;
+    :substance_7fd07cf9_9736_48be_963c_f924ada8ac46 "O=[Si]=O" .
+
 :substance_ff0f6cb9_d9e7_4a9e_848f_02200eed0cf7 a owl:Class ;
     rdfs:label "BariumBromide"@en ;
     rdfs:subClassOf :substance_7dd5ebb3_1084_485a_9fbf_05954cd2da84 ;
@@ -6768,13 +6800,18 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
 
 :substance_a9218f8f_2e80_497e_b968_b4947cf21802 a owl:Class ;
     rdfs:label "ZirconiumOxideCompound"@en ;
-    rdfs:subClassOf emmo:EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b ;
+    rdfs:subClassOf :substance_b474f792_011e_4c9a_8dee_b99d6459cd66 ;
     skos:prefLabel "ZirconiumOxideCompound"@en .
 
 :substance_d9f73522_049b_4542_909d_d7daefa9613b a owl:Class ;
     rdfs:label "MercuryOxideCompound"@en ;
     rdfs:subClassOf :substance_b474f792_011e_4c9a_8dee_b99d6459cd66 ;
     skos:prefLabel "MercuryOxideCompound"@en .
+
+:substance_de2123d1_7ba2_4d3a_837d_a51a5c9170b8 a owl:Class ;
+    rdfs:label "NonMetalOxide"@en ;
+    rdfs:subClassOf emmo:EMMO_4e659c69_ca2d_4569_8a96_f99857a1fa32 ;
+    skos:prefLabel "NonMetalOxide"@en .
 
 :substance_f24cfd50_5d01_4e02_88b5_44a609cfa432 a owl:Class ;
     rdfs:label "SilverOxideCompound"@en ;
@@ -6785,6 +6822,17 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     rdfs:label "GalliumOxideCompound"@en ;
     rdfs:subClassOf :substance_61c88366_7689_4814_b0c5_1f53aef1eebd ;
     skos:prefLabel "GalliumOxideCompound"@en .
+
+:substance_0160f86c_e567_40d4_a457_25cf170e7ef2 a owl:Class ;
+    rdfs:label "SiliconOxide"@en ;
+    rdfs:comment "an oxide of silicon with the general form SiOx where the stoichiometry of oxygen, x, is between 1 and 2"@en ;
+    rdfs:subClassOf :substance_de2123d1_7ba2_4d3a_837d_a51a5c9170b8 ;
+    skos:altLabel "SiOx",
+        "NonStoichiometricSiliconOxide"@en ;
+    skos:prefLabel "SiliconOxide"@en ;
+    emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q110930085"@en ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "an oxide of silicon with the general form SiOx where the stoichiometry of oxygen, x, is between 1 and 2"@en ;
+    emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "SiOx" .
 
 :substance_155e894b_66de_4cda_9dbe_adbeca7d8102 a owl:Class ;
     rdfs:label "TinOxideCompound"@en ;
@@ -7045,11 +7093,6 @@ schema:Person a owl:Class ;
     rdfs:subClassOf :substance_015116fe_94ca_4be5_9d14_9d9457a47a72 ;
     skos:prefLabel "CobaltSaltCompound"@en .
 
-:substance_b474f792_011e_4c9a_8dee_b99d6459cd66 a owl:Class ;
-    rdfs:label "TransitionMetalOxideCompound"@en ;
-    rdfs:subClassOf emmo:EMMO_4e659c69_ca2d_4569_8a96_f99857a1fa32 ;
-    skos:prefLabel "TransitionMetalOxideCompound"@en .
-
 :substance_c6e80ad7_1aef_4c6d_a51a_4aec8855a68f a owl:Class ;
     rdfs:label "PotassiumSaltCompound"@en ;
     rdfs:subClassOf :substance_6c490298_2ce8_41e1_ac37_4b44faff2d44 ;
@@ -7064,6 +7107,11 @@ schema:Person a owl:Class ;
     rdfs:label "ZincSaltCompound"@en ;
     rdfs:subClassOf :substance_edae7b22_461b_432b_b737_3c93feb69b0e ;
     skos:prefLabel "ZincSaltCompound"@en .
+
+:substance_b474f792_011e_4c9a_8dee_b99d6459cd66 a owl:Class ;
+    rdfs:label "TransitionMetalOxideCompound"@en ;
+    rdfs:subClassOf emmo:EMMO_4e659c69_ca2d_4569_8a96_f99857a1fa32 ;
+    skos:prefLabel "TransitionMetalOxideCompound"@en .
 
 :substance_0001e895_e74b_438f_b47f_b52f33d68331 a owl:Class ;
     rdfs:label "MagnesiumSaltCompound"@en ;
