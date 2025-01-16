@@ -15,16 +15,16 @@
 @base <https://w3id.org/emmo/domain/chemical-substance> .
 
 <https://w3id.org/emmo/domain/chemical-substance> rdf:type owl:Ontology ;
-                                                   owl:versionIRI <https://w3id.org/emmo/domain/chemical-substance/0.8.0-beta/chemical-substance> ;
+                                                   owl:versionIRI <https://w3id.org/emmo/domain/chemical-substance/0.9.0-beta/chemical-substance> ;
                                                    owl:imports <https://w3id.org/emmo/1.0.0-beta7> ;
                                                    dcterms:abstract "This ontology provides terms for chemical substances that can be referenced and re-used other resources."@en ;
                                                    dcterms:bibliographicCitation "https://zenodo.org/doi/10.5281/zenodo.10254978" ;
                                                    dcterms:contributor <https://orcid.org/0000-0002-1560-809X> ;
                                                    dcterms:created "2023-09-28"^^xsd:date ;
                                                    dcterms:creator <https://orcid.org/0000-0002-8758-6109> ;
-                                                   dcterms:issued "2024-08-14"^^xsd:date ;
+                                                   dcterms:issued "2025-01-16"^^xsd:date ;
                                                    dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode" ;
-                                                   dcterms:modified "2024-08-14"^^xsd:date ;
+                                                   dcterms:modified "2025-01-16"^^xsd:date ;
                                                    dcterms:publisher "EMMO" ;
                                                    dcterms:source " " ;
                                                    dcterms:title "Chemical Substance Domain Ontology"@en ;
@@ -32,8 +32,8 @@
                                                    vann:preferredNamespacePrefix "chems" ;
                                                    vann:preferredNamespaceUri "https://w3id.org/emmo/domain/chemical-substance" ;
                                                    owl:backwardCompatibleWith " " ;
-                                                   owl:priorVersion "0.7.0-beta" ;
-                                                   owl:versionInfo "0.8.0-beta" ;
+                                                   owl:priorVersion "0.8.0-beta" ;
+                                                   owl:versionInfo "0.9.0-beta" ;
                                                    foaf:logo " " .
 
 #################################################################
@@ -1298,6 +1298,15 @@ schema:Person rdf:type owl:Class ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/CH2O3.2Na/c2-1(3)4;;/h(H2,2,3,4);;/q;2*+1/p-2" .
 
 
+###  https://w3id.org/emmo/domain/chemical-substance#substance_2cd874c8_f8f0_4794_bba9_d520603ab6bb
+:substance_2cd874c8_f8f0_4794_bba9_d520603ab6bb rdf:type owl:Class ;
+                                                rdfs:subClassOf emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94 ;
+                                                skos:prefLabel "StainlessSteel"@en ;
+                                                emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q172587"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "an iron-based alloy containing a minimum level of chromium that is resistant to rusting and corrosion"@en ;
+                                                emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Stainless_steel"@en .
+
+
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_2d7695d2_c033_4949_b8f6_4984dcfdb46a
 :substance_2d7695d2_c033_4949_b8f6_4984dcfdb46a rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_a06bf8d8_24d5_4b29_a633_e5c00b1bd746 ;
@@ -2515,6 +2524,15 @@ schema:Person rdf:type owl:Class ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/H2O3S.Pb/c1-4(2)3;/h(H2,1,2,3);/q;+2/p-2" .
 
 
+###  https://w3id.org/emmo/domain/chemical-substance#substance_552e307c_629d_4e9c_8109_c03f1ae2604e
+:substance_552e307c_629d_4e9c_8109_c03f1ae2604e rdf:type owl:Class ;
+                                                rdfs:subClassOf :substance_7e716191_b301_4d63_bb6b_93323ffe51bf ;
+                                                skos:prefLabel "Polyolefin"@en ;
+                                                emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q424370"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a type of polymer with the general formula (CH2CHR)n where R is an alkyl group"@en ;
+                                                emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Polyolefin"@en .
+
+
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_55b09b6b_c8cd_410c_8971_b2bd86e0c905
 :substance_55b09b6b_c8cd_410c_8971_b2bd86e0c905 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_c12c3203_9d18_4a69_8a10_25b100ff48c8 ;
@@ -3528,7 +3546,7 @@ schema:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_79220ea3_3426_47a0_9b41_33012d565fc2
 :substance_79220ea3_3426_47a0_9b41_33012d565fc2 rdf:type owl:Class ;
-                                                rdfs:subClassOf :substance_7e716191_b301_4d63_bb6b_93323ffe51bf ;
+                                                rdfs:subClassOf :substance_552e307c_629d_4e9c_8109_c03f1ae2604e ;
                                                 skos:altLabel "PE"@en ;
                                                 skos:prefLabel "Polyethylene"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q143429"@en ;
@@ -5876,7 +5894,7 @@ schema:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_c5cff8c2_581e_4341_a3e6_8ba8c8ce2d2b
 :substance_c5cff8c2_581e_4341_a3e6_8ba8c8ce2d2b rdf:type owl:Class ;
-                                                rdfs:subClassOf :substance_7e716191_b301_4d63_bb6b_93323ffe51bf ;
+                                                rdfs:subClassOf :substance_552e307c_629d_4e9c_8109_c03f1ae2604e ;
                                                 skos:altLabel "PP"@en ;
                                                 skos:prefLabel "Polypropylene"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q146174"@en ;
