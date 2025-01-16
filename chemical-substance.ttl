@@ -166,7 +166,8 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_0001e895_e74b_438f_b47f_b52f33d68331
 :substance_0001e895_e74b_438f_b47f_b52f33d68331 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_fc93282d_cb35_4bab_81a8_78689ae59e5f ;
-                                                skos:prefLabel "MagnesiumSaltCompound"@en .
+                                                skos:prefLabel "MagnesiumSaltCompound"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of magnesium cations bonded to anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_001ca83b_5372_4d77_a836_4d48074b7e63
@@ -180,7 +181,8 @@ schema:Person rdf:type owl:Class ;
 :substance_00db9ba1_7259_4180_a82e_7ed4dafc29a9 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_0001e895_e74b_438f_b47f_b52f33d68331 ;
                                                 skos:altLabel "Mg(PF6)2"@en ;
-                                                skos:prefLabel "MagnesiumHexafluorophosphate"@en .
+                                                skos:prefLabel "MagnesiumHexafluorophosphate"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of magnesium cations bonded to hexafluorophosphate anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_0111ec52_b838_49ab_a24b_884aaa3f54e8
@@ -387,7 +389,8 @@ schema:Person rdf:type owl:Class ;
 :substance_05b11934_6a3e_4434_855b_111aced0a6be rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_7dd5ebb3_1084_485a_9fbf_05954cd2da84 ;
                                                 skos:altLabel "Ba(TFSI)2"@en ;
-                                                skos:prefLabel "BariumBistrifluoromethanesulfonylimide"@en .
+                                                skos:prefLabel "BariumBistrifluoromethanesulfonylimide"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to bistrifluoromethanesulfonylimide anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_08695cfe_3dfa_4b17_9f09_13e6f90e3875
@@ -426,6 +429,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:altLabel "Ca(OTf)2"@en ;
                                                 skos:prefLabel "CalciumTriflate"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/2734307" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of calcium cations bonded to triflate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C2CaF6O6S2" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "calcium;trifluoromethanesulfonate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2CHF3O3S.Ca/c2*2-1(3,4)8(5,6)7;/h2*(H,5,6,7);/q;;+2/p-2" .
@@ -684,6 +688,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:altLabel "Ba(BF4)2"@en ;
                                                 skos:prefLabel "BariumTetrafluoroborate"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/203099" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to tetrafluoroborate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "B2BaF8" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "barium(2+);ditetrafluoroborate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2BF4.Ba/c2*2-1(3,4)5;/q2*-1;+2" .
@@ -859,7 +864,8 @@ schema:Person rdf:type owl:Class ;
 :substance_1e5c69b2_6dac_44b6_a24e_6170b516cf2c rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_c12c3203_9d18_4a69_8a10_25b100ff48c8 ;
                                                 skos:altLabel "Ca(BOP)2"@en ;
-                                                skos:prefLabel "CalciumBisoxalatophosphate"@en .
+                                                skos:prefLabel "CalciumBisoxalatophosphate"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of calcium cations bonded to bisoxalatophosphate anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_20004d19_02cf_4667_a09f_b5c595b44b1f
@@ -951,6 +957,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "StrontiumAcetate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q1674310"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/10987" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of strontium cations bonded to acetate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C4H6O4Sr" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Strontium_acetate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "strontium;diacetate" ;
@@ -1054,7 +1061,8 @@ schema:Person rdf:type owl:Class ;
 :substance_27696fcd_aa90_44b9_816a_c19400f0ab9a rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_0001e895_e74b_438f_b47f_b52f33d68331 ;
                                                 skos:altLabel "Mg(BOB)2"@en ;
-                                                skos:prefLabel "MagnesiumBisoxalatoborate"@en .
+                                                skos:prefLabel "MagnesiumBisoxalatoborate"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of magnesium cations bonded to bisoxalatoborate anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_2773ee9b_cee9_4367_8b81_4ce6265d411a
@@ -1278,7 +1286,8 @@ schema:Person rdf:type owl:Class ;
 :substance_2b7473ba_9156_489a_880f_3a2f746cd104 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_0001e895_e74b_438f_b47f_b52f33d68331 ;
                                                 skos:altLabel "Mg(TFOB)2"@en ;
-                                                skos:prefLabel "MagnesiumTrifluoromethanesulfonyloxalatoborate"@en .
+                                                skos:prefLabel "MagnesiumTrifluoromethanesulfonyloxalatoborate"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of magnesium cations bonded to trifluoromethanesulfonyl oxalatoborate anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_2b9de1a2_18cc_41ea_81e0_cf576ca56015
@@ -1365,6 +1374,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:altLabel "Sr(OTf)2"@en ;
                                                 skos:prefLabel "StrontiumTriflate"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/11552763" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of strontium cations bonded to triflate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C2F6O6S2Sr" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "strontium;trifluoromethanesulfonate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2CHF3O3S.Sr/c2*2-1(3,4)8(5,6)7;/h2*(H,5,6,7);/q;;+2/p-2" .
@@ -1384,6 +1394,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "MagnesiumAcetate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q418767"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/8896" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of magnesium cations bonded to acetate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C4H6MgO4" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Magnesium_acetate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "magnesium;diacetate" ;
@@ -1630,6 +1641,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "StrontiumSulfate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q414440"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/3084026" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of strontium cations bonded to sulfate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "SrSO4" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Strontium_sulfate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "strontium;sulfate" ;
@@ -1677,6 +1689,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "StrontiumChloride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q411859"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/61520" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of strontium cations bonded to chloride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Cl2Sr" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Strontium_chloride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "strontium;dichloride" ;
@@ -1756,7 +1769,8 @@ schema:Person rdf:type owl:Class ;
 :substance_3896eebe_80a4_441a_bd73_52be793482a6 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_a06bf8d8_24d5_4b29_a633_e5c00b1bd746 ;
                                                 skos:altLabel "Sr(PF6)2"@en ;
-                                                skos:prefLabel "StrontiumHexafluorophosphate"@en .
+                                                skos:prefLabel "StrontiumHexafluorophosphate"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of strontium cations bonded to hexafluorophosphate anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_3899a9c9_9b34_443e_8ce6_0257589bb38a
@@ -1897,6 +1911,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CalciumSulfite"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q899410"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/10154041" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of calcium cations bonded to sulfite anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CaSO3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Calcium_sulfite"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "calcium;sulfite" ;
@@ -1980,7 +1995,8 @@ schema:Person rdf:type owl:Class ;
 :substance_41cd4dfd_2288_48b2_a1e3_d13821c21a1e rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_a06bf8d8_24d5_4b29_a633_e5c00b1bd746 ;
                                                 skos:altLabel "Sr(FSI)2"@en ;
-                                                skos:prefLabel "StrontiumBisfluorosulfonylimide"@en .
+                                                skos:prefLabel "StrontiumBisfluorosulfonylimide"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of strontium cations bonded to bisfluorosulfonylimide anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_4216bdc4_ef30_43e6_bd44_47f78761939e
@@ -1990,6 +2006,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "MagnesiumNitrite"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q18211720"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/10197667" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of magnesium cations bonded to nitrite anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Mg(NO2)2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Magnesium_nitrate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "magnesium;dinitrite" ;
@@ -2041,7 +2058,8 @@ schema:Person rdf:type owl:Class ;
 :substance_43ec3168_0f1a_44aa_99ad_716fcc48bbcb rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_0001e895_e74b_438f_b47f_b52f33d68331 ;
                                                 skos:altLabel "Mg(FSI)2"@en ;
-                                                skos:prefLabel "MagnesiumBisfluorosulfonylimide"@en .
+                                                skos:prefLabel "MagnesiumBisfluorosulfonylimide"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of magnesium cations bonded to bisfluorosulfonylimide anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_44a9a4e3_488e_4687_aca7_b045e12147f7
@@ -2065,6 +2083,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "MagnesiumChlorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q11129394"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/25155" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of magnesium cations bonded to chlorate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Mg(ClO3)2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Magnesium_chlorate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "magnesium;dichlorate" ;
@@ -2344,7 +2363,8 @@ schema:Person rdf:type owl:Class ;
 :substance_4d6845ce_47c8_4c7d_b275_1d4494a0799b rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_7dd5ebb3_1084_485a_9fbf_05954cd2da84 ;
                                                 skos:altLabel "Ba(TFOB)2"@en ;
-                                                skos:prefLabel "BariumTrifluoromethanesulfonyloxalatoborate"@en .
+                                                skos:prefLabel "BariumTrifluoromethanesulfonyloxalatoborate"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to trifluoromethanesulfonyl oxalatoborate anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_4de6c4d5_0d8d_418c_b3f0_c780f000cd55
@@ -2382,6 +2402,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "BariumSulfite"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q415543"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/6096951" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to sulfite anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "BaSO3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Barium_sulfite"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "barium(2+);sulfite" ;
@@ -2492,6 +2513,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CalciumFluoride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q413374"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/84512" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of calcium cations bonded to fluoride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CaF2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Calcium_fluoride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "calcium;difluoride" ;
@@ -2532,6 +2554,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "MagnesiumFluoride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q411752"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24546" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of magnesium cations bonded to fluoride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "F2Mg" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Magnesium_fluoride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "magnesium;difluoride" ;
@@ -2545,6 +2568,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CalciumBromide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q409739"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/5360316" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of calcium cations bonded to bromide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CaBr2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Calcium_bromide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "calcium;dibromide" ;
@@ -2578,6 +2602,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "StrontiumIodide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q417992"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/25304" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of strontium cations bonded to iodide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "I2Sr" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Strontium_iodide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "strontium;diiodide" ;
@@ -2591,6 +2616,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "BariumIodide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q421465"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/83684" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to iodide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "BaI2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Barium_iodide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "barium(2+);diiodide" ;
@@ -2648,14 +2674,16 @@ schema:Person rdf:type owl:Class ;
 :substance_55b09b6b_c8cd_410c_8971_b2bd86e0c905 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_c12c3203_9d18_4a69_8a10_25b100ff48c8 ;
                                                 skos:altLabel "Ca(DFOB)2"@en ;
-                                                skos:prefLabel "CalciumDifluorooxalatoborate"@en .
+                                                skos:prefLabel "CalciumDifluorooxalatoborate"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of calcium cations bonded to difluorooxalatoborate anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_55d2a257_feb3_4af1_bf8d_4b53bb73610c
 :substance_55d2a257_feb3_4af1_bf8d_4b53bb73610c rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_7dd5ebb3_1084_485a_9fbf_05954cd2da84 ;
                                                 skos:altLabel "Ba(BOP)2"@en ;
-                                                skos:prefLabel "BariumBisoxalatophosphate"@en .
+                                                skos:prefLabel "BariumBisoxalatophosphate"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to bisoxalatophosphate anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_55f13456_b4b6_4cf9_998c_8c439b249b3f
@@ -2706,6 +2734,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CalciumAcetate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q409251"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/6116" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of calcium cations bonded to acetate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C4H6O4.Ca" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Calcium_acetate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "calcium;diacetate" ;
@@ -2785,6 +2814,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "StrontiumCarbonate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q413629"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/15407" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of strontium cations bonded to carbonate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "SrCO3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Strontium_carbonate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "strontium;carbonate" ;
@@ -3010,6 +3040,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "MagnesiumPerchlorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q417970"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24840" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of magnesium cations bonded to perchlorate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Mg(ClO4)2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Magnesium_perchlorate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "magnesium;diperchlorate" ;
@@ -3077,7 +3108,8 @@ schema:Person rdf:type owl:Class ;
 :substance_62be6033_d836_4fc9_92d4_bd8cf2a9ce3a rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_0001e895_e74b_438f_b47f_b52f33d68331 ;
                                                 skos:altLabel "Mg(TFSI)2"@en ;
-                                                skos:prefLabel "MagnesiumBistrifluoromethanesulfonylimide"@en .
+                                                skos:prefLabel "MagnesiumBistrifluoromethanesulfonylimide"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of magnesium cations bonded to bistrifluoromethanesulfonylimide anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_6326d9bb_de83_4f60_beb3_3117280f8ab5
@@ -3162,6 +3194,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:altLabel "Ba(PF6)2"@en ;
                                                 skos:prefLabel "BariumHexafluorophosphate"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/14389160" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to hexafluorophosphate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "BaF12P2" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "barium(2+);dihexafluorophosphate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/Ba.2F6P/c;2*1-7(2,3,4,5)6/q+2;2*-1" .
@@ -3384,6 +3417,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "StrontiumPerchlorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q3375145"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/61607" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of strontium cations bonded to perchlorate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Cl2O8Sr" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Strontium_perchlorate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "strontium;diperchlorate" ;
@@ -3409,7 +3443,8 @@ schema:Person rdf:type owl:Class ;
 :substance_6ce8569b_1367_4afd_954b_10eaccb8167c rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_a06bf8d8_24d5_4b29_a633_e5c00b1bd746 ;
                                                 skos:altLabel "Sr(DFOB)2"@en ;
-                                                skos:prefLabel "StrontiumDifluorooxalatoborate"@en .
+                                                skos:prefLabel "StrontiumDifluorooxalatoborate"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of strontium cations bonded to difluorooxalatoborate anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_6cfae78f_ccca_40ec_b80d_ec09595cca95
@@ -3487,6 +3522,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "BariumPerchlorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q361627"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/61623" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to perchlorate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "BaCl2O8" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Barium_perchlorate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "barium(2+);diperchlorate" ;
@@ -3527,6 +3563,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CalciumNitrate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q407392"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24963" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of calcium cations bonded to nitrate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Ca(NO3)2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Calcium_nitrate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "calcium;dinitrate" ;
@@ -3737,6 +3774,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "StrontiumFluoride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q421174"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/82210" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of strontium cations bonded to fluoride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "F2Sr" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Strontium_fluoride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "strontium;difluoride" ;
@@ -3788,6 +3826,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CalciumChlorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q419721"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24978" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of calcium cations bonded to chlorate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Ca(ClO3)2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Calcium_chlorate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "calcium;dichlorate" ;
@@ -3825,7 +3864,8 @@ schema:Person rdf:type owl:Class ;
 :substance_7cb7c122_995f_43d3_b419_b8a0d0fe8406 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_7dd5ebb3_1084_485a_9fbf_05954cd2da84 ;
                                                 skos:altLabel "Ba(FSI)2"@en ;
-                                                skos:prefLabel "BariumBisfluorosulfonylimide"@en .
+                                                skos:prefLabel "BariumBisfluorosulfonylimide"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to bisfluorosulfonylimide anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_7d024df4_884b_4de3_b6f1_28af090356c3
@@ -3857,7 +3897,8 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_7dd5ebb3_1084_485a_9fbf_05954cd2da84
 :substance_7dd5ebb3_1084_485a_9fbf_05954cd2da84 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_fc93282d_cb35_4bab_81a8_78689ae59e5f ;
-                                                skos:prefLabel "BariumSaltCompound"@en .
+                                                skos:prefLabel "BariumSaltCompound"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_7e716191_b301_4d63_bb6b_93323ffe51bf
@@ -3905,6 +3946,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "BariumSulfide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q411656"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/6857597" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to sulfide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "BaS" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Barium_sulfide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "barium(2+);sulfide" ;
@@ -4003,7 +4045,8 @@ schema:Person rdf:type owl:Class ;
 :substance_82d57014_0870_45f3_ab05_0f97c05b531d rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_0001e895_e74b_438f_b47f_b52f33d68331 ;
                                                 skos:altLabel "Mg(DFOB)2"@en ;
-                                                skos:prefLabel "MagnesiumDifluorooxalatoborate"@en .
+                                                skos:prefLabel "MagnesiumDifluorooxalatoborate"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of magnesium cations bonded to difluorooxalatoborate anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_83285f8c_bbf3_4548_9599_bc8c327fc099
@@ -4084,6 +4127,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CalciumPhosphate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q278387"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24456" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of calcium cations bonded to phosphate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Ca3(PO4)2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Tricalcium_phosphate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "tricalcium;diphosphate" ;
@@ -4263,6 +4307,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "StrontiumChlorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q7624768"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24641" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of strontium cations bonded to chlorate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Sr(ClO3)2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Strontium_chlorate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "strontium;dichlorate" ;
@@ -4276,6 +4321,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CalciumSulfate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q407258"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24497" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of calcium cations bonded to sulfate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CaSO4" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Calcium_sulfate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "calcium;sulfate" ;
@@ -4340,6 +4386,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "StrontiumBromide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q416904"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/25302" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of strontium cations bonded to bromide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Br2Sr" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Strontium_bromide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "strontium;dibromide" ;
@@ -4359,6 +4406,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "MagnesiumSulfite"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q2396092"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/3014583" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of magnesium cations bonded to sulfite anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "MgSO3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Magnesium_sulfite"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "magnesium;sulfite" ;
@@ -4372,6 +4420,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "StrontiumSulfide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q1765041"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/14820" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of strontium cations bonded to sulfide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "SSr" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Strontium_sulfide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "sulfanylidenestrontium" ;
@@ -4385,6 +4434,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "BariumPhosphate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q808224"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/165803" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to phosphate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Ba3(PO4)2" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "barium(2+);diphosphate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/3Ba.2H3O4P/c;;;2*1-5(2,3)4/h;;;2*(H3,1,2,3,4)/q3*+2;;/p-6" .
@@ -4425,6 +4475,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "BariumChlorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q412492"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/26059" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to chlorate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "BaCl2O6" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Barium_chlorate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "barium(2+);dichlorate" ;
@@ -4437,6 +4488,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:altLabel "Ca(PF6)2"@en ;
                                                 skos:prefLabel "CalciumHexafluorophosphate"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/14389155" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of calcium cations bonded to hexafluorophosphate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CaF12P2" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "calcium;dihexafluorophosphate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/Ca.2F6P/c;2*1-7(2,3,4,5)6/q+2;2*-1" .
@@ -4612,6 +4664,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "MagnesiumSulfide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q424250"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/82824" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of magnesium cations bonded to sulfide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "MgS" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Magnesium_sulfide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "sulfanylidenemagnesium" ;
@@ -4684,6 +4737,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:altLabel "Sr(NO2)2"@en ;
                                                 skos:prefLabel "StrontiumNitrite"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/166825" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of strontium cations bonded to nitrite anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "N2O4Sr" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "strontium;dinitrite" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2HNO2.Sr/c2*2-1-3;/h2*(H,2,3);/q;;+2/p-2" .
@@ -4818,7 +4872,8 @@ schema:Person rdf:type owl:Class ;
 :substance_9d6b0e6b_b51f_40a8_bc9d_1418ea5356b1 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_c12c3203_9d18_4a69_8a10_25b100ff48c8 ;
                                                 skos:altLabel "Ca(BOB)2"@en ;
-                                                skos:prefLabel "CalciumBisoxalatoborate"@en .
+                                                skos:prefLabel "CalciumBisoxalatoborate"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of calcium cations bonded to bisoxalatoborate anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_9d6b7dd4_6276_4e57_bdbb_228823821995
@@ -4840,6 +4895,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "MagnesiumSulfate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q288266"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24083" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of magnesium cations bonded to sulfate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "MgSO4" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Magnesium_sulfate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "magnesium;sulfate" ;
@@ -4921,6 +4977,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "MagnesiumCarbonate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q425450"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/11029" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of magnesium cations bonded to carbonate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "MgCO3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Magnesium_carbonate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "magnesium;carbonate" ;
@@ -4945,14 +5002,16 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_a06bf8d8_24d5_4b29_a633_e5c00b1bd746
 :substance_a06bf8d8_24d5_4b29_a633_e5c00b1bd746 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_fc93282d_cb35_4bab_81a8_78689ae59e5f ;
-                                                skos:prefLabel "StrontiumSaltCompound"@en .
+                                                skos:prefLabel "StrontiumSaltCompound"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of strontium cations bonded to anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_a092c93d_1d03_4d74_b0d7_7ed51b0a3eca
 :substance_a092c93d_1d03_4d74_b0d7_7ed51b0a3eca rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_7dd5ebb3_1084_485a_9fbf_05954cd2da84 ;
                                                 skos:altLabel "a(DFOB)2"@en ;
-                                                skos:prefLabel "BariumDifluorooxalatoborate"@en .
+                                                skos:prefLabel "BariumDifluorooxalatoborate"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to difluorooxalatoborate anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_a16a1bae_7844_42fd_bb6d_979195d6c933
@@ -5028,6 +5087,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:altLabel "Sr(BF4)2"@en ;
                                                 skos:prefLabel "StrontiumTetrafluoroborate"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/26286" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of strontium cations bonded to tetrafluoroborate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "B2F8Sr" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "strontium;ditetrafluoroborate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2BF4.Sr/c2*2-1(3,4)5;/q2*-1;+2" .
@@ -5173,6 +5233,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "BariumAcetate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q421133"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/10980" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to acetate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C4H6BaO4" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Barium_acetate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "barium(2+);diacetate" ;
@@ -5183,7 +5244,8 @@ schema:Person rdf:type owl:Class ;
 :substance_ab3606c2_a1e3_4e40_b427_766c586b5f77 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_a06bf8d8_24d5_4b29_a633_e5c00b1bd746 ;
                                                 skos:altLabel "Sr(TFOB)2"@en ;
-                                                skos:prefLabel "StrontiumTrifluoromethanesulfonyloxalatoborate"@en .
+                                                skos:prefLabel "StrontiumTrifluoromethanesulfonyloxalatoborate"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of strontium cations bonded to trifluoromethanesulfonyl oxalatoborate anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_abeadd58_520a_49b1_b89a_f668f00cb7ff
@@ -5258,7 +5320,8 @@ schema:Person rdf:type owl:Class ;
 :substance_ad1fe482_6d88_4207_b1e5_ef01b68bec97 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_7dd5ebb3_1084_485a_9fbf_05954cd2da84 ;
                                                 skos:altLabel "Ba(BOB)2"@en ;
-                                                skos:prefLabel "BariumBisoxalatoborate"@en .
+                                                skos:prefLabel "BariumBisoxalatoborate"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to bisoxalatoborate anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_ad5895fb_8fc3_42fc_8e9c_5c4723777624
@@ -5309,6 +5372,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "BariumFluoride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q417080"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/62670" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to fluoride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "BaF2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Barium_fluoride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "barium(2+);difluoride" ;
@@ -5380,6 +5444,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "MagnesiumChloride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q265414"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/5360315" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of magnesium cations bonded to chloride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "MgCl2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Magnesium_chloride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "magnesium;dichloride" ;
@@ -5420,6 +5485,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "StrontiumNitrate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q421083"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24848" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of strontium cations bonded to nitrate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "N2O6Sr" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Strontium_nitrate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "strontium;dinitrate" ;
@@ -5543,7 +5609,8 @@ schema:Person rdf:type owl:Class ;
 :substance_b5d8ff31_cc34_4f22_bfcc_7ffbe69c0b26 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_a06bf8d8_24d5_4b29_a633_e5c00b1bd746 ;
                                                 skos:altLabel "Sr(BOB)2"@en ;
-                                                skos:prefLabel "StrontiumBisoxalatoborate"@en .
+                                                skos:prefLabel "StrontiumBisoxalatoborate"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of strontium cations bonded to bisoxalatoborate anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_b67e85ce_a540_43bd_a3b5_0a5fe341194e
@@ -5593,6 +5660,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CalciumIodide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q412538"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/5462722" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of calcium cations bonded to iodide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CaI2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Calcium_iodide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "calcium;diiodide" ;
@@ -5606,6 +5674,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "MagnesiumPhosphate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q6731399"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24439" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of magnesium cations bonded to phosphate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Mg3(PO4)2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Trimagnesium_phosphate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "trimagnesium;diphosphate" ;
@@ -5700,6 +5769,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "MagnesiumIodide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q416265"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/66322" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of magnesium cations bonded to iodide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "I2Mg" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Magnesium_iodide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "magnesium;diiodide" ;
@@ -5750,6 +5820,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:altLabel "Ca(BF4)2"@en ;
                                                 skos:prefLabel "CalciumTetrafluoroborate"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/6096284" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of calcium cations bonded to tetrafluoroborate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "B2CaF8" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "calcium;ditetrafluoroborate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2BF4.Ca/c2*2-1(3,4)5;/q2*-1;+2" .
@@ -5998,7 +6069,8 @@ schema:Person rdf:type owl:Class ;
 :substance_c0ed3eca_64ef_4e69_a415_3e5f76ca27b6 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_0001e895_e74b_438f_b47f_b52f33d68331 ;
                                                 skos:altLabel "Mg(BOP)2"@en ;
-                                                skos:prefLabel "MagnesiumBisoxalatophosphate"@en .
+                                                skos:prefLabel "MagnesiumBisoxalatophosphate"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of magnesium cations bonded to bisoxalatophosphate anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_c0f3ef19_325e_469d_95d4_2d7568796163
@@ -6033,7 +6105,8 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_c12c3203_9d18_4a69_8a10_25b100ff48c8
 :substance_c12c3203_9d18_4a69_8a10_25b100ff48c8 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_fc93282d_cb35_4bab_81a8_78689ae59e5f ;
-                                                skos:prefLabel "CalciumSaltCompound"@en .
+                                                skos:prefLabel "CalciumSaltCompound"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of calcium cations bonded to anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_c1b3e4ab_f4c2_443e_9143_99e7c3654448
@@ -6156,7 +6229,8 @@ schema:Person rdf:type owl:Class ;
 :substance_c581b064_f357_4378_96bc_dcb2c72013f8 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_0001e895_e74b_438f_b47f_b52f33d68331 ;
                                                 skos:altLabel "Mg(BF4)2"@en ;
-                                                skos:prefLabel "MagnesiumTetrafluoroborate"@en .
+                                                skos:prefLabel "MagnesiumTetrafluoroborate"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of magnesium cations bonded to tetrafluoroborate anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_c5adcfc9_d0f3_40d5_8aa0_6836d3c3b374
@@ -6186,7 +6260,8 @@ schema:Person rdf:type owl:Class ;
 :substance_c5e6b38b_af73_4664_911b_4a6ecc8f2e3f rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_a06bf8d8_24d5_4b29_a633_e5c00b1bd746 ;
                                                 skos:altLabel "Sr(BOP)2"@en ;
-                                                skos:prefLabel "StrontiumBisoxalatophosphate"@en .
+                                                skos:prefLabel "StrontiumBisoxalatophosphate"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of strontium cations bonded to bisoxalatophosphate anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_c6c667a8_90ab_4b23_8441_5e7d0eb7dc31
@@ -6343,6 +6418,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CalciumCarbonate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q23767"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/10112" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of calcium cations bonded to carbonate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CaCO3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Calcium_carbonate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "calcium;carbonate" ;
@@ -6438,6 +6514,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "MagnesiumNitrate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q411014"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/25212" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of magnesium cations bonded to nitrate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "MgN2O6" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Magnesium_nitrate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "magnesium;dinitrate" ;
@@ -6489,7 +6566,8 @@ schema:Person rdf:type owl:Class ;
 :substance_d0e03160_256a_4cb2_a086_8f65d3abf62e rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_a06bf8d8_24d5_4b29_a633_e5c00b1bd746 ;
                                                 skos:altLabel "Sr(TFSI)2"@en ;
-                                                skos:prefLabel "StrontiumBistrifluoromethanesulfonylimide"@en .
+                                                skos:prefLabel "StrontiumBistrifluoromethanesulfonylimide"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of strontium cations bonded to bistrifluoromethanesulfonylimide anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_d185fb35_17e0_44df_9a6b_5c93d56b9c99
@@ -6513,6 +6591,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "BariumSulfate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q309038"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24414" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to sulfate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "BaSO4" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Barium_sulfate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "barium(2+);sulfate" ;
@@ -6539,6 +6618,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "StrontiumSulfite"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q82863248"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/11171195" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of strontium cations bonded to sulfite anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "O3SSr" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Strontium_sulfate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "strontium;sulfite" ;
@@ -6549,7 +6629,8 @@ schema:Person rdf:type owl:Class ;
 :substance_d30fb481_a68d_496f_9be3_0e78aef3ef32 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_c12c3203_9d18_4a69_8a10_25b100ff48c8 ;
                                                 skos:altLabel "Ca(TFSI)2"@en ;
-                                                skos:prefLabel "CalciumBistrifluoromethanesulfonylimide"@en .
+                                                skos:prefLabel "CalciumBistrifluoromethanesulfonylimide"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of calcium cations bonded to bistrifluoromethanesulfonylimide anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_d36fbe2f_6b0a_4178_b6ca_7373bdefcb51
@@ -6601,6 +6682,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "BariumCarbonate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q409224"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/10563" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to carbonate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "BaCO3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Barium_carbonate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "barium(2+);carbonate" ;
@@ -6723,6 +6805,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CalciumChloride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q208451"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/5284359" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of calcium cations bonded to chloride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CaCl2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Calcium_chloride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "calcium;dichloride" ;
@@ -6836,6 +6919,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "BariumChloride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q407270"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/25204" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to chloride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "BaCl2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Barium_chloride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "barium(2+);dichloride" ;
@@ -6920,6 +7004,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CalciumSulfide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q408464"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/10197613" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of calcium cations bonded to sulfide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CaS" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Calcium_sulfide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "calcium;sulfide" ;
@@ -7011,7 +7096,8 @@ schema:Person rdf:type owl:Class ;
 :substance_dd8823eb_ea6f_49f2_a4f9_d21828cb8b8e rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_c12c3203_9d18_4a69_8a10_25b100ff48c8 ;
                                                 skos:altLabel "Ca(TFOB)2"@en ;
-                                                skos:prefLabel "CalciumTrifluoromethanesulfonyloxalatoborate"@en .
+                                                skos:prefLabel "CalciumTrifluoromethanesulfonyloxalatoborate"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of calcium cations bonded to trifluoromethanesulfonyl oxalatoborate anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_de038959_9251_48d1_a141_3684f14d957f
@@ -7076,6 +7162,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "MagnesiumTriflate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q72488070"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/2734125" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of magnesium cations bonded to triflate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C2F6MgO6S2" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "magnesium;trifluoromethanesulfonate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2CHF3O3S.Mg/c2*2-1(3,4)8(5,6)7;/h2*(H,5,6,7);/q;;+2/p-2" .
@@ -7150,6 +7237,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "StrontiumPhosphate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q4337166"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/159737" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of strontium cations bonded to phosphate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Sr3(PO4)2" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "tristrontium;diphosphate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2H3O4P.3Sr/c2*1-5(2,3)4;;;/h2*(H3,1,2,3,4);;;/q;;3*+2/p-6" .
@@ -7162,6 +7250,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "BariumNitrite"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q4321627"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/166820" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to nitrite anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Ba(NO2)2" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "barium(2+);dinitrite" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/Ba.2HNO2/c;2*2-1-3/h;2*(H,2,3)/q+2;;/p-2" .
@@ -7202,6 +7291,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "BariumNitrate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q407666"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24798" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to nitrate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Ba(NO3)2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Barium_nitrate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "barium(2+);dinitrate" ;
@@ -7662,6 +7752,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CalciumNitrite"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q2749498"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/159695" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of calcium cations bonded to nitrite anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Ca(NO2)2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Calcium_nitrite"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "calcium;dinitrite" ;
@@ -7953,6 +8044,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "MagnesiumBromide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q420413"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/522691" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of magnesium cations bonded to bromide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Br2Mg" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Magnesium_bromide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "magnesium;dibromide" ;
@@ -8004,7 +8096,8 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_fc93282d_cb35_4bab_81a8_78689ae59e5f
 :substance_fc93282d_cb35_4bab_81a8_78689ae59e5f rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_edae7b22_461b_432b_b737_3c93feb69b0e ;
-                                                skos:prefLabel "AlkalineEarthMetalSaltCompound"@en .
+                                                skos:prefLabel "AlkalineEarthMetalSaltCompound"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of an alkaline earth metal cation bonded to anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_fcc8de17_cb4d_409e_93ef_4970df535743
@@ -8014,6 +8107,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "BariumTriflate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q72444806"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/76040" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to triflate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C2BaF6O6S2" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "barium(2+);trifluoromethanesulfonate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2CHF3O3S.Ba/c2*2-1(3,4)8(5,6)7;/h2*(H,5,6,7);/q;;+2/p-2" .
@@ -8026,6 +8120,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CalciumPerchlorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q906306"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/61629" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of calcium cations bonded to perchlorate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Ca(ClO4)2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Calcium_perchlorate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "calcium;diperchlorate" ;
@@ -8079,7 +8174,8 @@ schema:Person rdf:type owl:Class ;
 :substance_fe5452de_6d49_4f60_9a15_a022bb5219a2 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_c12c3203_9d18_4a69_8a10_25b100ff48c8 ;
                                                 skos:altLabel "Ca(FSI)2"@en ;
-                                                skos:prefLabel "CalciumBisfluorosulfonylimide"@en .
+                                                skos:prefLabel "CalciumBisfluorosulfonylimide"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of calcium cations bonded to bisfluorosulfonylimide anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_feb95008_db3a_4506_b7ff_6263befa0d64
@@ -8144,6 +8240,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "BariumBromide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q414613"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/66350" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to bromide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "BaBr2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Barium_bromide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "barium(2+);dibromide" ;
