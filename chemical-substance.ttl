@@ -213,6 +213,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "LeadIICarbonate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q411260"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/11727" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of lead in the +2 oxidation state bonded to carbonate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "PbCO3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Lead_carbonate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "lead(2+);carbonate" ;
@@ -234,7 +235,8 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_015116fe_94ca_4be5_9d14_9d9457a47a72
 :substance_015116fe_94ca_4be5_9d14_9d9457a47a72 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_edae7b22_461b_432b_b737_3c93feb69b0e ;
-                                                skos:prefLabel "TransitionMetalSaltCompound"@en .
+                                                skos:prefLabel "TransitionMetalSaltCompound"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of transition metal cations bonded to anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_0160f86c_e567_40d4_a457_25cf170e7ef2
@@ -268,6 +270,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "AluminiumChlorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q447553"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/161130" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of aluminium cations bonded to chlorate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "AlCl3O9" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "aluminum;trichlorate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/Al.3ClHO3/c;3*2-1(3)4/h;3*(H,2,3,4)/q+3;;;/p-3" .
@@ -280,6 +283,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "LeadIIAcetate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q422837"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/9317" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of lead in the +2 oxidation state bonded to acetate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C4H6O4Pb" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Lead(II)_acetate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "lead(2+);diacetate" ;
@@ -303,7 +307,8 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_0331ffd2_7cb2_40d3_80ce_8b4ab7b3adc5
 :substance_0331ffd2_7cb2_40d3_80ce_8b4ab7b3adc5 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_015116fe_94ca_4be5_9d14_9d9457a47a72 ;
-                                                skos:prefLabel "LeadSaltCompound"@en .
+                                                skos:prefLabel "LeadSaltCompound"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of lead cations bonded to anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_0391f63f_9ab8_4b33_a4c5_47591a89de72
@@ -327,7 +332,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "GammaButyrolactone"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q79739"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/7302" ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "One of the furans with a carbonyl thereby forming a cyclic lactone. It is an endogenous compound made from gamma-aminobutyrate and is the precursor of gamma-hydroxybutyrate. It is also used as a pharmacological agent and solvent."@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of a five-membered lactone ring formed from gamma-hydroxybutyric acid"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C4H6O2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Gamma-Butyrolactone"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "oxolan-2-one" ;
@@ -341,6 +346,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CobaltIIFluoride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q417121"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24820" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of cobalt in the +2 oxidation state bonded to fluoride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CoF2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Cobalt(II)_fluoride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "difluorocobalt" ;
@@ -354,6 +360,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "AluminiumCarbonate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q4737377"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/10353966" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of aluminium cations bonded to carbonate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Al2(CO3)3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Aluminium_carbonate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "dialuminum;tricarbonate" ;
@@ -367,6 +374,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CopperIINitrate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q286064"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/18616" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of copper in the +2 oxidation state bonded to nitrate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Cu(NO3)2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Copper(II)_nitrate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "copper;dinitrate" ;
@@ -380,6 +388,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "MOEMC"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "http://127.0.0.1:5000/compounds/23290296"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/23290296" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of a carbonate group bonded to a 2-methoxyethyl group and a methyl group"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C5H10O4" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "2-methoxyethyl methyl carbonate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/C5H10O4/c1-7-3-4-9-5(6)8-2/h3-4H2,1-2H3" .
@@ -399,6 +408,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:altLabel "Co(NO2)2"@en ;
                                                 skos:prefLabel "CobaltIINitrite"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/101611500" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of cobalt in the +2 oxidation state bonded to nitrite anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CoN2O4" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "cobalt(2+);dinitrite" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/Co.2HNO2/c;2*2-1-3/h;2*(H,2,3)/q+2;;/p-2" .
@@ -406,11 +416,12 @@ schema:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_09338922_833a_406c_be2c_4098980cabc3
 :substance_09338922_833a_406c_be2c_4098980cabc3 rdf:type owl:Class ;
-                                                rdfs:subClassOf :substance_63788521_5764_4ee2_8d8a_ce4978682546 ;
+                                                rdfs:subClassOf :substance_92667c34_98eb_4bc9_a0d4_6dd44e5b287a ;
                                                 skos:altLabel "InBr3"@en ;
                                                 skos:prefLabel "IndiumIIIBromide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q4096881"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/26046" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of indium in the +3 oxidation state bonded to bromide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Br3In" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Indium(III)_bromide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "tribromoindigane" ;
@@ -453,7 +464,8 @@ schema:Person rdf:type owl:Class ;
 :substance_09aa1409_b244_4d5e_a6ed_c94bdff60e42 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_cb6d2c65_9977_4bb1_987a_5ea828de445f ;
                                                 skos:altLabel "Mn(ClO3)2"@en ;
-                                                skos:prefLabel "ManganeseIIChlorate"@en .
+                                                skos:prefLabel "ManganeseIIChlorate"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of manganese in the +2 oxidation state bonded to chlorate anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_09c627db_bca7_4a25_9233_90af4e22505e
@@ -487,11 +499,12 @@ schema:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_09e44ba7_e928_4aa8_aa50_484742e6965c
 :substance_09e44ba7_e928_4aa8_aa50_484742e6965c rdf:type owl:Class ;
-                                                rdfs:subClassOf :substance_63788521_5764_4ee2_8d8a_ce4978682546 ;
+                                                rdfs:subClassOf :substance_92667c34_98eb_4bc9_a0d4_6dd44e5b287a ;
                                                 skos:altLabel "In(BF4)3"@en ;
                                                 skos:prefLabel "IndiumIIITetrafluoroborate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q72482882"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/168726" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of indium in the +3 oxidation state bonded to tetrafluoroborate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "B3F12In" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "indium(3+);tritetrafluoroborate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/3BF4.In/c3*2-1(3,4)5;/q3*-1;+3" .
@@ -516,11 +529,12 @@ schema:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_0aae472b_b322_43c4_991f_e4ec88f52f3e
 :substance_0aae472b_b322_43c4_991f_e4ec88f52f3e rdf:type owl:Class ;
-                                                rdfs:subClassOf :substance_63788521_5764_4ee2_8d8a_ce4978682546 ;
+                                                rdfs:subClassOf :substance_92667c34_98eb_4bc9_a0d4_6dd44e5b287a ;
                                                 skos:altLabel "In(OTf)2"@en ;
                                                 skos:prefLabel "IndiumIIITriflate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q72482889"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/2734680" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of indium in the +3 oxidation state bonded to triflate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C3F9InO9S3" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "indium(3+);trifluoromethanesulfonate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/3CHF3O3S.In/c3*2-1(3,4)8(5,6)7;/h3*(H,5,6,7);/q;;;+3/p-3" .
@@ -579,7 +593,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "Dioxolane"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q2234483"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/12586" ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Dioxolane appears as a clear colorless liquid. Slightly denser than water. Vapors heavier than air."@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of a five-membered cyclic ether with two oxygen atoms in the ring"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C3H6O2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Dioxolane"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "1,3-dioxolane" ;
@@ -636,6 +650,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:altLabel "Ni(TFSI)2"@en ;
                                                 skos:prefLabel "NickelIIBistrifluoromethanesulfonylimide"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/15976041" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of nickel in the +2 oxidation state bonded to bistrifluoromethanesulfonylimide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C4F12N2NiO8S4" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "bis(trifluoromethylsulfonyl)azanide;nickel(2+)" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2C2F6NO4S2.Ni/c2*3-1(4,5)14(10,11)9-15(12,13)2(6,7)8;/q2*-1;+2" .
@@ -648,6 +663,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CopperIIPhosphate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q60568753"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/86469" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of copper in the +2 oxidation state bonded to phosphate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Cu3(PO4)2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Copper(II)_phosphate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "tricopper;diphosphate" ;
@@ -671,6 +687,7 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_16864b33_aa8e_451d_ad8e_b0af5f18769a
 :substance_16864b33_aa8e_451d_ad8e_b0af5f18769a rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_7fd3843d_f0b7_4490_bcf3_519fb9e2b150 ;
+                                                owl:deprecated "true"^^xsd:boolean ;
                                                 skos:altLabel "Oxolane"@en ,
                                                               "THF"@en ;
                                                 skos:prefLabel "Tetrahydrofuran"@en ;
@@ -707,11 +724,12 @@ schema:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_17c30663_ccc8_45b0_b713_9bd095e20ebd
 :substance_17c30663_ccc8_45b0_b713_9bd095e20ebd rdf:type owl:Class ;
-                                                rdfs:subClassOf :substance_63788521_5764_4ee2_8d8a_ce4978682546 ;
+                                                rdfs:subClassOf :substance_92667c34_98eb_4bc9_a0d4_6dd44e5b287a ;
                                                 skos:altLabel "In(ClO4)3"@en ;
                                                 skos:prefLabel "IndiumIIIPerchlorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q15628085"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/11212117" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of indium in the +3 oxidation state bonded to perchlorate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Cl3InO12" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Indium_perchlorate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "indium(3+);triperchlorate" ;
@@ -724,6 +742,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:altLabel "CoSO3"@en ;
                                                 skos:prefLabel "CobaltIISulfite"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/18760923" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of cobalt in the +2 oxidation state bonded to sulfite anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CoO3S" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://www.wikidata.org/wiki/Q16326547"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "cobalt(2+);sulfite" ;
@@ -765,6 +784,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ZincCyanide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q204713"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/11186" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of zinc cations bonded to cyanide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Zn(CN)2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Zinc_cyanide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "zinc;dicyanide" ;
@@ -778,6 +798,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "AluminiumAcetate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q27861942"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/8757" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of aluminium cations bonded to acetate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C6H9AlO6" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Aluminium_triacetate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "aluminum;triacetate" ;
@@ -842,6 +863,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "NickelIISulfate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q411337"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24586" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of nickel in the +2 oxidation state bonded to sulfate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "NiSO4" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Nickel(II)_sulfate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "nickel(2+);sulfate" ;
@@ -855,6 +877,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ZincSulfite"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q20670642"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/159685" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of zinc cations bonded to sulfite anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "ZnSO3" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "zinc;sulfite" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/H2O3S.Zn/c1-4(2)3;/h(H2,1,2,3);/q;+2/p-2" .
@@ -874,6 +897,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:altLabel "FEC"@en ;
                                                 skos:prefLabel "FluoroethyleneCarbonate"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/2769656" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of a cyclic carbonate structure with a fluorine atom substituted on the ethylene group"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C3H3FO3" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "4-fluoro-1,3-dioxolan-2-one" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/C3H3FO3/c4-2-1-6-3(5)7-2/h2H,1H2" .
@@ -915,7 +939,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "Dimethoxymethane"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q411496"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/8020" ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Dimethoxymethane is an acetal that is the dimethyl acetal derivative of formaldehyde. It is an acetal and a diether. It is functionally related to a methanediol."@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "an acetal that is the dimethyl acetal derivative of formaldehyde"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C3H8O2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Dimethoxymethane"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "dimethoxymethane" ;
@@ -967,10 +991,11 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_231feb61_4200_4bc7_b060_02b51ab13ee2
 :substance_231feb61_4200_4bc7_b060_02b51ab13ee2 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_aa92d6c6_2c46_4e7d_9b2c_c95b849041d4 ;
-                                                skos:altLabel "ClO4"@en ;
+                                                skos:altLabel "NH4ClO4"@en ;
                                                 skos:prefLabel "AmmoniumPerchlorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q410203"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24639" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of ammonium cations bonded to perchlorate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "NH4ClO4" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Ammonium_perchlorate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "azanium;perchlorate" ;
@@ -979,11 +1004,12 @@ schema:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_244fbc5c_41d5_42aa_b078_019cb0b2f3b7
 :substance_244fbc5c_41d5_42aa_b078_019cb0b2f3b7 rdf:type owl:Class ;
-                                                rdfs:subClassOf :substance_63788521_5764_4ee2_8d8a_ce4978682546 ;
+                                                rdfs:subClassOf :substance_92667c34_98eb_4bc9_a0d4_6dd44e5b287a ;
                                                 skos:altLabel "In(NO3)3"@en ;
                                                 skos:prefLabel "IndiumIIINitrate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q4321583"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/26265" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of indium in the +3 oxidation state bonded to nitrate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "In(NO3)3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Indium(III)_nitrate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "indium(3+);trinitrate" ;
@@ -1068,10 +1094,10 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_2773ee9b_cee9_4367_8b81_4ce6265d411a
 :substance_2773ee9b_cee9_4367_8b81_4ce6265d411a rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_aa92d6c6_2c46_4e7d_9b2c_c95b849041d4 ;
-                                                skos:altLabel "ClO3"@en ;
                                                 skos:prefLabel "AmmoniumChlorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q1392795"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/11679808" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of ammonium cations bonded to chlorate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "ClH4NO3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Ammonium_chlorate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "azanium;chlorate" ;
@@ -1149,6 +1175,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ManganeseIIIodide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q415520"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/82250" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of manganese in the +2 oxidation state bonded to iodide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "MnI2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Manganese(II)_iodide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "manganese(2+);diiodide" ;
@@ -1176,6 +1203,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CobaltIISulfate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q411214"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24965" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of cobalt in the +2 oxidation state bonded to sulfate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CoSO4" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Cobalt(II)_sulfate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "cobalt(2+);sulfate" ;
@@ -1189,6 +1217,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ManganeseIIBromide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q416246"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/83471" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of manganese in the +2 oxidation state bonded to bromide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Br2Mn" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Manganese(II)_bromide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "dibromomanganese" ;
@@ -1201,6 +1230,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:altLabel "Ethyldiglyme"@en ;
                                                 skos:prefLabel "DiethyleneGlycolDiethylEther"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/8179" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of two ethylene glycol units bonded to two ethyl ether groups"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C8H18O3" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "1-ethoxy-2-(2-ethoxyethoxy)ethane" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/C8H18O3/c1-3-9-5-7-11-8-6-10-4-2/h3-8H2,1-2H3" .
@@ -1264,6 +1294,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "NickelIISulfite"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q18002898"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/14029754" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of nickel in the +2 oxidation state bonded to sulfite anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "NiO3S" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "nickel(2+);sulfite" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/Ni.H2O3S/c;1-4(2)3/h;(H2,1,2,3)/q+2;/p-2" .
@@ -1276,6 +1307,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CopperIIFluoride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q419686"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/82236" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of copper in the +2 oxidation state bonded to fluoride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CuF2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Copper(II)_fluoride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "copper;difluoride" ;
@@ -1434,8 +1466,9 @@ schema:Person rdf:type owl:Class ;
 :substance_2ee4c506_526d_4483_bca3_b95585f77d00 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_878a0e2f_12ba_484e_8197_75e57139d207 ,
                                                                 :substance_961f7671_8708_4ce3_9c7d_79444adba9c0 ;
-                                                skos:altLabel "IPA"@en ;
-                                                skos:prefLabel "IsopropylAlcohol"@en ;
+                                                skos:altLabel "IPA"@en ,
+                                                              "IsopropylAlcohol"@en ;
+                                                skos:prefLabel "Isopropyl"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q16392"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/3776" ;
                                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of a hydroxyl group bonded to an isopropyl group"@en ;
@@ -1452,6 +1485,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ManganeseIIAcetate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q180713"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/12525" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of manganese in the +2 oxidation state bonded to acetate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C4H6MnO4" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Manganese(II)_acetate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "manganese(2+);diacetate" ;
@@ -1483,10 +1517,10 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_3016a276_0f17_4576_b8fd_200c07d71bfc
 :substance_3016a276_0f17_4576_b8fd_200c07d71bfc rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_aa92d6c6_2c46_4e7d_9b2c_c95b849041d4 ;
-                                                skos:altLabel "Cl"@en ;
                                                 skos:prefLabel "AmmoniumChloride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q188543"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/25517" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of ammonium cations bonded to chloride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "ClH4N" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Ammonium_chloride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "azanium;chloride" ;
@@ -1500,6 +1534,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ManganeseIIChloride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q421071"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24480" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of manganese in the +2 oxidation state bonded to chloride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Cl2Mn" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Manganese(II)_chloride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "dichloromanganese" ;
@@ -1513,6 +1548,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "AluminiumIodide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q159096"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/82222" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of aluminium cations bonded to iodide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "AlI3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Aluminium_iodide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "triiodoalumane" ;
@@ -1580,6 +1616,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ZincTetrafluoroborate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q27292979"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/9881215" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of zinc cations bonded to tetrafluoroborate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "B2F8Zn" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "zinc;ditetrafluoroborate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2BF4.Zn/c2*2-1(3,4)5;/q2*-1;+2" .
@@ -1614,6 +1651,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "NickelIITriflate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q72494142"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/9820095" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of nickel in the +2 oxidation state bonded to triflate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C2F6NiO6S2" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "nickel(2+);trifluoromethanesulfonate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2CHF3O3S.Ni/c2*2-1(3,4)8(5,6)7;/h2*(H,5,6,7);/q;;+2/p-2" .
@@ -1829,10 +1867,11 @@ schema:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_3d3ca8c8_4ea0_43b8_b496_aca78a0d1584
 :substance_3d3ca8c8_4ea0_43b8_b496_aca78a0d1584 rdf:type owl:Class ;
-                                                rdfs:subClassOf :substance_63788521_5764_4ee2_8d8a_ce4978682546 ;
+                                                rdfs:subClassOf :substance_92667c34_98eb_4bc9_a0d4_6dd44e5b287a ;
                                                 skos:altLabel "InPO4"@en ;
                                                 skos:prefLabel "IndiumIIIPhosphate"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/16700902" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of indium in the +3 oxidation state bonded to phosphate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "InO4P" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "2,4,5-trioxa-1λ5-phospha-3-indabicyclo[1.1.1]pentane 1-oxide" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/In.H3O4P/c;1-5(2,3)4/h;(H3,1,2,3,4)/q+3;/p-3" .
@@ -1844,6 +1883,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:altLabel "CuI2"@en ;
                                                 skos:prefLabel "CopperIIIodide"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/83717" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of copper in the +2 oxidation state bonded to iodide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CuI2" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "diiodocopper" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/Cu.2HI/h;2*1H/q+2;;/p-2" .
@@ -1871,6 +1911,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CopperIIodide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q411207"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24350" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of copper in the +1 oxidation state bonded to iodide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CuI" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Copper(I)_iodide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "iodocopper" ;
@@ -1879,11 +1920,12 @@ schema:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_3f5d5e9c_adb6_4fbb_88a5_1d5472e2c99f
 :substance_3f5d5e9c_adb6_4fbb_88a5_1d5472e2c99f rdf:type owl:Class ;
-                                                rdfs:subClassOf :substance_63788521_5764_4ee2_8d8a_ce4978682546 ;
+                                                rdfs:subClassOf :substance_92667c34_98eb_4bc9_a0d4_6dd44e5b287a ;
                                                 skos:altLabel "InF3"@en ;
                                                 skos:prefLabel "IndiumIIIFluoride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q4493207"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/10197897" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of indium in the +3 oxidation state bonded to fluoride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "F3In" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Indium(III)_fluoride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "indium(3+);trifluoride" ;
@@ -1952,6 +1994,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CobaltIINitrate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q414860"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/25000" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of cobalt in the +2 oxidation state bonded to nitrate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Co(NO3)2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Cobalt(II)_nitrate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "cobalt(2+);dinitrate" ;
@@ -1965,6 +2008,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ZincPerchlorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q27266022"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/10199167" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of zinc cations bonded to perchlorate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Cl2O8Zn" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Zinc_perchlorate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "zinc;diperchlorate" ;
@@ -1974,7 +2018,8 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_4154e6b6_8e3c_4173_91aa_e8ba403bde85
 :substance_4154e6b6_8e3c_4173_91aa_e8ba403bde85 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_015116fe_94ca_4be5_9d14_9d9457a47a72 ;
-                                                skos:prefLabel "IronSalt"@en .
+                                                skos:prefLabel "IronSalt"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of iron cations bonded to anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_41bcd359_dc00_45f4_8746_d40c91e64f94
@@ -2033,6 +2078,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CobaltIIAcetate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q421198"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/6277" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of cobalt in the +2 oxidation state bonded to acetate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Co(C2H3O2)2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Cobalt(II)_acetate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "cobalt(2+);diacetate" ;
@@ -2097,6 +2143,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "NickelIINitrate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q425274"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/25736" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of nickel in the +2 oxidation state bonded to nitrate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Ni(NO3)2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Nickel(II)_nitrate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "nickel(2+);dinitrate" ;
@@ -2109,6 +2156,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:altLabel "Cu(NO2)2"@en ;
                                                 skos:prefLabel "CopperIINitrite"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/10130077" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of copper in the +2 oxidation state bonded to nitrite anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CuN2O4" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "copper;dinitrite" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/Cu.2HNO2/c;2*2-1-3/h;2*(H,2,3)/q+2;;/p-2" .
@@ -2198,6 +2246,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "NickelIIAcetate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q899422"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/9756" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of nickel in the +2 oxidation state bonded to acetate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C4H6NiO4" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Nickel(II)_acetate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "nickel(2+);diacetate" ;
@@ -2222,7 +2271,8 @@ schema:Person rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_bc76f17d_931a_4728_9663_9f8ed208d5e4 ;
                                                 skos:altLabel "Co(OTf)2"@en ;
                                                 skos:prefLabel "CobaltIITriflate"@en ;
-                                                emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/substance/482775751" .
+                                                emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/substance/482775751" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of cobalt in the +2 oxidation state bonded to triflate anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_48831514_d92f_4c67_8065_98df6f4d11cb
@@ -2259,6 +2309,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CobaltIIIodide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q421250"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/419951" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of cobalt in the +2 oxidation state bonded to iodide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CoI2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Cobalt(II)_iodide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "diiodocobalt" ;
@@ -2318,6 +2369,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "AluminiumPerchlorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q20107470"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/159740" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of aluminium cations bonded to perchlorate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "AlCl3O12" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "aluminum;triperchlorate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/Al.3ClHO4/c;3*2-1(3,4)5/h;3*(H,2,3,4,5)/q+3;;;/p-3" .
@@ -2445,7 +2497,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "Cumene"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q410107"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/7406" ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Cumene is an alkylbenzene that is benzene carrying an isopropyl group."@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "an alkylbenzene that is benzene carrying an isopropyl group"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C9H12" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Cumene"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "cumene" ;
@@ -2472,6 +2524,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:altLabel "Ni(PF6)2"@en ;
                                                 skos:prefLabel "NickelIIHexafluorophosphate"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/20073715" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of nickel in the +2 oxidation state bonded to hexafluorophosphate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "F12NiP2" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "nickel(2+);dihexafluorophosphate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2F6P.Ni/c2*1-7(2,3,4,5)6;/q2*-1;+2" .
@@ -2541,6 +2594,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ZincPhosphate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q59714"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24519" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of zinc cations bonded to phosphate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Zn3(PO4)2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Zinc_phosphate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "trizinc;diphosphate" ;
@@ -2626,10 +2680,11 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_5414a9d0_6c2e_4d21_bfad_9a19fc8f62f9
 :substance_5414a9d0_6c2e_4d21_bfad_9a19fc8f62f9 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_aa92d6c6_2c46_4e7d_9b2c_c95b849041d4 ;
-                                                skos:altLabel "SO3"@en ;
+                                                skos:altLabel "NH4SO3"@en ;
                                                 skos:prefLabel "AmmoniumSulfite"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q2336041"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/25041" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of ammonium cations bonded to sulfite anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "[NH4]2SO3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Ammonium_sulfite"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "diazanium;sulfite" ;
@@ -2639,10 +2694,10 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_54f744b3_1d02_4571_a303_a2a7dd8f0446
 :substance_54f744b3_1d02_4571_a303_a2a7dd8f0446 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_aa92d6c6_2c46_4e7d_9b2c_c95b849041d4 ;
-                                                skos:altLabel "Br"@en ;
                                                 skos:prefLabel "AmmoniumBromide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q413982"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/25514" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of ammonium cations bonded to bromide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "BrH4N" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Ammonium_bromide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "azanium;bromide" ;
@@ -2656,6 +2711,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "LeadIISulfite"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q6135415"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/6452595" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of lead in the +2 oxidation state bonded to sulfite anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "O3PbS" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "lead(2+);sulfite" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/H2O3S.Pb/c1-4(2)3;/h(H2,1,2,3);/q;+2/p-2" .
@@ -2702,11 +2758,12 @@ schema:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_564edbfa_af96_41c5_8fd5_7f22b1ca658d
 :substance_564edbfa_af96_41c5_8fd5_7f22b1ca658d rdf:type owl:Class ;
-                                                rdfs:subClassOf :substance_63788521_5764_4ee2_8d8a_ce4978682546 ;
+                                                rdfs:subClassOf :substance_92667c34_98eb_4bc9_a0d4_6dd44e5b287a ;
                                                 skos:altLabel "In(OAc)3"@en ;
                                                 skos:prefLabel "IndiumIIIAcetate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q27274769"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/168292" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of indium in the +3 oxidation state bonded to acetate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C6H9InO6" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Indium_acetate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "indium(3+);triacetate" ;
@@ -2787,7 +2844,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "EthyleneCarbonate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q421145"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/7303" ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Ethylene carbonate is a carbonate ester."@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a carbonate ester"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C3H4O3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Ethylene_carbonate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "1,3-dioxolan-2-one" ;
@@ -2801,6 +2858,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "NickelIIChloride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Nickel(II)_chloride"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24385" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of nickel in the +2 oxidation state bonded to chloride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Cl2Ni" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Nickel(II)_chloride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "dichloronickel" ;
@@ -2879,6 +2937,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ZincSulfide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q204952"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/14821" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of zinc cations bonded to sulfide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "SZn" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Zinc_sulfide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "sulfanylidenezinc" ;
@@ -2908,6 +2967,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "LeadIIChloride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q411848"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24459" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of lead in the +2 oxidation state bonded to chloride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Cl2Pb" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Lead(II)_chloride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "dichlorolead" ;
@@ -2987,6 +3047,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:altLabel "3Methylsulfolane"@en ;
                                                 skos:prefLabel "ThreeMeSulfolane"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/79119" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of a sulfolane structure with three methyl groups substituted on the sulfolane ring"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C5H10O2S" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "3-methylthiolane 1,1-dioxide" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/C5H10O2S/c1-5-2-3-8(6,7)4-5/h5H,2-4H2,1H3" .
@@ -3027,6 +3088,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CobaltIICarbonate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Cobalt(II)_carbonate"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/10565" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of cobalt in the +2 oxidation state bonded to carbonate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CoCO3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Cobalt(II)_carbonate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "cobalt(2+);carbonate" ;
@@ -3081,6 +3143,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "LeadIIChlorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q18234771"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/11675176" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of lead in the +2 oxidation state bonded to chlorate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Cl2O6Pb" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "lead(2+);dichlorate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2ClHO3.Pb/c2*2-1(3)4;/h2*(H,2,3,4);/q;;+2/p-2" .
@@ -3118,6 +3181,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:altLabel "3Methyl2Oxazolidone"@en ;
                                                 skos:prefLabel "ThreeMeTwoOxazolidinone"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/29831" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of an oxazolidinone ring with three methyl groups and two oxygen atoms substituted on the ring structure"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C4H7NO2" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "3-methyl-1,3-oxazolidin-2-one" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/C4H7NO2/c1-5-2-3-7-4(5)6/h2-3H2,1H3" .
@@ -3136,6 +3200,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "NickelIISulfide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q1985595"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/28094" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of nickel in the +2 oxidation state bonded to sulfide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "NiS" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Nickel(II)_sulfide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "sulfanylidenenickel" ;
@@ -3162,6 +3227,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "NickelIITetrafluoroborate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q55583610"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/61765" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of nickel in the +2 oxidation state bonded to tetrafluoroborate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "B2F8Ni" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "nickel(2+);ditetrafluoroborate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2BF4.Ni/c2*2-1(3,4)5;/q2*-1;+2" .
@@ -3236,6 +3302,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CobaltIIBromide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q420300"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24610" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of cobalt in the +2 oxidation state bonded to bromide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Br2Co" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Cobalt(II)_bromide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "dibromocobalt" ;
@@ -3246,7 +3313,8 @@ schema:Person rdf:type owl:Class ;
 :substance_656bd621_963a_4ff0_b606_7e5a952bda3a rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_b07a5287_67d1_4f4f_9640_e0146f713a6c ;
                                                 skos:altLabel "Zn(TFSI)2"@en ;
-                                                skos:prefLabel "ZincBistrifluoromethanesulfonylimide"@en .
+                                                skos:prefLabel "ZincBistrifluoromethanesulfonylimide"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of zinc cations bonded to bistrifluoromethanesulfonylimide anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_66ceb100_8123_4393_9b57_7e1899954600
@@ -3316,6 +3384,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ManganeseIIPhosphate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q6748768"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/9950503" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of manganese in the +2 oxidation state bonded to phosphate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Mn3(PO4)2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Manganese(II)_phosphate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "manganese(2+);diphosphate" ;
@@ -3343,7 +3412,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "TwoMeTHF"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q209444"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/7301" ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Methyltetrahydrofuran appears as a colorless liquid with an ether-like odor. Less dense than water. Vapors heavier than air. Used to make other chemicals and as a solvent."@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of a tetrahydrofuran (THF) ring with two methyl groups substituted at specific positions on the ring"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C5H10O" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/2-Methyltetrahydrofuran"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "2-methyloxolane" ;
@@ -3357,6 +3426,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "AluminiumFluoride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q409057"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/2124" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of aluminium cations bonded to fluoride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "AlF3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Aluminium_fluoride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "trifluoroalumane" ;
@@ -3370,6 +3440,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "NickelIICarbonate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q417856"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/18746" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of nickel in the +2 oxidation state bonded to carbonate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "NiCO3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Nickel(II)_carbonate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "nickel(2+);carbonate" ;
@@ -3383,6 +3454,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ZincChlorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q3680923"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/25206" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of zinc cations bonded to chlorate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Zn(ClO3)2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Zinc_chlorate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "zinc;dichlorate" ;
@@ -3483,6 +3555,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "LeadIINitrate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q215281"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24924" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of lead in the +2 oxidation state bonded to nitrate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "N2O6Pb" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Lead(II)_nitrate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "lead(2+);dinitrate" ;
@@ -3491,11 +3564,12 @@ schema:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_6d49be7e_bdd1_4d3b_bb95_d28047800a34
 :substance_6d49be7e_bdd1_4d3b_bb95_d28047800a34 rdf:type owl:Class ;
-                                                rdfs:subClassOf :substance_63788521_5764_4ee2_8d8a_ce4978682546 ;
+                                                rdfs:subClassOf :substance_92667c34_98eb_4bc9_a0d4_6dd44e5b287a ;
                                                 skos:altLabel "InI3"@en ;
                                                 skos:prefLabel "IndiumIIIIodide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q4202653"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/83539" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of indium in the +3 oxidation state bonded to iodide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "I3In" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Indium(III)_iodide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "triiodoindigane" ;
@@ -3509,6 +3583,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ZincCarbonate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q204661"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/19005" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of zinc cations bonded to carbonate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "ZnCO3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Zinc_carbonate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "zinc;carbonate" ;
@@ -3550,6 +3625,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CopperIIPerchlorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q15628157"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/28211" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of copper in the +2 oxidation state bonded to perchlorate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Cl2CuO8" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Copper(II)_perchlorate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "copper;diperchlorate" ;
@@ -3591,6 +3667,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "NickelIINitrite"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q15425780"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/20831815" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of nickel in the +2 oxidation state bonded to nitrite anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Ni(NO2)2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Nickel(II)_nitrite"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "nickel(2+);dinitrite" ;
@@ -3620,7 +3697,8 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "Tetraglyme"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q3788669"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/8925" ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Tetraglyme is a polyether."@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Tetraglyme is a polyether."@en ,
+                                                                                               "a chemical compound consisting of a linear polyethylene glycol chain with four ethylene glycol units, terminated by methyl ether groups on both ends"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C10H22O5" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Tetraethylene_glycol_dimethyl_ether"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "1-methoxy-2-[2-[2-(2-methoxyethoxy)ethoxy]ethoxy]ethane" ;
@@ -3662,6 +3740,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ZincIodide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q204828"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/66278" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of zinc cations bonded to iodide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "ZnI2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Zinc_iodide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "diiodozinc" ;
@@ -3685,11 +3764,12 @@ schema:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_777a99d3_f2db_4c54_b093_85e3fbbe632d
 :substance_777a99d3_f2db_4c54_b093_85e3fbbe632d rdf:type owl:Class ;
-                                                rdfs:subClassOf :substance_63788521_5764_4ee2_8d8a_ce4978682546 ;
+                                                rdfs:subClassOf :substance_92667c34_98eb_4bc9_a0d4_6dd44e5b287a ;
                                                 skos:altLabel "InCl3"@en ;
                                                 skos:prefLabel "IndiumIIIChloride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q415500"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24812" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of indium in the +3 oxidation state bonded to chloride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "InCl3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Indium(III)_chloride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "trichloroindigane" ;
@@ -3761,6 +3841,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "NickelIIBromide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q419684"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/278492" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of nickel in the +2 oxidation state bonded to bromide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "NiBr2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Nickel(II)_bromide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "dibromonickel" ;
@@ -3875,6 +3956,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "LeadIITetrafluoroborate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q27292536"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/12598180" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of lead in the +2 oxidation state bonded to tetrafluoroborate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Pb(BF4)2" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "lead(2+);ditetrafluoroborate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2BF4.Pb/c2*2-1(3,4)5;/q2*-1;+2" .
@@ -3928,6 +4010,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "AluminiumTriflate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q55573807"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/2737634" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of aluminium cations bonded to triflate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C3AlF9O9S3" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "aluminum;trifluoromethanesulfonate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/3CHF3O3S.Al/c3*2-1(3,4)8(5,6)7;/h3*(H,5,6,7);/q;;;+3/p-3" .
@@ -3936,7 +4019,8 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_7fd3843d_f0b7_4490_bcf3_519fb9e2b150
 :substance_7fd3843d_f0b7_4490_bcf3_519fb9e2b150 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_0f2f65a7_5cc4_4c86_a4d0_676771c646f1 ;
-                                                skos:prefLabel "AproticSolventCompound"@en .
+                                                skos:prefLabel "AproticSolventCompound"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound that serves as a solvent and does not contain acidic hydrogen atoms capable of forming hydrogen bonds"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_7fdf54d6_5503_4f83_8627_537805542c5b
@@ -4001,6 +4085,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CopperIICarbonate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q409630"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/14452" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of copper in the +2 oxidation state bonded to carbonate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CuCO3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Copper(II)_carbonate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "copper;carbonate" ;
@@ -4010,6 +4095,7 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_817d1989_4d6d_4c32_9951_85973afc538d
 :substance_817d1989_4d6d_4c32_9951_85973afc538d rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_7fd3843d_f0b7_4490_bcf3_519fb9e2b150 ;
+                                                owl:deprecated "true"^^xsd:boolean ;
                                                 skos:altLabel "DMF"@en ;
                                                 skos:prefLabel "Dimethylformamide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q409298"@en ;
@@ -4081,6 +4167,7 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_8385c3c4_5906_48f6_b6b6_4bb60dccc27a
 :substance_8385c3c4_5906_48f6_b6b6_4bb60dccc27a rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_7fd3843d_f0b7_4490_bcf3_519fb9e2b150 ;
+                                                owl:deprecated "true"^^xsd:boolean ;
                                                 skos:altLabel "DCM"@en ,
                                                               "MethyleneChloride"@en ,
                                                               "MethyleneDichloride"@en ;
@@ -4100,6 +4187,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ManganeseIISulfide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q419893"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/87809" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of manganese in the +2 oxidation state bonded to sulfide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "MnS" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Manganese_sulfide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "sulfanylidenemanganese" ;
@@ -4194,7 +4282,8 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_878a0e2f_12ba_484e_8197_75e57139d207
 :substance_878a0e2f_12ba_484e_8197_75e57139d207 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_0f2f65a7_5cc4_4c86_a4d0_676771c646f1 ;
-                                                skos:prefLabel "ProticSolventCompound"@en .
+                                                skos:prefLabel "ProticSolventCompound"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound that serves as a solvent and contains a hydrogen atom bonded to an electronegative atom (e.g., oxygen, nitrogen), capable of forming hydrogen bonds"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_881dd19c_814c_4c58_9e67_f9c2494fec11
@@ -4253,6 +4342,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "AluminiumPhosphate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q419503"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/64655" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of aluminium cations bonded to phosphate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "AlPO4" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Aluminium_phosphate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "aluminum;phosphate" ;
@@ -4266,6 +4356,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "AluminiumChloride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q314036"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24012" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of aluminium cations bonded to chloride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "AlCl3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Aluminium_chloride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "trichloroalumane" ;
@@ -4331,10 +4422,11 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_8ab4c789_bad4_4b36_9f54_d8c6e9e7b5b2
 :substance_8ab4c789_bad4_4b36_9f54_d8c6e9e7b5b2 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_aa92d6c6_2c46_4e7d_9b2c_c95b849041d4 ;
-                                                skos:altLabel "S"@en ;
+                                                skos:altLabel "NH4S"@en ;
                                                 skos:prefLabel "AmmoniumSulfide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q416913"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/25519" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of ammonium cations bonded to sulfide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "H8N2S" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "diazanium;sulfide" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2H3N.S/h2*1H3;/q;;-2/p+2" .
@@ -4368,11 +4460,12 @@ schema:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_8afd2477_9c49_4465_9910_6103732a3318
 :substance_8afd2477_9c49_4465_9910_6103732a3318 rdf:type owl:Class ;
-                                                rdfs:subClassOf :substance_63788521_5764_4ee2_8d8a_ce4978682546 ;
+                                                rdfs:subClassOf :substance_92667c34_98eb_4bc9_a0d4_6dd44e5b287a ;
                                                 skos:altLabel "InBr"@en ;
                                                 skos:prefLabel "IndiumIBromide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q4096880"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/11084757" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of indium in the +1 oxidation state bonded to bromide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "InBr" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Indium(I)_bromide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "bromoindium" ;
@@ -4396,7 +4489,8 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_8c40be1f_0931_4db9_832f_cb63556f6a5a
 :substance_8c40be1f_0931_4db9_832f_cb63556f6a5a rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_edae7b22_461b_432b_b737_3c93feb69b0e ;
-                                                skos:prefLabel "PostTransitionMetalSaltCompound"@en .
+                                                skos:prefLabel "PostTransitionMetalSaltCompound"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of post-transition metal cations bonded to anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_8c49b4a2_00e2_421e_97af_9dde2a59ac69
@@ -4462,6 +4556,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "LeadIIFluoride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q419690"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24549" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of lead in the +2 oxidation state bonded to fluoride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "F2Pb" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Lead(II)_fluoride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "difluorolead" ;
@@ -4597,10 +4692,18 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ZincSulfate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q204954"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24424" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of zinc cations bonded to sulfate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "ZnSO4" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Zinc_sulfate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "zinc;sulfate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/H2O4S.Zn/c1-5(2,3)4;/h(H2,1,2,3,4);/q;+2/p-2" .
+
+
+###  https://w3id.org/emmo/domain/chemical-substance#substance_92667c34_98eb_4bc9_a0d4_6dd44e5b287a
+:substance_92667c34_98eb_4bc9_a0d4_6dd44e5b287a rdf:type owl:Class ;
+                                                rdfs:subClassOf :substance_015116fe_94ca_4be5_9d14_9d9457a47a72 ;
+                                                skos:prefLabel "IndiumSaltCompound"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of indium cations bonded to anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_92a60b4f_7abf_46f9_824b_47ff7aa09c15
@@ -4610,6 +4713,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "NickelIIPerchlorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q18212007"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/26158" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of nickel in the +2 oxidation state bonded to perchlorate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Cl2NiO8" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Nickel(II)_perchlorate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "nickel(2+);diperchlorate" ;
@@ -4638,6 +4742,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "LeadIISulfate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q407821"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24008" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of lead in the +2 oxidation state bonded to sulfate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "PbSO4" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Lead(II)_sulfate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "lead(2+);sulfate" ;
@@ -4646,11 +4751,12 @@ schema:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_9541345c_da1f_4f5b_bf89_09a4dfdb43cb
 :substance_9541345c_da1f_4f5b_bf89_09a4dfdb43cb rdf:type owl:Class ;
-                                                rdfs:subClassOf :substance_63788521_5764_4ee2_8d8a_ce4978682546 ;
+                                                rdfs:subClassOf :substance_92667c34_98eb_4bc9_a0d4_6dd44e5b287a ;
                                                 skos:altLabel "In2S3"@en ;
                                                 skos:prefLabel "IndiumIIISulfide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q421215"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/160966" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of indium in the +3 oxidation state bonded to sulfide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "In2S3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Indium(III)_sulfide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "indium(3+);trisulfide" ;
@@ -4678,6 +4784,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "LeadIINitrite"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q24237111"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/61687" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of lead in the +2 oxidation state bonded to nitrite anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "N2O4Pb" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "lead(2+);dinitrite" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2HNO2.Pb/c2*2-1-3;/h2*(H,2,3);/q;;+2/p-2" .
@@ -4710,6 +4817,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ManganeseIIPerchlorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q15631940"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24983783" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of manganese in the +2 oxidation state bonded to perchlorate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Cl2MnO6" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Manganese(II)_chlorate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "manganese(2+);dichlorate" ;
@@ -4724,7 +4832,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "Diglyme"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q865952"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/8150" ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Diglyme is a polyether that is the dimethyl ether derivative of diethylene glycol. It has a role as a solvent, a xenobiotic and an environmental contaminant. It is functionally related to a diethylene glycol."@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a polyether that is the dimethyl ether derivative of diethylene glycol"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C6H14O3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Diglyme"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "1-methoxy-2-(2-methoxyethoxy)ethane" ;
@@ -4778,6 +4886,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CopperIIChloride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q421781"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24014" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of copper in the +2 oxidation state bonded to chloride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CuCl2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Copper(II)_chloride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "dichlorocopper" ;
@@ -4923,6 +5032,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "AmmoniumFluoride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q205374"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/25516" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of ammonium cations bonded to fluoride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "FH4N" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Ammonium_fluoride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "azanium;fluoride" ;
@@ -4951,6 +5061,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CobaltIITetrafluoroborate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q55164806"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/62811" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of cobalt in the +2 oxidation state bonded to tetrafluoroborate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "B2CoF8" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "cobalt(2+);ditetrafluoroborate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2BF4.Co/c2*2-1(3,4)5;/q2*-1;+2" .
@@ -5069,6 +5180,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:altLabel "Zn(PF6)2"@en ;
                                                 skos:prefLabel "ZincHexafluorophosphate"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/86649651" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of zinc cations bonded to hexafluorophosphate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "F12P2Zn" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "zinc;dihexafluorophosphate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2F6P.Zn/c2*1-7(2,3,4,5)6;/q2*-1;+2" .
@@ -5140,10 +5252,11 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_a8a48b58_d2ea_441c_b4ea_1b3ba65d9545
 :substance_a8a48b58_d2ea_441c_b4ea_1b3ba65d9545 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_aa92d6c6_2c46_4e7d_9b2c_c95b849041d4 ;
-                                                skos:altLabel "NO3"@en ;
+                                                skos:altLabel "NH4NO3"@en ;
                                                 skos:prefLabel "AmmoniumNitrate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q182329"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/22985" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of ammonium cations bonded to nitrate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "NH4NO3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Ammonium_nitrate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "azanium;nitrate" ;
@@ -5223,7 +5336,8 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_aa92d6c6_2c46_4e7d_9b2c_c95b849041d4
 :substance_aa92d6c6_2c46_4e7d_9b2c_c95b849041d4 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_edae7b22_461b_432b_b737_3c93feb69b0e ;
-                                                skos:prefLabel "AmmoniumSaltCompound"@en .
+                                                skos:prefLabel "AmmoniumSaltCompound"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of ammonium cations bonded to anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_ab34d4a3_a5c8_4318_9b7d_0608e2149398
@@ -5268,7 +5382,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "Benzene"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q2270"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/241" ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Benzene is a colorless liquid with a sweet odor. It evaporates into the air very quickly and dissolves slightly in water. It is highly flammable and is formed from both natural processes and human activities. Benzene is widely used in the United States; it ranks in the top 20 chemicals for production volume. Some industries use benzene to make other chemicals which are used to make plastics, resins, and nylon and synthetic fibers. Benzene is also used to make some types of rubbers, lubricants, dyes, detergents, drugs, and pesticides. Natural sources of benzene include volcanoes and forest fires. Benzene is also a natural part of crude oil, gasoline, and cigarette smoke."@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of a six-membered aromatic ring of carbon atoms"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C6H6" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Benzene"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "benzene" ;
@@ -5310,6 +5424,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ZincAcetate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q204639"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/11192" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of zinc cations bonded to acetate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Zn(C2H3O2)2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Zinc_acetate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "zinc;diacetate" ;
@@ -5407,7 +5522,8 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_b07a5287_67d1_4f4f_9640_e0146f713a6c
 :substance_b07a5287_67d1_4f4f_9640_e0146f713a6c rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_edae7b22_461b_432b_b737_3c93feb69b0e ;
-                                                skos:prefLabel "ZincSaltCompound"@en .
+                                                skos:prefLabel "ZincSaltCompound"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of zinc cations bonded to anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_b0948006_869b_4426_b2b7_30b5c5112e3e
@@ -5417,6 +5533,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "LeadIIPerchlorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q24629264"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/61655" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of lead in the +2 oxidation state bonded to perchlorate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Cl2O8Pb" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Lead(II)_perchlorate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "lead(2+);diperchlorate" ;
@@ -5581,6 +5698,7 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_b593b5dd_7957_4b85_856a_dd59775210b6
 :substance_b593b5dd_7957_4b85_856a_dd59775210b6 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_7fd3843d_f0b7_4490_bcf3_519fb9e2b150 ;
+                                                owl:deprecated "true"^^xsd:boolean ;
                                                 skos:altLabel "DMSO"@en ;
                                                 skos:prefLabel "DimethylSulfoxide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q407927"@en ;
@@ -5634,6 +5752,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "AluminiumNitrate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q415471"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/26053" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of aluminium cations bonded to nitrate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Al(NO3)3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Aluminium_nitrate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "aluminum;trinitrate" ;
@@ -5647,7 +5766,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "Dimethoxyethane"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q416271"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/8071" ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "1,2-dimethoxyethane is a diether that is the 1,2-dimethyl ether of ethane-1,2-diol. It has a role as a non-polar solvent. It is functionally related to an ethylene glycol."@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a diether that is the 1,2-dimethyl ether of ethane-1,2-diol"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C4H10O2" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "1,2-dimethoxyethane" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/C4H10O2/c1-5-3-4-6-2/h3-4H2,1-2H3" .
@@ -5683,11 +5802,12 @@ schema:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_b7f0a973_a394_409a_8752_f920b001c2d7
 :substance_b7f0a973_a394_409a_8752_f920b001c2d7 rdf:type owl:Class ;
-                                                rdfs:subClassOf :substance_63788521_5764_4ee2_8d8a_ce4978682546 ;
+                                                rdfs:subClassOf :substance_92667c34_98eb_4bc9_a0d4_6dd44e5b287a ;
                                                 skos:altLabel "InI"@en ;
                                                 skos:prefLabel "IndiumIIodide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q4202651"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/6336605" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of indium in the +1 oxidation state bonded to iodide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "IIn" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "iodoindium" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/HI.In/h1H;/q;+1/p-1" .
@@ -5714,7 +5834,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "DiethylCarbonate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q420616"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/7766" ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Diethyl carbonate is a carbonate ester."@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a carbonate ester"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C5H10O3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Diethyl_carbonate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "diethyl carbonate" ;
@@ -5783,6 +5903,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "Pseudocumeme"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q376994"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/7247" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of a benzene ring substituted with three methyl groups in the 1,2,4 positions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C9H12" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/1,2,4-Trimethylbenzene"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "1,2,4-trimethylbenzene" ;
@@ -5809,6 +5930,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "EthylMethylCarbonate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q15632858"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/522046" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of a carbonate group bonded to an ethyl group and a methyl group"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C4H8O3" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "ethyl methyl carbonate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/C4H8O3/c1-3-7-4(5)6-2/h3H2,1-2H3" .
@@ -5856,7 +5978,8 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_bc76f17d_931a_4728_9663_9f8ed208d5e4
 :substance_bc76f17d_931a_4728_9663_9f8ed208d5e4 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_015116fe_94ca_4be5_9d14_9d9457a47a72 ;
-                                                skos:prefLabel "CobaltSaltCompound"@en .
+                                                skos:prefLabel "CobaltSaltCompound"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of cobalt cations bonded to anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_bc7f9905_0c1d_4911_9155_d31e96dceb55
@@ -5902,6 +6025,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CopperIIAcetate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q421854"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/8895" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of copper in the +2 oxidation state bonded to acetate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Cu(CH3COO)2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Copper(II)_acetate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "copper;diacetate" ;
@@ -5915,6 +6039,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ManganeseIISulfate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q409393"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24580" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of manganese in the +2 oxidation state bonded to sulfate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "MnSO4" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Manganese(II)_sulfate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "manganese(2+);sulfate" ;
@@ -5928,6 +6053,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ZincFluoride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q204783"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/10129912" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of zinc cations bonded to fluoride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "ZnF2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Zinc_fluoride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "zinc;difluoride" ;
@@ -5941,6 +6067,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "AluminiumSulfide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q412874"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/159369" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of aluminium cations bonded to sulfide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Al2S3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Aluminium_sulfide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "dialuminum;trisulfide" ;
@@ -5954,6 +6081,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CobaltIIPhosphate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q15634038"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/61615" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of cobalt in the +2 oxidation state bonded to phosphate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Co3O8P2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Cobalt(II)_phosphate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "cobalt(2+);diphosphate" ;
@@ -6004,6 +6132,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ZincChloride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q204714"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/5727" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of zinc cations bonded to chloride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "ZnCl2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Zinc_chloride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "dichlorozinc" ;
@@ -6138,10 +6267,11 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_c3474f9a_87bd_4b73_9398_6e1ccbf133af
 :substance_c3474f9a_87bd_4b73_9398_6e1ccbf133af rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_aa92d6c6_2c46_4e7d_9b2c_c95b849041d4 ;
-                                                skos:altLabel "SO4"@en ;
+                                                skos:altLabel "NH4SO4"@en ;
                                                 skos:prefLabel "AmmoniumSulfate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q191831"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/6097028" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of ammonium cations bonded to sulfate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "H8N2O4S" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Ammonium_sulfate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "diazanium;sulfate" ;
@@ -6169,7 +6299,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "DimethylCarbonate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q416254"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/12021" ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Dimethyl carbonate is a carbonate ester that is carbonic acid in which both hydrogens are replaced by methyl groups. A flammable, colourless liquid (m.p. 2-4℃, b.p. 90℃) with a characterstic ester-like odour, it is used as a 'green' methylating agent and as a solvent. It has a role as a solvent and a reagent."@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a carbonate ester that is carbonic acid in which both hydrogens are replaced by methyl groups"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C3H6O3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Dimethyl_carbonate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "dimethyl carbonate" ;
@@ -6210,6 +6340,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:altLabel "Pb(OTf)2"@en ;
                                                 skos:prefLabel "LeadIITriflate"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/87861747" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of lead in the +2 oxidation state bonded to triflate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C2F6O6PbS2" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "lead(2+);trifluoromethanesulfonate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2CHF3O3S.Pb/c2*2-1(3,4)8(5,6)7;/h2*(H,5,6,7);/q;;+2/p-2" .
@@ -6240,6 +6371,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ManganeseIICarbonate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q414659"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/11726" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of manganese in the +2 oxidation state bonded to carbonate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "MnCO3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Manganese(II)_carbonate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "manganese(2+);carbonate" ;
@@ -6305,6 +6437,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "IronDisulfide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q1311146"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/14788" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of iron cations bonded to sulfide anions in a 1:2 ratio"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "FeS2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Pyrite"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "bis(sulfanylidene)iron" ;
@@ -6378,11 +6511,12 @@ schema:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_ca0f0da1_70d2_46ec_a1bb_0f0662ff4191
 :substance_ca0f0da1_70d2_46ec_a1bb_0f0662ff4191 rdf:type owl:Class ;
-                                                rdfs:subClassOf :substance_63788521_5764_4ee2_8d8a_ce4978682546 ;
+                                                rdfs:subClassOf :substance_92667c34_98eb_4bc9_a0d4_6dd44e5b287a ;
                                                 skos:altLabel "InSO4"@en ;
                                                 skos:prefLabel "IndiumIIISulfate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q2331023"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/26044" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of indium in the +3 oxidation state bonded to sulfate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "In2(SO4)3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Indium(III)_sulfate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "indium(3+);trisulfate" ;
@@ -6428,7 +6562,8 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_cb6d2c65_9977_4bb1_987a_5ea828de445f
 :substance_cb6d2c65_9977_4bb1_987a_5ea828de445f rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_015116fe_94ca_4be5_9d14_9d9457a47a72 ;
-                                                skos:prefLabel "ManganeseSaltCompound"@en .
+                                                skos:prefLabel "ManganeseSaltCompound"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of manganese cations bonded to anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_cc155ed5_c60c_4d9f_bfad_fbf6b7c77e57
@@ -6470,6 +6605,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "NickelIIChlorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q18234777"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/162212" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "chemical compound consisting of nickel in the +2 oxidation state bonded to chlorate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Cl2NiO6" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "nickel(2+);dichlorate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2ClHO3.Ni/c2*2-1(3)4;/h2*(H,2,3,4);/q;;+2/p-2" .
@@ -6605,6 +6741,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CopperIISulfate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q107184"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24462" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of copper in the +2 oxidation state bonded to sulfate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CuSO4" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Copper(II)_sulfate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "copper;sulfate" ;
@@ -6654,6 +6791,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CopperIITriflate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q4119952"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/2734996" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of copper in the +2 oxidation state bonded to triflate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C2CuF6O6S2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Copper(II)_triflate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "copper;trifluoromethanesulfonate" ;
@@ -6746,10 +6884,11 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_d5bf1391_1bc2_472d_adc8_1b2407d2af70
 :substance_d5bf1391_1bc2_472d_adc8_1b2407d2af70 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_aa92d6c6_2c46_4e7d_9b2c_c95b849041d4 ;
-                                                skos:altLabel "NO2"@en ;
+                                                skos:altLabel "NH4NO2"@en ;
                                                 skos:prefLabel "AmmoniumNitrite"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q421538"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/26004" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of ammonium cations bonded to nitrite anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "H4N2O2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Ammonium_nitrite"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "azanium;nitrite" ;
@@ -6763,6 +6902,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CopperIISulfide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q416688"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/14831" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of copper in the +2 oxidation state bonded to sulfide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CuS" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Copper_monosulfide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "sulfanylidenecopper" ;
@@ -6819,6 +6959,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CopperIIBromide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q420370"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24611" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of copper in the +2 oxidation state bonded to bromide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Br2Cu" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Copper(II)_bromide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "dibromocopper" ;
@@ -6886,6 +7027,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ZincBromide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q204679"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24375" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of zinc cations bonded to bromide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Br2Zn" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Zinc_bromide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "dibromozinc" ;
@@ -6895,10 +7037,10 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_d9c342d8_497e_4378_96e2_3b9b2c42cf17
 :substance_d9c342d8_497e_4378_96e2_3b9b2c42cf17 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_aa92d6c6_2c46_4e7d_9b2c_c95b849041d4 ;
-                                                skos:altLabel "CO3"@en ;
                                                 skos:prefLabel "AmmoniumCarbonate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q204873"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/517111" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of ammonium cations bonded to carbonate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "(NH4)2CO3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Ammonium_carbonate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "diazanium;carbonate" ;
@@ -6933,6 +7075,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "Ethylmonoglyme"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q1223259"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/12375" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of an ethyl group bonded to a monoglyme (ethylene glycol dimethyl ether) structure"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C6H14O2" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "1,2-diethoxyethane" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/C6H14O2/c1-3-7-5-6-8-4-2/h3-6H2,1-2H3" .
@@ -6940,11 +7083,12 @@ schema:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_da48c6df_3730_490e_a970_44ef4a6cbf4e
 :substance_da48c6df_3730_490e_a970_44ef4a6cbf4e rdf:type owl:Class ;
-                                                rdfs:subClassOf :substance_63788521_5764_4ee2_8d8a_ce4978682546 ;
+                                                rdfs:subClassOf :substance_92667c34_98eb_4bc9_a0d4_6dd44e5b287a ;
                                                 skos:altLabel "In2(CO3)3"@en ;
                                                 skos:prefLabel "IndiumIIICarbonate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q27272874"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/6453985" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of indium in the +3 oxidation state bonded to carbonate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C3In2O9" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "indium(3+);tricarbonate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/3CH2O3.2In/c3*2-1(3)4;;/h3*(H2,2,3,4);;/q;;;2*+3/p-6" .
@@ -6980,6 +7124,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ZincNitrite"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q3877375"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/10130086" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of zinc cations bonded to nitrite anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Zn(NO2)2" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "zinc;dinitrite" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2HNO2.Zn/c2*2-1-3;/h2*(H,2,3);/q;;+2/p-2" .
@@ -7074,7 +7219,8 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_dce90b66_3414_4f5d_b818_4a0e4339e949
 :substance_dce90b66_3414_4f5d_b818_4a0e4339e949 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_015116fe_94ca_4be5_9d14_9d9457a47a72 ;
-                                                skos:prefLabel "NickelSaltCompound"@en .
+                                                skos:prefLabel "NickelSaltCompound"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of nickel cations bonded to anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_dd746094_1893_4b77_9c07_13b3bd94a742
@@ -7121,6 +7267,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CobaltIISulfide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q417806"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/14832" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of cobalt in the +2 oxidation state bonded to sulfide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CoS" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Cobalt(II)_sulfide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "sulfanylidenecobalt" ;
@@ -7175,6 +7322,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "NickelIIPhosphate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q18212211"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/165868" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of nickel in the +2 oxidation state bonded to phosphate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Ni3O8P2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Nickel(II)_phosphate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "nickel(2+);diphosphate" ;
@@ -7199,6 +7347,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:altLabel "Cu(BF4)2"@en ;
                                                 skos:prefLabel "CopperIITetrafluoroborate"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/170058" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of copper in the +2 oxidation state bonded to tetrafluoroborate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "B2CuF8" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Copper(II)_tetrafluoroborate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "copper;ditetrafluoroborate" ;
@@ -7224,6 +7373,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CobaltIIPerchlorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q16685924"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/26064" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of cobalt in the +2 oxidation state bonded to perchlorate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Co(ClO4)2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Dictionary_of_chemical_formulas"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "cobalt(2+);diperchlorate" ;
@@ -7263,6 +7413,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ZincNitrate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q204863"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24518" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of zinc cations bonded to nitrate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Zn(NO3)2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Zinc_nitrate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "zinc;dinitrate" ;
@@ -7329,10 +7480,10 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_e2764cfb_4fa6_4fe9_85e0_1dfe69a37ff1
 :substance_e2764cfb_4fa6_4fe9_85e0_1dfe69a37ff1 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_aa92d6c6_2c46_4e7d_9b2c_c95b849041d4 ;
-                                                skos:altLabel "I"@en ;
                                                 skos:prefLabel "AmmoniumIodide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q413953"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/25487" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of ammonium cations bonded to iodide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "H4IN" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Ammonium_iodide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "azanium;iodide" ;
@@ -7359,6 +7510,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CobaltIIChloride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q407849"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24288" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of cobalt in the +2 oxidation state bonded to chloride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CoCl2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Cobalt(II)_chloride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "dichlorocobalt" ;
@@ -7373,6 +7525,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "Toluene"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q15779"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/1140" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of a benzene ring substituted with a single methyl group"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C7H8" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Toluene"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "toluene" ;
@@ -7413,6 +7566,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "AluminiumSulfate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q421857"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24850" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of aluminium cations bonded to sulfate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Al2(SO4)3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Aluminium_sulfate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "dialuminum;trisulfate" ;
@@ -7462,6 +7616,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "NickelIIIodide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q421443"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/26038" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of nickel in the +2 oxidation state bonded to iodide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "NiI2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Nickel(II)_iodide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "diiodonickel" ;
@@ -7517,6 +7672,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ManganeseIINitrate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q421490"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/61511" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of manganese in the +2 oxidation state bonded to nitrate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "MnN2O6" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Manganese(II)_nitrate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "manganese(2+);dinitrate" ;
@@ -7530,6 +7686,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ZincTriflate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q8072312"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/104671" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of zinc cations bonded to triflate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C2F6O6S2Zn" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Zinc_triflate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "zinc;trifluoromethanesulfonate" ;
@@ -7584,6 +7741,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CobaltIIChlorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q5138693"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/20034997" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of cobalt in the +2 oxidation state bonded to chlorate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Cl2CoO6" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Cobalt(II)_chlorate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "cobalt(2+);dichlorate" ;
@@ -7654,6 +7812,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "OXylene"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q2988108"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/7237" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of a benzene ring substituted with two methyl groups in the ortho positions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C8H10" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/O-Xylene"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "1,2-xylene" ;
@@ -7667,6 +7826,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "CopperIIChlorate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q4498184"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/3014850" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of copper in the +2 oxidation state bonded to chlorate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "Cl2CuO6" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Copper(II)_chlorate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "copper;dichlorate" ;
@@ -7776,7 +7936,8 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_f313522b_e2c4_4251_ba7f_d6b9dc7db1d6
 :substance_f313522b_e2c4_4251_ba7f_d6b9dc7db1d6 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_8c40be1f_0931_4db9_832f_cb63556f6a5a ;
-                                                skos:prefLabel "AluminiumSaltCompound"@en .
+                                                skos:prefLabel "AluminiumSaltCompound"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of aluminium cations bonded to anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_f3e7979a_e3ef_450a_8762_7d8778afe478
@@ -7799,6 +7960,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "MXylene"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q3234708"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/7929" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of a benzene ring substituted with two methyl groups in the meta positions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C8H10" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/M-Xylene"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "1,3-xylene" ;
@@ -7811,6 +7973,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:altLabel "Co(TFSI)2"@en ;
                                                 skos:prefLabel "CobaltIIBistrifluoromethanesulfonylimide"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/15975531" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of cobalt in the +2 oxidation state bonded to bistrifluoromethane anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C4CoF12N2O8S4" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "bis(trifluoromethylsulfonyl)azanide;cobalt(2+)" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2C2F6NO4S2.Co/c2*3-1(4,5)14(10,11)9-15(12,13)2(6,7)8;/q2*-1;+2" .
@@ -7823,6 +7986,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "LeadIIPhosphate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q883666"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24009" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of lead in the +2 oxidation state bonded to phosphate anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "P2Pb3O8" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Lead(II)_phosphate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "lead(2+);diphosphate" ;
@@ -7873,6 +8037,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "DipropylSulfone"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q27261538"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/11709" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of a sulfone group bonded to two propyl groups"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C6H14O2S" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "1-propylsulfonylpropane" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/C6H14O2S/c1-3-5-9(7,8)6-4-2/h3-6H2,1-2H3" .
@@ -7962,6 +8127,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "LeadIISulfide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q411436"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/14819" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of lead in the +2 oxidation state bonded to sulfide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "PbS" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Lead(II)_sulfide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "sulfanylidenelead" ;
@@ -8017,6 +8183,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "ManganeseIIFluoride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q414680"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24528" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of manganese in the +2 oxidation state bonded to fluoride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "MnF2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Manganese(II)_fluoride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "difluoromanganese" ;
@@ -8087,6 +8254,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "LeadIIBromide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q425231"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24831" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of lead in the +2 oxidation state bonded to bromide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "PbBr2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Lead(II)_bromide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "dibromolead" ;
@@ -8198,6 +8366,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "LeadIIIodide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q408805"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24931" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of lead in the +2 oxidation state bonded to iodide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "PbI2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Lead(II)_iodide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "diiodolead" ;
@@ -8211,6 +8380,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "AluminiumBromide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q259311"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24409" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of aluminium cations bonded to bromide anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "AlBr3" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Aluminium_bromide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "tribromoalumane" ;
@@ -8268,6 +8438,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "NickelIIFluoride"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q416623"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24825" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of nickel in the +2 oxidation state bonded to fluoride anions"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "F2Ni" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Nickel(II)_fluoride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "difluoronickel" ;
