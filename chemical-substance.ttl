@@ -148,7 +148,8 @@ emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba rdf:type owl:AnnotationProperty ;
 
 ###  https://schema.org/Person
 schema:Person rdf:type owl:Class ;
-              skos:prefLabel "Person"@en .
+              skos:prefLabel "Person"@en ;
+              emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "the schema.org term for a Person"@en .
 
 
 ###  https://w3id.org/emmo/domain//chemical-substance#substance_69ce48e4_23e3_4758_84ae_f00ed3f79518
@@ -431,7 +432,8 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_094f08bc_90ea_4118_b136_47e61e495ab5
 :substance_094f08bc_90ea_4118_b136_47e61e495ab5 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_015116fe_94ca_4be5_9d14_9d9457a47a72 ;
-                                                skos:prefLabel "CopperSaltCompound"@en .
+                                                skos:prefLabel "CopperSaltCompound"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of copper cations bonded to anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_0952b0ae_0067_4b42_812a_abb68c95a6f8
@@ -2982,8 +2984,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "Hydroxylamine"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q259997"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/787" ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound containing a hydroxyl group bonded to an amine group"@en ,
-                                                                                               "a chemical compound containing hydroxyl and amine groups"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound containing hydroxyl and amine groups"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "H3NO" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Hydroxylamine"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "hydroxylamine" ;
@@ -3190,7 +3191,8 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_63788521_5764_4ee2_8d8a_ce4978682546
 :substance_63788521_5764_4ee2_8d8a_ce4978682546 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_015116fe_94ca_4be5_9d14_9d9457a47a72 ;
-                                                skos:prefLabel "IridiumSaltCompound"@en .
+                                                skos:prefLabel "IridiumSaltCompound"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of iridium cations bonded to anions"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_63797ff9_c087_4033_a2e3_dd958e0b51e6
@@ -3697,8 +3699,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "Tetraglyme"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q3788669"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/8925" ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Tetraglyme is a polyether."@en ,
-                                                                                               "a chemical compound consisting of a linear polyethylene glycol chain with four ethylene glycol units, terminated by methyl ether groups on both ends"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of a linear polyethylene glycol chain with four ethylene glycol units, terminated by methyl ether groups on both ends"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C10H22O5" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Tetraethylene_glycol_dimethyl_ether"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "1-methoxy-2-[2-[2-(2-methoxyethoxy)ethoxy]ethoxy]ethane" ;
@@ -4110,7 +4111,9 @@ schema:Person rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_81b90332_8b8e_407b_a8fd_517306d56a59
 :substance_81b90332_8b8e_407b_a8fd_517306d56a59 rdf:type owl:Class ;
                                                 rdfs:subClassOf emmo:EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b ;
-                                                skos:prefLabel "SolventCompound"@en .
+                                                owl:deprecated "true"^^xsd:boolean ;
+                                                skos:prefLabel "SolventCompound"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a substance into which another substance is dissolved"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_8267551d_7572_42f6_888d_96ff0c78f3aa
@@ -4174,6 +4177,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "Dichloromethane"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q421748"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/6344" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of one carbon atom bonded to two chlorine atoms and two hydrogen atoms"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CH2Cl2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Dichloromethane"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "dichloromethane" ;
@@ -5703,6 +5707,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "DimethylSulfoxide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q407927"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/679" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of a sulfur atom bonded to two methyl groups and one oxygen atom"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C2H6OS" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Dimethyl_sulfoxide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "methylsulfinylmethane" ;
@@ -7230,8 +7235,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "HexaFluoroPhosphate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q2786508"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/9886" ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Hexafluorophosphate(1-) is a phosphorus halide."@en ,
-                                                                                               "a chemical compound containing phosphate functional groups bonded to six fluorine atoms"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound containing phosphate functional groups bonded to six fluorine atoms"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "F6P-" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Hexafluorophosphate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "hexafluorophosphate" ;
@@ -7497,6 +7501,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "VanadiumIVOxide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q421440"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/82849" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of vanadium in the +4 oxidation state bonded to oxygen atoms"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "VO2" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Vanadium(IV)_oxide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "dioxovanadium" ;
@@ -7861,8 +7866,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "EthylBenzene"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q409184"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/7500" ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Ethylbenzene is an alkylbenzene carrying an ethyl substituent. It is a constituent of coal tar and petroleum."@en ,
-                                                                                               "a chemical compound consisting of a benzene ring bonded to an ethyl group"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of a benzene ring bonded to an ethyl group"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C8H10" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Ethylbenzene"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "ethylbenzene" ;
@@ -8466,8 +8470,7 @@ schema:Person rdf:type owl:Class ;
                                                                                                       skos:prefLabel "Water"@en ;
                                                                                                       emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q283" ;
                                                                                                       emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/Water#section=Related-CAS"@en ;
-                                                                                                      emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of two hydrogen atoms bonded to one oxygen atom"@en ,
-                                                                                                                                                     "chemical compound with raw molecular formula H2O"@en ;
+                                                                                                      emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of two hydrogen atoms bonded to one oxygen atom"@en ;
                                                                                                       emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Water"@en .
 
 
