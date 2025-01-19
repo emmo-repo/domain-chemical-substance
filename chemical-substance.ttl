@@ -695,6 +695,7 @@ schema:Person rdf:type owl:Class ;
                                                 skos:prefLabel "Tetrahydrofuran"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q278332"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/8028" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of a five-membered cyclic ether"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C4H8O" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Tetrahydrofuran"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "oxolane" ;
