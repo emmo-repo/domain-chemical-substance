@@ -64,12 +64,61 @@ schema:givenName a owl:AnnotationProperty .
 
 schema:name a owl:AnnotationProperty .
 
+emmo:EMMO_0fa6566e_500f_4d24_baa9_b2b22c9a0b72 a owl:AnnotationProperty ;
+    rdfs:label "warning"@en ;
+    rdfs:comment "q critical alert about potential dangers, system failures, or serious misuse of a concept."@en ;
+    rdfs:subPropertyOf skos:note ;
+    skos:prefLabel "warning"@en ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "q critical alert about potential dangers, system failures, or serious misuse of a concept."@en .
+
+emmo:EMMO_32214c66_8bce_40f5_b22d_5059f6cf571b a owl:AnnotationProperty ;
+    rdfs:label "error"@en ;
+    rdfs:comment "marks an error or incorrect usage"@en ;
+    rdfs:subPropertyOf skos:note ;
+    skos:prefLabel "error"@en ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "marks an error or incorrect usage"@en .
+
 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb a owl:AnnotationProperty ;
     rdfs:label "pubChemReference"@en ;
     rdfs:comment "Pubchem URI for a compound or substance ID."@en ;
     rdfs:subPropertyOf rdfs:seeAlso ;
     skos:prefLabel "pubChemReference"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Pubchem URI for a compound or substance ID."@en .
+
+emmo:EMMO_4c8480cf_56de_41da_8699_f12a9033313a a owl:AnnotationProperty ;
+    rdfs:label "important"@en ;
+    rdfs:comment "highlights crucial points users must be aware of"@en ;
+    rdfs:subPropertyOf skos:note ;
+    skos:prefLabel "important"@en ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "highlights crucial points users must be aware of"@en .
+
+emmo:EMMO_5f7abc2a_5b50_41c3_8def_c8ba7c3b083e a owl:AnnotationProperty ;
+    rdfs:label "tip"@en ;
+    rdfs:comment "a best practice or helpful suggestion related to the concept."@en ;
+    rdfs:subPropertyOf skos:note ;
+    skos:prefLabel "tip"@en ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a best practice or helpful suggestion related to the concept."@en .
+
+emmo:EMMO_709ee08d_76b1_4fee_be22_925412ac313b a owl:AnnotationProperty ;
+    rdfs:label "admonition"@en ;
+    rdfs:comment "a customized callout for information not covered by default note types"@en ;
+    rdfs:subPropertyOf skos:note ;
+    skos:prefLabel "admonition"@en ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a customized callout for information not covered by default note types"@en .
+
+emmo:EMMO_95317324_4b53_4665_a087_82c3a2a0540b a owl:AnnotationProperty ;
+    rdfs:label "danger"@en ;
+    rdfs:comment "indicates a serious risk, often safety-related"@en ;
+    rdfs:subPropertyOf skos:note ;
+    skos:prefLabel "danger"@en ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "indicates a serious risk, often safety-related"@en .
+
+emmo:EMMO_b6730304_cabc_4104_b415_14218466445c a owl:AnnotationProperty ;
+    rdfs:label "caution"@en ;
+    rdfs:comment "a moderate-level advisory about possible pitfalls, errors, or inefficiencies"@en ;
+    rdfs:subPropertyOf skos:note ;
+    skos:prefLabel "caution"@en ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a moderate-level advisory about possible pitfalls, errors, or inefficiencies"@en .
 
 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 a owl:AnnotationProperty ;
     rdfs:label "molecularFormula"@en ;
@@ -107,8 +156,8 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     dcterms:contributor <https://orcid.org/0000-0002-1560-809X> ;
     dcterms:created "2023-09-28"^^xsd:date ;
     dcterms:creator <https://orcid.org/0000-0002-8758-6109> ;
-    dcterms:issued "2025-01-28"^^xsd:date ;
-    dcterms:modified "2025-01-28"^^xsd:date ;
+    dcterms:issued "2025-02-06"^^xsd:date ;
+    dcterms:modified "2025-02-06"^^xsd:date ;
     dcterms:publisher "EMMO" ;
     dcterms:source " " ;
     dcterms:title "Chemical Substance Domain Ontology"@en ;
@@ -117,9 +166,9 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     vann:preferredNamespaceUri "https://w3id.org/emmo/domain/chemical-substance" ;
     owl:backwardCompatibleWith " " ;
     owl:imports <https://w3id.org/emmo/1.0.0> ;
-    owl:priorVersion "0.9.0-beta" ;
-    owl:versionIRI <https://w3id.org/emmo/domain/chemical-substance/0.10.0-beta/chemical-substance> ;
-    owl:versionInfo "0.10.0-beta" ;
+    owl:priorVersion "0.10.0-beta" ;
+    owl:versionIRI <https://w3id.org/emmo/domain/chemical-substance/0.11.0-beta/chemical-substance> ;
+    owl:versionInfo "0.11.0-beta" ;
     foaf:logo " " .
 
 :substance_00db9ba1_7259_4180_a82e_7ed4dafc29a9 a owl:Class ;
@@ -8226,6 +8275,10 @@ schema:Person a owl:Class ;
     rdfs:subClassOf emmo:EMMO_436b11bd_1756_4821_9f14_c9ed6b67552e ;
     skos:prefLabel "NobleGasElementalSubstance"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical substance consisting of a noble gas in its elemental form"@en .
+
+skos:note a owl:AnnotationProperty ;
+    rdfs:comment "a general annotation that provides extra context, clarifications, or useful background information"@en ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a general annotation that provides extra context, clarifications, or useful background information"@en .
 
 :substance_6c0cc397_d8c4_4473_a09f_1e5de568e0dd a owl:Class ;
     rdfs:label "CarbonElementalSubstance"@en ;

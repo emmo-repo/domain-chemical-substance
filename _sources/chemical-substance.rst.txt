@@ -18344,6 +18344,25 @@ ZirconiumOxideCompound
 
 .. raw:: html
 
+   <div id="EMMO_709ee08d_76b1_4fee_be22_925412ac313b"></div>
+
+admonition
+----------
+
+* https://w3id.org/emmo#EMMO_709ee08d_76b1_4fee_be22_925412ac313b
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">a customized callout for information not covered by default note types</td>
+  </tr>
+  </table>
+
+
+.. raw:: html
+
    <div id="substance_7fd07cf9_9736_48be_963c_f924ada8ac46"></div>
 
 canonicalSMILES
@@ -18359,6 +18378,44 @@ canonicalSMILES
 
 .. raw:: html
 
+   <div id="EMMO_b6730304_cabc_4104_b415_14218466445c"></div>
+
+caution
+-------
+
+* https://w3id.org/emmo#EMMO_b6730304_cabc_4104_b415_14218466445c
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">a moderate-level advisory about possible pitfalls, errors, or inefficiencies</td>
+  </tr>
+  </table>
+
+
+.. raw:: html
+
+   <div id="EMMO_95317324_4b53_4665_a087_82c3a2a0540b"></div>
+
+danger
+------
+
+* https://w3id.org/emmo#EMMO_95317324_4b53_4665_a087_82c3a2a0540b
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">indicates a serious risk, often safety-related</td>
+  </tr>
+  </table>
+
+
+.. raw:: html
+
    <div id="material_c5c9cf9f_252e_4b28_90f6_56b500db67fc"></div>
 
 deprecate_OrganicCompound
@@ -18369,6 +18426,25 @@ deprecate_OrganicCompound
 .. raw:: html
 
   <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="EMMO_32214c66_8bce_40f5_b22d_5059f6cf571b"></div>
+
+error
+-----
+
+* https://w3id.org/emmo#EMMO_32214c66_8bce_40f5_b22d_5059f6cf571b
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">marks an error or incorrect usage</td>
+  </tr>
   </table>
 
 
@@ -18399,6 +18475,25 @@ hasSolvent
 .. raw:: html
 
   <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="EMMO_4c8480cf_56de_41da_8699_f12a9033313a"></div>
+
+important
+---------
+
+* https://w3id.org/emmo#EMMO_4c8480cf_56de_41da_8699_f12a9033313a
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">highlights crucial points users must be aware of</td>
+  </tr>
   </table>
 
 
@@ -18455,6 +18550,44 @@ standardInChI
   <tr>
   <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
   <td class="element-table-value">the value of the standard InChI of a chemical substance</td>
+  </tr>
+  </table>
+
+
+.. raw:: html
+
+   <div id="EMMO_5f7abc2a_5b50_41c3_8def_c8ba7c3b083e"></div>
+
+tip
+---
+
+* https://w3id.org/emmo#EMMO_5f7abc2a_5b50_41c3_8def_c8ba7c3b083e
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">a best practice or helpful suggestion related to the concept.</td>
+  </tr>
+  </table>
+
+
+.. raw:: html
+
+   <div id="EMMO_0fa6566e_500f_4d24_baa9_b2b22c9a0b72"></div>
+
+warning
+-------
+
+* https://w3id.org/emmo#EMMO_0fa6566e_500f_4d24_baa9_b2b22c9a0b72
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">q critical alert about potential dangers, system failures, or serious misuse of a concept.</td>
   </tr>
   </table>
 
