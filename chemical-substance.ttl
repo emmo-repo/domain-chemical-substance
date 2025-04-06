@@ -231,7 +231,9 @@ emmo:EMMO_3c7f239f_e833_4a2b_98a1_c88831770c1b owl:inverseOf :electrochemistry_5
 #################################################################
 
 ###  https://schema.org/Organization
-schema:Organization rdf:type owl:Class .
+schema:Organization rdf:type owl:Class ;
+              skos:prefLabel "Organization"@en ;
+              emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "the schema.org term for an Organization"@en .
 
 
 ###  https://schema.org/Person
