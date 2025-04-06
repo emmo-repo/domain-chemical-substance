@@ -27,6 +27,8 @@ vann:preferredNamespacePrefix a owl:AnnotationProperty .
 
 vann:preferredNamespaceUri a owl:AnnotationProperty .
 
+xsd:date a rdfs:Datatype .
+
 <https://orcid.org/0000-0001-8869-3718> a owl:NamedIndividual,
         schema:Person ;
     rdfs:label "Francesca Lonstad Bleken" ;
@@ -92,6 +94,10 @@ emmo:EMMO_4c8480cf_56de_41da_8699_f12a9033313a a owl:AnnotationProperty ;
     skos:prefLabel "important"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "highlights crucial points users must be aware of"@en .
 
+emmo:EMMO_5cb107ba_7daa_46dd_8f9f_da22a6eac676 rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <https://w3id.org/emmo/domain/electrochemistry#electrochemistry_808e94df_e002_4e64_a6db_182ed75078c6> ;
+            owl:someValuesFrom <https://w3id.org/emmo/domain/electrochemistry#electrochemistry_a7b05629_80d7_402b_be1a_69933d24c4cb> ] .
+
 emmo:EMMO_5f7abc2a_5b50_41c3_8def_c8ba7c3b083e a owl:AnnotationProperty ;
     rdfs:label "tip"@en ;
     rdfs:comment "a best practice or helpful suggestion related to the concept."@en ;
@@ -156,8 +162,8 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     dcterms:contributor <https://orcid.org/0000-0002-1560-809X> ;
     dcterms:created "2023-09-28"^^xsd:date ;
     dcterms:creator <https://orcid.org/0000-0002-8758-6109> ;
-    dcterms:issued "2025-02-06"^^xsd:date ;
-    dcterms:modified "2025-02-06"^^xsd:date ;
+    dcterms:issued "2025-04-06"^^xsd:date ;
+    dcterms:modified "2025-04-06"^^xsd:date ;
     dcterms:publisher "EMMO" ;
     dcterms:source " " ;
     dcterms:title "Chemical Substance Domain Ontology"@en ;
@@ -166,9 +172,9 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     vann:preferredNamespaceUri "https://w3id.org/emmo/domain/chemical-substance" ;
     owl:backwardCompatibleWith " " ;
     owl:imports <https://w3id.org/emmo/1.0.0> ;
-    owl:priorVersion "0.10.0-beta" ;
-    owl:versionIRI <https://w3id.org/emmo/domain/chemical-substance/0.11.0-beta/chemical-substance> ;
-    owl:versionInfo "0.11.0-beta" ;
+    owl:priorVersion "0.11.0-beta" ;
+    owl:versionIRI <https://w3id.org/emmo/domain/chemical-substance/0.12.0-beta/chemical-substance> ;
+    owl:versionInfo "0.12.0-beta" ;
     foaf:logo " " .
 
 :substance_00db9ba1_7259_4180_a82e_7ed4dafc29a9 a owl:Class ;
@@ -7894,31 +7900,6 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "lead" ;
     :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/Pb" .
 
-<https://w3id.org/emmo/domain/electrochemistry#electrochemistry_808e94df_e002_4e64_a6db_182ed75078c6> a owl:ObjectProperty ;
-    rdfs:label "hasSolvent"@en ;
-    rdfs:domain emmo:EMMO_2031516a_2be7_48e8_9af7_7e1270e308fe ;
-    rdfs:range emmo:EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b ;
-    rdfs:subPropertyOf emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ;
-    skos:prefLabel "hasSolvent"@en .
-
-<https://w3id.org/emmo/domain/electrochemistry#electrochemistry_8784ef24_320b_4a3d_b200_654aec6c271c> a owl:ObjectProperty ;
-    rdfs:label "hasSolute"@en ;
-    rdfs:domain emmo:EMMO_2031516a_2be7_48e8_9af7_7e1270e308fe ;
-    rdfs:range emmo:EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b ;
-    rdfs:subPropertyOf emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ;
-    skos:prefLabel "hasSolute"@en .
-
-<https://w3id.org/emmo/domain/electrochemistry#electrochemistry_a7b05629_80d7_402b_be1a_69933d24c4cb> a owl:Class ;
-    rdfs:label "Water"@en ;
-    rdfs:comment "a chemical compound consisting of two hydrogen atoms bonded to one oxygen atom"@en ;
-    rdfs:subClassOf :substance_de038959_9251_48d1_a141_3684f14d957f ;
-    skos:altLabel "H2O" ;
-    skos:prefLabel "Water"@en ;
-    emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q283" ;
-    emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/Water#section=Related-CAS"@en ;
-    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of two hydrogen atoms bonded to one oxygen atom"@en ;
-    emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Water"@en .
-
 <https://orcid.org/0000-0002-1560-809X> a owl:NamedIndividual,
         schema:Person ;
     rdfs:label "Jesper Friis" ;
@@ -7974,15 +7955,6 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     skos:prefLabel "CadmiumOxideCompound"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of cadmium and oxygen atoms"@en .
 
-:substance_3899a9c9_9b34_443e_8ce6_0257589bb38a a owl:Class ;
-    rdfs:label "Solute"@en ;
-    rdfs:comment "a substance dissolved into another substance"@en ;
-    rdfs:subClassOf emmo:EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b ;
-    skos:prefLabel "Solute"@en ;
-    emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q1079788" ;
-    emmo:EMMO_50c298c2_55a2_4068_b3ac_4e948c33181f "https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-01-05" ;
-    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a substance dissolved into another substance"@en .
-
 :substance_4154e6b6_8e3c_4173_91aa_e8ba403bde85 a owl:Class ;
     rdfs:label "IronSalt"@en ;
     rdfs:comment "a chemical compound consisting of iron cations bonded to anions"@en ;
@@ -8032,6 +8004,27 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     skos:prefLabel "SilverOxideCompound"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of silver and oxygen atoms"@en .
 
+<https://w3id.org/emmo/domain/electrochemistry#electrochemistry_8784ef24_320b_4a3d_b200_654aec6c271c> a owl:ObjectProperty ;
+    rdfs:label "hasSolute"@en ;
+    rdfs:domain emmo:EMMO_2031516a_2be7_48e8_9af7_7e1270e308fe ;
+    rdfs:range emmo:EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b,
+        emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 ;
+    rdfs:subPropertyOf emmo:EMMO_3c7f239f_e833_4a2b_98a1_c88831770c1b ;
+    skos:prefLabel "hasSolute"@en .
+
+<https://w3id.org/emmo/domain/electrochemistry#electrochemistry_a7b05629_80d7_402b_be1a_69933d24c4cb> a owl:Class ;
+    rdfs:label "Water"@en ;
+    rdfs:comment "a chemical compound consisting of two hydrogen atoms bonded to one oxygen atom"@en ;
+    rdfs:subClassOf :substance_de038959_9251_48d1_a141_3684f14d957f ;
+    skos:altLabel "H2O" ;
+    skos:prefLabel "Water"@en ;
+    emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q283" ;
+    emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/Water#section=Related-CAS"@en ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of two hydrogen atoms bonded to one oxygen atom"@en ;
+    emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Water"@en .
+
+emmo:EMMO_3c7f239f_e833_4a2b_98a1_c88831770c1b owl:inverseOf :electrochemistry_57fcaa3b_7c1f_4114_84cd_a18932b2c56b .
+
 :substance_0111fe83_2d6c_4df0_9fd3_500ddda7242c a owl:Class ;
     rdfs:label "GalliumOxideCompound"@en ;
     rdfs:comment "a chemical compound consisting of gallium and oxygen atoms"@en ;
@@ -8056,6 +8049,18 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     rdfs:subClassOf :substance_b474f792_011e_4c9a_8dee_b99d6459cd66 ;
     skos:prefLabel "TinOxideCompound"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of tin and oxygen atoms"@en .
+
+:substance_3899a9c9_9b34_443e_8ce6_0257589bb38a a owl:Class ;
+    rdfs:label "Solute"@en ;
+    rdfs:comment "a substance dissolved into another substance"@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty :electrochemistry_57fcaa3b_7c1f_4114_84cd_a18932b2c56b ;
+            owl:someValuesFrom emmo:EMMO_2031516a_2be7_48e8_9af7_7e1270e308fe ],
+        emmo:EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b ;
+    skos:prefLabel "Solute"@en ;
+    emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q1079788" ;
+    emmo:EMMO_50c298c2_55a2_4068_b3ac_4e948c33181f "https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-01-05" ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a substance dissolved into another substance"@en .
 
 :substance_4ad18bbe_6478_4009_8f80_b669a6ae3f7a a owl:Class ;
     rdfs:label "IridiumOxideCompound"@en ;
@@ -8144,6 +8149,20 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     skos:prefLabel "CopperOxideCompound"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of copper and oxygen atoms"@en .
 
+<https://w3id.org/emmo/domain/electrochemistry#electrochemistry_808e94df_e002_4e64_a6db_182ed75078c6> a owl:ObjectProperty ;
+    rdfs:label "hasSolvent"@en ;
+    rdfs:domain emmo:EMMO_2031516a_2be7_48e8_9af7_7e1270e308fe ;
+    rdfs:range emmo:EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b,
+        emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 ;
+    rdfs:subPropertyOf emmo:EMMO_3c7f239f_e833_4a2b_98a1_c88831770c1b ;
+    skos:prefLabel "hasSolvent"@en .
+
+:electrochemistry_57fcaa3b_7c1f_4114_84cd_a18932b2c56b a owl:ObjectProperty ;
+    rdfs:label "isComponentOf"@en ;
+    rdfs:domain emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 ;
+    rdfs:range emmo:EMMO_65a007dc_2550_46b0_b394_3346c67fbb69 ;
+    rdfs:subPropertyOf emmo:EMMO_928f6ec2_7564_4c8d_9a10_7a601fa89602 .
+
 :substance_001ca83b_5372_4d77_a836_4d48074b7e63 a owl:Class ;
     rdfs:label "TitaniumOxideCompound"@en ;
     rdfs:comment "a chemical compound consisting of titanium and oxygen atoms"@en ;
@@ -8178,6 +8197,13 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     rdfs:subClassOf :substance_b474f792_011e_4c9a_8dee_b99d6459cd66 ;
     skos:prefLabel "LeadOxideCompound"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of lead and oxygen atoms"@en .
+
+emmo:EMMO_2031516a_2be7_48e8_9af7_7e1270e308fe rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <https://w3id.org/emmo/domain/electrochemistry#electrochemistry_808e94df_e002_4e64_a6db_182ed75078c6> ;
+            owl:someValuesFrom :substance_0f2f65a7_5cc4_4c86_a4d0_676771c646f1 ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://w3id.org/emmo/domain/electrochemistry#electrochemistry_8784ef24_320b_4a3d_b200_654aec6c271c> ;
+            owl:someValuesFrom :substance_3899a9c9_9b34_443e_8ce6_0257589bb38a ] .
 
 :substance_5a4d05f1_dd15_465b_8b44_704238e20813 a owl:Class ;
     rdfs:label "ManganeseOxideCompound"@en ;
@@ -8345,7 +8371,10 @@ skos:note a owl:AnnotationProperty ;
 :substance_0f2f65a7_5cc4_4c86_a4d0_676771c646f1 a owl:Class ;
     rdfs:label "Solvent" ;
     rdfs:comment "a substance into which another substance is dissolved"@en ;
-    rdfs:subClassOf emmo:EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty :electrochemistry_57fcaa3b_7c1f_4114_84cd_a18932b2c56b ;
+            owl:someValuesFrom emmo:EMMO_2031516a_2be7_48e8_9af7_7e1270e308fe ],
+        emmo:EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b ;
     skos:prefLabel "Solvent" ;
     emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q146505" ;
     emmo:EMMO_50c298c2_55a2_4068_b3ac_4e948c33181f "https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-01-06" ;

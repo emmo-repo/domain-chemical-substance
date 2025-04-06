@@ -13959,7 +13959,7 @@ SiliconDioxide
   </tr>
   <tr>
   <td class="element-table-key"><span class="element-table-key">Alternative Label(s)</span></td>
-  <td class="element-table-value">SiO2, Silica</td>
+  <td class="element-table-value">Silica, SiO2</td>
   </tr>
   <tr>
   <td class="element-table-key"><span class="element-table-key">Wikipedia Reference</span></td>
