@@ -112,6 +112,14 @@ emmo:EMMO_709ee08d_76b1_4fee_be22_925412ac313b a owl:AnnotationProperty ;
     skos:prefLabel "admonition"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a customized callout for information not covered by default note types"@en .
 
+emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty schema:creator ;
+            owl:someValuesFrom schema:Person ],
+        [ a owl:Restriction ;
+            owl:onProperty schema:manufacturer ;
+            owl:someValuesFrom schema:Organization ] .
+
 emmo:EMMO_95317324_4b53_4665_a087_82c3a2a0540b a owl:AnnotationProperty ;
     rdfs:label "danger"@en ;
     rdfs:comment "indicates a serious risk, often safety-related"@en ;
@@ -144,18 +152,6 @@ emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba a owl:AnnotationProperty ;
 emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_OrganicCompound"@en ;
     skos:prefLabel "deprecate_OrganicCompound"@en .
 
-<https://w3id.org/emmo/domain//chemical-substance#substance_69ce48e4_23e3_4758_84ae_f00ed3f79518> a owl:Class ;
-    rdfs:label "TrisTrimethylsilyPhosphite"@en ;
-    rdfs:comment "a chemical compound consisting of a phosphate group bonded to three trimethylsilyl groups"@en ;
-    rdfs:subClassOf emmo:EMMO_704630b8_fee3_49b9_baca_40e2dd276370 ;
-    skos:altLabel "TMSPI"@en ;
-    skos:prefLabel "TrisTrimethylsilyPhosphite"@en ;
-    emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q83040831" ;
-    emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/Tris_trimethylsilyl_-phosphite" ;
-    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of a phosphate group bonded to three trimethylsilyl groups"@en ;
-    emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C9H27O3PSi3" ;
-    emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "tris(trimethylsilyl) phosphite" .
-
 <https://w3id.org/emmo/domain/chemical-substance> a owl:Ontology ;
     dcterms:abstract "This ontology provides terms for chemical substances that can be referenced and re-used other resources."@en ;
     dcterms:bibliographicCitation "https://zenodo.org/doi/10.5281/zenodo.10254978" ;
@@ -172,9 +168,9 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     vann:preferredNamespaceUri "https://w3id.org/emmo/domain/chemical-substance" ;
     owl:backwardCompatibleWith " " ;
     owl:imports <https://w3id.org/emmo/1.0.0> ;
-    owl:priorVersion "0.11.0-beta" ;
+    owl:priorVersion "0.12.0-beta" ;
     owl:versionIRI <https://w3id.org/emmo/domain/chemical-substance/0.12.0-beta/chemical-substance> ;
-    owl:versionInfo "0.12.0-beta" ;
+    owl:versionInfo "0.12.1-beta" ;
     foaf:logo " " .
 
 :substance_00db9ba1_7259_4180_a82e_7ed4dafc29a9 a owl:Class ;
@@ -3209,6 +3205,18 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/2-Methyltetrahydrofuran"@en ;
     emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "2-methyloxolane" ;
     :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/C5H10O/c1-5-3-2-4-6-5/h5H,2-4H2,1H3" .
+
+:substance_69ce48e4_23e3_4758_84ae_f00ed3f79518 a owl:Class ;
+    rdfs:label "TrisTrimethylsilyPhosphite"@en ;
+    rdfs:comment "a chemical compound consisting of a phosphate group bonded to three trimethylsilyl groups"@en ;
+    rdfs:subClassOf emmo:EMMO_704630b8_fee3_49b9_baca_40e2dd276370 ;
+    skos:altLabel "TMSPI"@en ;
+    skos:prefLabel "TrisTrimethylsilyPhosphite"@en ;
+    emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q83040831" ;
+    emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/Tris_trimethylsilyl_-phosphite" ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of a phosphate group bonded to three trimethylsilyl groups"@en ;
+    emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C9H27O3PSi3" ;
+    emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "tris(trimethylsilyl) phosphite" .
 
 :substance_6a2432b3_abf1_4eba_825f_f0022ccba884 a owl:Class ;
     rdfs:label "AluminiumFluoride"@en ;
@@ -7918,6 +7926,16 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     schema:name "Simon Clark" ;
     emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "" .
 
+schema:Organization a owl:Class ;
+    rdfs:label "Organization"@en ;
+    rdfs:comment "the schema.org term for an Organization"@en ;
+    skos:prefLabel "Organization"@en ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "the schema.org term for an Organization"@en .
+
+schema:creator a owl:ObjectProperty .
+
+schema:manufacturer a owl:ObjectProperty .
+
 :substance_0dcf209c_6455_4305_9714_fec548742c6a a owl:Class ;
     rdfs:label "PalladiumOxideCompound"@en ;
     rdfs:comment "a chemical compound consisting of palladium and oxygen atoms"@en ;
@@ -8236,12 +8254,6 @@ emmo:EMMO_2031516a_2be7_48e8_9af7_7e1270e308fe rdfs:subClassOf [ a owl:Restricti
     skos:prefLabel "AlkalineEarthMetalSaltCompound"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of an alkaline earth metal cation bonded to anions"@en .
 
-schema:Person a owl:Class ;
-    rdfs:label "Person"@en ;
-    rdfs:comment "the schema.org term for a Person"@en ;
-    skos:prefLabel "Person"@en ;
-    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "the schema.org term for a Person"@en .
-
 :substance_68e4028b_0ec6_46da_8d1c_d00c644e8c82 a owl:Class ;
     rdfs:label "AlkaliMetalElementalSubstance"@en ;
     rdfs:comment "a chemical substance consisting of an alkali metal in its elemental form"@en ;
@@ -8255,6 +8267,12 @@ schema:Person a owl:Class ;
     rdfs:subClassOf emmo:EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b ;
     skos:prefLabel "AmphotericCompound"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound that can act as both an acid and a base depending on the environment"@en .
+
+schema:Person a owl:Class ;
+    rdfs:label "Person"@en ;
+    rdfs:comment "the schema.org term for a Person"@en ;
+    skos:prefLabel "Person"@en ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "the schema.org term for a Person"@en .
 
 :substance_878a0e2f_12ba_484e_8197_75e57139d207 a owl:Class ;
     rdfs:label "ProticSolventCompound"@en ;
@@ -8540,18 +8558,6 @@ skos:note a owl:AnnotationProperty ;
 [] a owl:Axiom ;
     dcterms:source "International Electrotechnical Commission (IEC), IEC 60050 - International Electrotechnical Vocabulary, retrieved from: https://www.electropedia.org" ;
     owl:annotatedProperty emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 ;
-    owl:annotatedSource :substance_0f2f65a7_5cc4_4c86_a4d0_676771c646f1 ;
-    owl:annotatedTarget "a substance into which another substance is dissolved"@en .
-
-[] a owl:Axiom ;
-    dcterms:source "International Electrotechnical Commission (IEC), IEC 60050 - International Electrotechnical Vocabulary, retrieved from: https://www.electropedia.org" ;
-    owl:annotatedProperty emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 ;
-    owl:annotatedSource :substance_3899a9c9_9b34_443e_8ce6_0257589bb38a ;
-    owl:annotatedTarget "a substance dissolved into another substance"@en .
-
-[] a owl:Axiom ;
-    dcterms:source "International Electrotechnical Commission (IEC), IEC 60050 - International Electrotechnical Vocabulary, retrieved from: https://www.electropedia.org" ;
-    owl:annotatedProperty emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 ;
     owl:annotatedSource :substance_cc155ed5_c60c_4d9f_bfad_fbf6b7c77e57 ;
     owl:annotatedTarget "substance that increases the concentration of hydrogen cations when dissolved"@en .
 
@@ -8560,4 +8566,16 @@ skos:note a owl:AnnotationProperty ;
     owl:annotatedProperty emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 ;
     owl:annotatedSource :substance_edae7b22_461b_432b_b737_3c93feb69b0e ;
     owl:annotatedTarget "a chemical compound consisting of an assembly of cations and anions"@en .
+
+[] a owl:Axiom ;
+    dcterms:source "International Electrotechnical Commission (IEC), IEC 60050 - International Electrotechnical Vocabulary, retrieved from: https://www.electropedia.org" ;
+    owl:annotatedProperty emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 ;
+    owl:annotatedSource :substance_0f2f65a7_5cc4_4c86_a4d0_676771c646f1 ;
+    owl:annotatedTarget "a substance into which another substance is dissolved"@en .
+
+[] a owl:Axiom ;
+    dcterms:source "International Electrotechnical Commission (IEC), IEC 60050 - International Electrotechnical Vocabulary, retrieved from: https://www.electropedia.org" ;
+    owl:annotatedProperty emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 ;
+    owl:annotatedSource :substance_3899a9c9_9b34_443e_8ce6_0257589bb38a ;
+    owl:annotatedTarget "a substance dissolved into another substance"@en .
 

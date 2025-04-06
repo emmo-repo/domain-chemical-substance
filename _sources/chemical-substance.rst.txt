@@ -13959,7 +13959,7 @@ SiliconDioxide
   </tr>
   <tr>
   <td class="element-table-key"><span class="element-table-key">Alternative Label(s)</span></td>
-  <td class="element-table-value">Silica, SiO2</td>
+  <td class="element-table-value">SiO2, Silica</td>
   </tr>
   <tr>
   <td class="element-table-key"><span class="element-table-key">Wikipedia Reference</span></td>
@@ -17078,7 +17078,7 @@ TrisPentafluorophenylBorane
 TrisTrimethylsilyPhosphite
 --------------------------
 
-* https://w3id.org/emmo/domain//chemical-substance#substance_69ce48e4_23e3_4758_84ae_f00ed3f79518
+* https://w3id.org/emmo/domain/chemical-substance#substance_69ce48e4_23e3_4758_84ae_f00ed3f79518
 
 .. raw:: html
 
