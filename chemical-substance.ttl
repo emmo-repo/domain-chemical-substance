@@ -12,7 +12,7 @@
 @prefix schema: <https://schema.org/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix annotations: <https://w3id.org/emmo/top/annotations#> .
-@base <https://w3id.org/emmo/domain/chemical-substance#> .
+@base <https://w3id.org/emmo/domain/chemical-substance> .
 
 <https://w3id.org/emmo/domain/chemical-substance> rdf:type owl:Ontology ;
                                                    owl:versionIRI <https://w3id.org/emmo/domain/chemical-substance/0.12.0-beta/chemical-substance> ;
@@ -31,8 +31,8 @@
                                                    vann:preferredNamespacePrefix "chems" ;
                                                    vann:preferredNamespaceUri "https://w3id.org/emmo/domain/chemical-substance" ;
                                                    owl:backwardCompatibleWith " " ;
-                                                   owl:priorVersion "0.11.0-beta" ;
-                                                   owl:versionInfo "0.12.0-beta" ;
+                                                   owl:priorVersion "0.12.0-beta" ;
+                                                   owl:versionInfo "0.12.1-beta" ;
                                                    foaf:logo " " .
 
 #################################################################
@@ -188,6 +188,14 @@ xsd:date rdf:type rdfs:Datatype .
 #    Object Properties
 #################################################################
 
+###  https://schema.org/creator
+schema:creator rdf:type owl:ObjectProperty .
+
+
+###  https://schema.org/manufacturer
+schema:manufacturer rdf:type owl:ObjectProperty .
+
+
 ###  https://w3id.org/emmo#EMMO_3c7f239f_e833_4a2b_98a1_c88831770c1b
 emmo:EMMO_3c7f239f_e833_4a2b_98a1_c88831770c1b owl:inverseOf :electrochemistry_57fcaa3b_7c1f_4114_84cd_a18932b2c56b .
 
@@ -222,6 +230,10 @@ emmo:EMMO_3c7f239f_e833_4a2b_98a1_c88831770c1b owl:inverseOf :electrochemistry_5
 #    Classes
 #################################################################
 
+###  https://schema.org/Organization
+schema:Organization rdf:type owl:Class .
+
+
 ###  https://schema.org/Person
 schema:Person rdf:type owl:Class ;
               skos:prefLabel "Person"@en ;
@@ -246,16 +258,16 @@ emmo:EMMO_5cb107ba_7daa_46dd_8f9f_da22a6eac676 rdfs:subClassOf [ rdf:type owl:Re
                                                                ] .
 
 
-###  https://w3id.org/emmo/domain//chemical-substance#substance_69ce48e4_23e3_4758_84ae_f00ed3f79518
-<https://w3id.org/emmo/domain//chemical-substance#substance_69ce48e4_23e3_4758_84ae_f00ed3f79518> rdf:type owl:Class ;
-                                                                                                  rdfs:subClassOf emmo:EMMO_704630b8_fee3_49b9_baca_40e2dd276370 ;
-                                                                                                  skos:altLabel "TMSPI"@en ;
-                                                                                                  skos:prefLabel "TrisTrimethylsilyPhosphite"@en ;
-                                                                                                  emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q83040831" ;
-                                                                                                  emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/Tris_trimethylsilyl_-phosphite" ;
-                                                                                                  emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of a phosphate group bonded to three trimethylsilyl groups"@en ;
-                                                                                                  emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C9H27O3PSi3" ;
-                                                                                                  emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "tris(trimethylsilyl) phosphite" .
+###  https://w3id.org/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad
+emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
+                                               rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty schema:creator ;
+                                                                 owl:someValuesFrom schema:Person
+                                                               ] ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty schema:manufacturer ;
+                                                                 owl:someValuesFrom schema:Organization
+                                                               ] .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_0001e895_e74b_438f_b47f_b52f33d68331
@@ -3522,6 +3534,18 @@ emmo:EMMO_5cb107ba_7daa_46dd_8f9f_da22a6eac676 rdfs:subClassOf [ rdf:type owl:Re
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/2-Methyltetrahydrofuran"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "2-methyloxolane" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/C5H10O/c1-5-3-2-4-6-5/h5H,2-4H2,1H3" .
+
+
+###  https://w3id.org/emmo/domain/chemical-substance#substance_69ce48e4_23e3_4758_84ae_f00ed3f79518
+:substance_69ce48e4_23e3_4758_84ae_f00ed3f79518 rdf:type owl:Class ;
+                                                rdfs:subClassOf emmo:EMMO_704630b8_fee3_49b9_baca_40e2dd276370 ;
+                                                skos:altLabel "TMSPI"@en ;
+                                                skos:prefLabel "TrisTrimethylsilyPhosphite"@en ;
+                                                emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q83040831" ;
+                                                emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/Tris_trimethylsilyl_-phosphite" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of a phosphate group bonded to three trimethylsilyl groups"@en ;
+                                                emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C9H27O3PSi3" ;
+                                                emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "tris(trimethylsilyl) phosphite" .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_6a2432b3_abf1_4eba_825f_f0022ccba884
@@ -8497,8 +8521,8 @@ emmo:EMMO_5cb107ba_7daa_46dd_8f9f_da22a6eac676 rdfs:subClassOf [ rdf:type owl:Re
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_fef7bf51_9187_4c3b_94e8_91ac7593fd21
 :substance_fef7bf51_9187_4c3b_94e8_91ac7593fd21 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_0160f86c_e567_40d4_a457_25cf170e7ef2 ;
-                                                skos:altLabel "Silica"@en ,
-                                                              "SiO2" ;
+                                                skos:altLabel "SiO2" ,
+                                                              "Silica"@en ;
                                                 skos:prefLabel "SiliconDioxide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q116269" ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24261" ;
@@ -8645,4 +8669,4 @@ emmo:EMMO_5cb107ba_7daa_46dd_8f9f_da22a6eac676 rdfs:subClassOf [ rdf:type owl:Re
 emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc skos:prefLabel "deprecate_OrganicCompound"@en .
 
 
-###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
