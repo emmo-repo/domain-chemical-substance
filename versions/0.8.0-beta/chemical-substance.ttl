@@ -142,11 +142,11 @@ emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 a owl:AnnotationProperty ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Corresponds to the molecular formula of the compound."@en .
 
 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba a owl:AnnotationProperty ;
-    rdfs:label "IUPACName"@en ;
+    rdfs:label "hasIUPACName"@en ;
     rdfs:comment "Corresponds to the IUPAC name of the compound."@en ;
     rdfs:range rdf:PlainLiteral ;
     rdfs:subPropertyOf rdfs:seeAlso ;
-    skos:prefLabel "IUPACName"@en ;
+    skos:prefLabel "hasIUPACName"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Corresponds to the IUPAC name of the compound."@en .
 
 emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_OrganicCompound"@en ;
@@ -158,8 +158,8 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     dcterms:contributor <https://orcid.org/0000-0002-1560-809X> ;
     dcterms:created "2023-09-28"^^xsd:date ;
     dcterms:creator <https://orcid.org/0000-0002-8758-6109> ;
-    dcterms:issued "2025-04-06"^^xsd:date ;
-    dcterms:modified "2025-04-06"^^xsd:date ;
+    dcterms:issued "2025-04-08"^^xsd:date ;
+    dcterms:modified "2025-04-08"^^xsd:date ;
     dcterms:publisher "EMMO" ;
     dcterms:source " " ;
     dcterms:title "Chemical Substance Domain Ontology"@en ;
@@ -168,9 +168,9 @@ emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc rdfs:label "deprecate_Organic
     vann:preferredNamespaceUri "https://w3id.org/emmo/domain/chemical-substance" ;
     owl:backwardCompatibleWith " " ;
     owl:imports <https://w3id.org/emmo/1.0.0> ;
-    owl:priorVersion "0.12.0-beta" ;
-    owl:versionIRI <https://w3id.org/emmo/domain/chemical-substance/0.12.0-beta/chemical-substance> ;
-    owl:versionInfo "0.12.1-beta" ;
+    owl:priorVersion "0.12.1-beta" ;
+    owl:versionIRI <https://w3id.org/emmo/domain/chemical-substance/0.12.2-beta/chemical-substance> ;
+    owl:versionInfo "0.12.2-beta" ;
     foaf:logo " " .
 
 :substance_00db9ba1_7259_4180_a82e_7ed4dafc29a9 a owl:Class ;

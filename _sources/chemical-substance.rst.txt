@@ -6513,25 +6513,6 @@ Hydroxylamine
 
 .. raw:: html
 
-   <div id="EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba"></div>
-
-IUPACName
----------
-
-* https://w3id.org/emmo#EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba
-
-.. raw:: html
-
-  <table class="element-table">
-  <tr>
-  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
-  <td class="element-table-value">Corresponds to the IUPAC name of the compound.</td>
-  </tr>
-  </table>
-
-
-.. raw:: html
-
    <div id="substance_9b92f5b9_a477_4267_bf68_769c995e6e83"></div>
 
 Indium
@@ -18444,6 +18425,25 @@ error
   <tr>
   <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
   <td class="element-table-value">marks an error or incorrect usage</td>
+  </tr>
+  </table>
+
+
+.. raw:: html
+
+   <div id="EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba"></div>
+
+hasIUPACName
+------------
+
+* https://w3id.org/emmo#EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">Corresponds to the IUPAC name of the compound.</td>
   </tr>
   </table>
 
