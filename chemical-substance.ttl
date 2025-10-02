@@ -798,22 +798,6 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of a combination of metal oxides"@en .
 
 
-###  https://w3id.org/emmo/domain/chemical-substance#substance_16864b33_aa8e_451d_ad8e_b0af5f18769a
-:substance_16864b33_aa8e_451d_ad8e_b0af5f18769a rdf:type owl:Class ;
-                                                rdfs:subClassOf :substance_7fd3843d_f0b7_4490_bcf3_519fb9e2b150 ;
-                                                owl:deprecated "true"^^xsd:boolean ;
-                                                skos:altLabel "Oxolane"@en ,
-                                                              "THF"@en ;
-                                                skos:prefLabel "Tetrahydrofuran"@en ;
-                                                emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q278332"@en ;
-                                                emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/8028" ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of a five-membered cyclic ether"@en ;
-                                                emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C4H8O" ;
-                                                emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Tetrahydrofuran"@en ;
-                                                emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "oxolane" ;
-                                                :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/C4H8O/c1-2-4-5-3-1/h1-4H2" .
-
-
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_16d7c7a6_56ef_429b_9ce8_cd911410d083
 :substance_16d7c7a6_56ef_429b_9ce8_cd911410d083 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_7dd5ebb3_1084_485a_9fbf_05954cd2da84 ;
@@ -4222,21 +4206,6 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/CH2O3.Cu/c2-1(3)4;/h(H2,2,3,4);/q;+2/p-2" .
 
 
-###  https://w3id.org/emmo/domain/chemical-substance#substance_817d1989_4d6d_4c32_9951_85973afc538d
-:substance_817d1989_4d6d_4c32_9951_85973afc538d rdf:type owl:Class ;
-                                                rdfs:subClassOf :substance_7fd3843d_f0b7_4490_bcf3_519fb9e2b150 ;
-                                                owl:deprecated "true"^^xsd:boolean ;
-                                                skos:altLabel "DMF"@en ;
-                                                skos:prefLabel "Dimethylformamide"@en ;
-                                                emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q409298"@en ;
-                                                emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/6228" ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "N,N-dimethylformamide is a member of the class of formamides that is formamide in which the amino hydrogens are replaced by methyl groups. It has a role as a polar aprotic solvent, a hepatotoxic agent and a geroprotector. It is a volatile organic compound and a member of formamides. It is functionally related to a formamide."@en ;
-                                                emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C3H7NO" ;
-                                                emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Dimethylformamide"@en ;
-                                                emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "N,N-dimethylformamide" ;
-                                                :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/C3H7NO/c1-4(2)3-5/h3H,1-2H3" .
-
-
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_81b90332_8b8e_407b_a8fd_517306d56a59
 :substance_81b90332_8b8e_407b_a8fd_517306d56a59 rdf:type owl:Class ;
                                                 rdfs:subClassOf emmo:EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b ;
@@ -4299,7 +4268,6 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_8385c3c4_5906_48f6_b6b6_4bb60dccc27a
 :substance_8385c3c4_5906_48f6_b6b6_4bb60dccc27a rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_7fd3843d_f0b7_4490_bcf3_519fb9e2b150 ;
-                                                owl:deprecated "true"^^xsd:boolean ;
                                                 skos:altLabel "DCM"@en ,
                                                               "MethyleneChloride"@en ,
                                                               "MethyleneDichloride"@en ;
@@ -5353,21 +5321,6 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/C4H8O/c1-2-4-5-3-1/h1-4H2" .
 
 
-###  https://w3id.org/emmo/domain/chemical-substance#substance_a6feec60_5fe7_4687_b427_3bf2ed06008d
-:substance_a6feec60_5fe7_4687_b427_3bf2ed06008d rdf:type owl:Class ;
-                                                rdfs:subClassOf emmo:EMMO_704630b8_fee3_49b9_baca_40e2dd276370 ,
-                                                                :substance_7fd3843d_f0b7_4490_bcf3_519fb9e2b150 ;
-                                                skos:altLabel "DCM"@en ;
-                                                skos:prefLabel "Dichloromethane"@en ;
-                                                emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q421748"@en ;
-                                                emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/6344" ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of one carbon atom bonded to two chlorine atoms and two hydrogen atoms"@en ;
-                                                emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CH2Cl2" ;
-                                                emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Dichloromethane"@en ;
-                                                emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "dichloromethane" ;
-                                                :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/CH2Cl2/c2-1-3/h1H2" .
-
-
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_a84adfaa_e17e_4325_86d3_208d418e9956
 :substance_a84adfaa_e17e_4325_86d3_208d418e9956 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_584bfc73_2715_417f_973c_552ae58529f5 ;
@@ -5826,21 +5779,6 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Manganese"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "manganese" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/Mn" .
-
-
-###  https://w3id.org/emmo/domain/chemical-substance#substance_b593b5dd_7957_4b85_856a_dd59775210b6
-:substance_b593b5dd_7957_4b85_856a_dd59775210b6 rdf:type owl:Class ;
-                                                rdfs:subClassOf :substance_7fd3843d_f0b7_4490_bcf3_519fb9e2b150 ;
-                                                owl:deprecated "true"^^xsd:boolean ;
-                                                skos:altLabel "DMSO"@en ;
-                                                skos:prefLabel "DimethylSulfoxide"@en ;
-                                                emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q407927"@en ;
-                                                emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/679" ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of a sulfur atom bonded to two methyl groups and one oxygen atom"@en ;
-                                                emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C2H6OS" ;
-                                                emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Dimethyl_sulfoxide"@en ;
-                                                emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "methylsulfinylmethane" ;
-                                                :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/C2H6OS/c1-4(2)3/h1-2H3" .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_b5ad0a60_44cf_40b2_880d_92a195a65859
