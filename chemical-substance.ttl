@@ -25,6 +25,7 @@
                                                    dcterms:issued "2025-04-08"^^xsd:date ;
                                                    dcterms:modified "2025-04-08"^^xsd:date ;
                                                    dcterms:publisher "EMMO" ;
+                                                   dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode" ;
                                                    dcterms:source " " ;
                                                    dcterms:title "Chemical Substance Domain Ontology"@en ;
                                                    bibo:doi "10.5281/zenodo.10254978" ;
