@@ -1,0 +1,17 @@
+ontology_name: "chemical-substance"
+ontology_adjective: "chemical"
+ontology_noun: "chemical substance"
+ontology_abbreviation: "CHEMS"
+ontology_uri: "https://w3id.org/emmo/domain/chemical-substance"
+ontology_prefix: "https://w3id.org/emmo/domain/chemical-substance#"
+ontology_description: "This ontology provides terms for chemical substances that can be referenced and re-used in other resources."
+
+ttl_files:
+  - section_title: "Chemical Substance Domain Ontology"
+    path: "chemical-substance.ttl"
+
+output:
+  inferred_ttl: "chemical-substance-inferred.ttl"
+  rst_file: "docs/chemical-substance.rst"
+
+emmocheck_classes: []
