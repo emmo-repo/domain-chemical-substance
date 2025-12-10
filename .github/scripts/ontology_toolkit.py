@@ -263,7 +263,13 @@ def extract_terms_info_sparql(onto: Ontology) -> list:
 
         text_entities.append(hit_dict)
 
-    text_entities.sort(key=lambda e: e[onto.prefLabel])
+    def _sort_key(entry):
+        label = entry.get(onto.prefLabel)
+        if isinstance(label, list):
+            label = label[0] if label else None
+        return str(label or entry.get("IRI") or "")
+
+    text_entities.sort(key=_sort_key)
     return text_entities
 
 
@@ -432,7 +438,11 @@ def entities_to_rst(entities: list[dict], onto: Ontology) -> str:
         rst += "\n----\n\n"
         rst += ".. raw:: html\n\n"
         rst += f"   <div id=\"{iri_suffix}\"></div>\n\n"
-        title = item[onto.prefLabel]
+        # prefer prefLabel when present, otherwise fall back to the IRI
+        title_value = item.get(onto.prefLabel) or item.get("IRI")
+        if isinstance(title_value, list):
+            title_value = title_value[0] if title_value else ""
+        title = str(title_value) if title_value else iri_suffix
         rst += f"{title}\n{'-' * len(title)}\n\n"
         rst += f"IRI: {item['IRI']}\n\n"
 
@@ -627,7 +637,8 @@ def run_reasoner_check():
         LOGGER.info("Inferred %s triples.", inferred_triples)
     else:
         LOGGER.error("No triples inferred, something might be wrong.")
-        sys.exit(1)
+        sys.exit(1)
+
 
 ########## Main Entry Point ##########
 
