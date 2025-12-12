@@ -24,6 +24,7 @@ docs = [
   "sphinx-design",
   "nbsphinx",
   "sphinx-copybutton",
+  "sphinxcontrib-globalsubs==0.1.1",
   "Pygments==2.17.2",
   "accessible-pygments==0.0.4",
   "beautifulsoup4==4.12.2",
