@@ -1,1 +1,12 @@
-EMMOntoPy>=0.4.0,<1
+# Core dependencies for ontology tooling
+EMMOntoPy>=0.8.0,<0.9.0
+rdflib
+owlrl
+
+# Configuration and utilities
+PyYAML
+requests
+
+# Optional development tools
+jupyter
+ipykernel

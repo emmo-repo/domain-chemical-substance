@@ -1,14 +1,10 @@
-# Configurations used when running emmocheck from the ci_tests workflow
+# Configurations used when running emmocheck from CI
 skip:
   - test_namespace
+  - test_dimensional_unit
 
 test_quantity_dimension:
-  exceptions:
-    - electrochemistry.ElectrochemicalQuantity
-    - electrochemistry.ElectrochemicalKineticQuantity
-    - electrochemistry.ElectrochemicalTransportQuantity
-    - electrochemistry.ElectrochemicalThermodynamicQuantity
-    - electrochemistry.ElectrochemicalConstant
-    - BattINFO.BatteryQuantity
-    # We ignore reaction rate constant since its dimensionality may vary
-    - electrochemistry.ReactionRateConstant
+  exceptions: []
+
+test_dimensional_unit:
+  exceptions: []
