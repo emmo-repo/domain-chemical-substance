@@ -491,10 +491,6 @@
             "@id": "https://w3id.org/emmo#EMMO_6735d3ff_67f8_43b5_b5b0_240fbfab4517",
             "@type": "@id"
         },
-        "isChemicalSymbolFor": {
-            "@id": "https://w3id.org/emmo#EMMO_26c4132f-08aa-5391-aa39-121ce088e762",
-            "@type": "@id"
-        },
         "isCognisedBy": {
             "@id": "https://w3id.org/emmo#EMMO_7ee1c29c_c453_4ad8_96d4_5103229fa60d",
             "@type": "@id"
@@ -632,7 +628,7 @@
             "@type": "@id"
         },
         "isParticipatedBy": {
-            "@id": "https://w3id.org/emmo#EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77",
+            "@id": "https://w3id.org/emmo#EMMO_e1c65ca8_6fed_4859_b320_5f14928e8464",
             "@type": "@id"
         },
         "isPieceOf": {
@@ -732,7 +728,7 @@
             "@type": "@id"
         },
         "participatesTo": {
-            "@id": "https://w3id.org/emmo#EMMO_e1c65ca8_6fed_4859_b320_5f14928e8464",
+            "@id": "https://w3id.org/emmo#EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77",
             "@type": "@id"
         },
         "precedes": {
@@ -1856,7 +1852,7 @@
         "ISQBaseQuantity": "https://w3id.org/emmo#EMMO_1a4c1a97_88a7_4d8e_b2f9_2ca58e92dde4",
         "ISQDerivedQuantity": "https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064",
         "ISQDimensionlessQuantity": "https://w3id.org/emmo#EMMO_a66427d1_9932_4363_9ec5_7d91f2bfda1e",
-        "IUPACName": "https://w3id.org/emmo#EMMO_16a3bd5c_75f0_42b3_b000_cb0d018f840e",
+        "IUPACName": "https://w3id.org/emmo#EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba",
         "IUPACNomenclature": "https://w3id.org/emmo#EMMO_91a0635a_a89a_46de_8928_04a777d145c7",
         "Icon": "https://w3id.org/emmo#EMMO_d7788d1a_020d_4c78_85a1_13563fcec168",
         "Illuminance": "https://w3id.org/emmo#EMMO_b51fbd00_a857_4132_9711_0ef70e7bdd20",
@@ -2814,7 +2810,6 @@
         "OrganicAcidCompound": "https://w3id.org/emmo/domain/chemical-substance#substance_b325bdd7_0adf_4522_a4ef_20cd6929e094",
         "OrganicCompound": "https://w3id.org/emmo#EMMO_704630b8_fee3_49b9_baca_40e2dd276370",
         "Organisation": "https://w3id.org/emmo#EMMO_c0f72631_d7c2_434c_9c26_5c44123df682",
-        "Organization": "https://schema.org/Organization",
         "Osmium": "https://w3id.org/emmo/domain/chemical-substance#substance_cd8581de_2e32_43ee_b0f0_02de1577c69d",
         "OsmiumAtom": "https://w3id.org/emmo#EMMO_016c831e-66b7-546e-ad4a-fc22c739b0f5",
         "OsmiumSymbol": "https://w3id.org/emmo#EMMO_fb1bb238-24bc-5d37-9243-414770fda5be",
@@ -3111,11 +3106,11 @@
         "Pyridine": "https://w3id.org/emmo/domain/chemical-substance#substance_f1e874cf_3e5e_46e3_9bb9_0befc3f7361a",
         "PyruvicAcid": "https://w3id.org/emmo/domain/chemical-substance#substance_feb95008_db3a_4506_b7ff_6263befa0d64",
         "Python": "https://w3id.org/emmo#EMMO_add2e29d_6d87_4b78_9706_588e25557093",
-        "QualifiedRole": "http://w3id.org/emmo#EMMO_946b5162_95b0_4801_81d4_efef43842a0d",
-        "QualifiedWhole": "http://w3id.org/emmo#EMMO_eb50c9cb_9576_4a61_95ec_f81fb8218187",
+        "QRole": "http://w3id.org/emmo#EMMO_946b5162_95b0_4801_81d4_efef43842a0d",
+        "QWhole": "http://w3id.org/emmo#EMMO_eb50c9cb_9576_4a61_95ec_f81fb8218187",
         "QualityFactor": "https://w3id.org/emmo#EMMO_0658e7df_ffd9_4779_82fc_62efe0a7f3b1",
         "Quantity": "https://w3id.org/emmo#EMMO_0650c031_42b6_4f0a_b62d_d88f071da6bf",
-        "QuantityByPhysicalNature": "https://w3id.org/emmo#EMMO_dbbbf0ed_a446_4f9e_877c_8c46e7842f43",
+        "QuantityByPhysical": "https://w3id.org/emmo#EMMO_dbbbf0ed_a446_4f9e_877c_8c46e7842f43",
         "QuantityBySubjectivity": "https://w3id.org/emmo#EMMO_d9350951_5300_44e8_ae61_79fb7c53b7e7",
         "QuantityValue": "https://w3id.org/emmo#EMMO_f658c301_ce93_46cf_9639_4eace2c5d1d5",
         "Quantum": "https://w3id.org/emmo#EMMO_3f9ae00e_810c_4518_aec2_7200e424cf68",
@@ -3429,7 +3424,7 @@
         "Spray": "https://w3id.org/emmo#EMMO_498aad49_f8d4_40a4_a9eb_efd563a0115f",
         "SquareCentiMetre": "https://w3id.org/emmo#SquareCentiMetre",
         "SquareCentiMetrePerCubicCentiMetre": "https://w3id.org/emmo#SquareCentiMetrePerCubicCentiMetre",
-        "SquareCentiMetrePerGram": "https://w3id.org/emmo#SquareCentiMetrePerGram",
+        "SquareCentiMetrePerGram": "https://w3id.org/emmo#SquareCentMetrePerGram",
         "SquareCentiMetrePerSecond": "https://w3id.org/emmo#SquareCentiMetrePerSecond",
         "SquareCentiMetreSecond": "https://w3id.org/emmo#SquareCentiMetreSecond",
         "SquareCoulombSquareMetrePerJoule": "https://w3id.org/emmo#SquareCoulombSquareMetrePerJoule",
@@ -3708,7 +3703,7 @@
         "TrimethoxyMethylSilane": "https://w3id.org/emmo/domain/chemical-substance#substance_eccb603e_76be_435e_902f_7ebd9f26690b",
         "Tris222TrifluoroethylBorate": "https://w3id.org/emmo/domain/chemical-substance#substance_1c24293c_3a09_4084_a6bb_0db9fae5e786",
         "TrisPentafluorophenylBorane": "https://w3id.org/emmo/domain/chemical-substance#substance_5bc7a64d_ec8d_4350_9e03_67fac740d00a",
-        "TrisTrimethylsilyPhosphite": "https://w3id.org/emmo/domain/chemical-substance#substance_69ce48e4_23e3_4758_84ae_f00ed3f79518",
+        "TrisTrimethylsilyPhosphite": "https://w3id.org/emmo/domain//chemical-substance#substance_69ce48e4_23e3_4758_84ae_f00ed3f79518",
         "Tungsten": "https://w3id.org/emmo/domain/chemical-substance#substance_859210f4_f4ac_445d_841c_74e3fbe74c3e",
         "TungstenAtom": "https://w3id.org/emmo#EMMO_7b7d258b-3ea7-5716-af58-afc68679de23",
         "TungstenSymbol": "https://w3id.org/emmo#EMMO_68a887df-63af-55c0-8239-b0b8edaa94ea",
@@ -3878,25 +3873,20 @@
         "ZirconiumIVOxide": "https://w3id.org/emmo/domain/chemical-substance#substance_371fbcaa_d782_4f4c_86e3_58e1a58d3bea",
         "ZirconiumOxideCompound": "https://w3id.org/emmo/domain/chemical-substance#substance_a9218f8f_2e80_497e_b968_b4947cf21802",
         "ZirconiumSymbol": "https://w3id.org/emmo#EMMO_7ab01303-b09e-5a90-8a5b-f5087d6559d3",
-        "admonition": "https://w3id.org/emmo#EMMO_709ee08d_76b1_4fee_be22_925412ac313b",
         "canonicalSMILES": "https://w3id.org/emmo/domain/chemical-substance#substance_7fd07cf9_9736_48be_963c_f924ada8ac46",
-        "caution": "https://w3id.org/emmo#EMMO_b6730304_cabc_4104_b415_14218466445c",
         "chemicalSymbolValue": "https://w3id.org/emmo#EMMO_40c65eb4_5b58_4b13_8752_9976582380af",
         "comment": "https://w3id.org/emmo#EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f",
         "conceptualisation": "https://w3id.org/emmo#EMMO_31252f35_c767_4b97_a877_1235076c3e13",
         "contact": "https://w3id.org/emmo#EMMO_1246b120_abbe_4840_b0f8_3e4348b24a17",
-        "danger": "https://w3id.org/emmo#EMMO_95317324_4b53_4665_a087_82c3a2a0540b",
         "dbpediaReference": "https://w3id.org/emmo#EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25",
         "definition": "https://w3id.org/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84",
         "deprecate_OrganicCompound": "https://w3id.org/emmo#material_c5c9cf9f_252e_4b28_90f6_56b500db67fc",
         "elucidation": "https://w3id.org/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9",
-        "error": "https://w3id.org/emmo#EMMO_32214c66_8bce_40f5_b22d_5059f6cf571b",
         "etymology": "https://w3id.org/emmo#EMMO_705f27ae_954c_4f13_98aa_18473fc52b25",
         "hasAtomicNumber": "https://w3id.org/emmo#EMMO_a585728e-36c8-5df4-9d95-aa128d2a0e7f",
         "hasDataValue": "https://w3id.org/emmo#EMMO_b6292331_94af_4f00_976b_ea55960c2f1c",
         "hasDimensionString": "https://w3id.org/emmo#EMMO_19d925d0_2cf1_40e5_a391_1a99d68409c9",
         "hasIUPAC2016AtomicMass": "https://w3id.org/emmo#EMMO_43de6d01-276c-55ed-a166-ad097ec75575",
-        "hasIUPACName": "https://w3id.org/emmo#EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba",
         "hasJSONValue": "https://w3id.org/emmo#EMMO_712f46a1_0aaa_4a41_b681_b10e1cc05233",
         "hasNumberValue": "https://w3id.org/emmo#EMMO_faf79f53_749d_40b2_807c_d34244c192f4",
         "hasORCID": "https://w3id.org/emmo#EMMO_e117f976_7a5d_4508_bf85_9226dca58e1f",
@@ -3911,7 +3901,6 @@
         "hasURLValue": "https://w3id.org/emmo#EMMO_ac852bf0_3251_4d6b_9e57_acbfcb5e7e08",
         "hasURNValue": "https://w3id.org/emmo#EMMO_b7493aee_366c_442d_8f59_49ac7aa664d7",
         "illustration": "https://w3id.org/emmo#EMMO_157fdf31_6387_42be_8e72_10530519214a",
-        "important": "https://w3id.org/emmo#EMMO_4c8480cf_56de_41da_8699_f12a9033313a",
         "inchiKey": "https://w3id.org/emmo#EMMO_2856bbc2_96e1_485b_b5f8_2fdfcb0c9b92",
         "iupacReference": "https://w3id.org/emmo#EMMO_fe015383_afb3_44a6_ae86_043628697aa2",
         "mathematicalSymbolValue": "https://w3id.org/emmo#EMMO_436c8a78_f95d_42a0_9854_07ad3736f061",
@@ -3921,13 +3910,11 @@
         "pubChemReference": "https://w3id.org/emmo#EMMO_371f5265_fa29_4081_b722_2c530b1fdddb",
         "qudtReference": "https://w3id.org/emmo#EMMO_1f1b164d_ec6a_4faa_8d5e_88bda62316cc",
         "standardInChI": "https://w3id.org/emmo/domain/chemical-substance#substance_33ab8162_934b_4e36_bb43_5528d867d6d6",
-        "tip": "https://w3id.org/emmo#EMMO_5f7abc2a_5b50_41c3_8def_c8ba7c3b083e",
         "ucumCode": "https://w3id.org/emmo#EMMO_33ae2d07_5526_4555_a0b4_8f4c031b5652",
         "uneceCommonCode": "https://w3id.org/emmo#EMMO_0b1cbe60_d380_4787_b92e_be26bdacf2c2",
         "unitSymbol": "https://w3id.org/emmo#EMMO_7f1dec83_d85e_4e1b_b7bd_c9442d4f5a64",
         "unitSymbolValue": "https://w3id.org/emmo#EMMO_daf7a9b7_18ef_4e73_9fb9_75adfd9800e8",
         "universe": "https://w3id.org/emmo#EMMO_08cb807c_e626_447b_863f_e2835540e918",
-        "warning": "https://w3id.org/emmo#EMMO_0fa6566e_500f_4d24_baa9_b2b22c9a0b72",
         "wikidataReference": "https://w3id.org/emmo#EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54",
         "wikipediaReference": "https://w3id.org/emmo#EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d"
     }
