@@ -3,7 +3,7 @@ name: docs
 on: 
   push:
     branches:
-      - 'master'
+      - 'main'
   pull_request:
     branches:
       - '*'  # run on all PRs
@@ -188,12 +188,12 @@ jobs:
       if: github.event_name == 'push'
       run: |
         git stash --include-untracked
-        git pull origin master --rebase
+        git pull origin main --rebase
         git stash pop || echo "No stash to apply"
 
     - name: Push Changes
-      if: github.event_name == 'push' && github.ref == 'refs/heads/master'
-      run: git push origin HEAD:master
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      run: git push origin HEAD:main
 
     - name: Load TTL Files into ENV
       run: |
@@ -219,7 +219,7 @@ jobs:
         done
 
     - name: Fetch All Tags and Copy TTL Files
-      if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
       run: |
         git fetch --tags
     
@@ -247,9 +247,9 @@ jobs:
       with:
         name: "${{ env.ONTOLOGY_NAME }}_Documentation_${{ env.DOC_DATE }}"
         path: docs/_build/html/
-
+  
     - name: Deploy
-      if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+      if: github.ref == 'refs/heads/main' && github.event_name == 'push'
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
