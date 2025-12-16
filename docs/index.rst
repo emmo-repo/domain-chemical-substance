@@ -19,7 +19,7 @@
         Let's go! Here is some information to help you get started
 
     .. grid-item-card::
-        :link: chemicalsubstance.html
+        :link: chemical-substance.html
 
         :octicon:`book;1em;sd-text-info`  Class Index
         ^^^^^^^^^^^
