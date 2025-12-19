@@ -15,25 +15,25 @@
 @base <https://w3id.org/emmo/domain/chemical-substance> .
 
 <https://w3id.org/emmo/domain/chemical-substance> rdf:type owl:Ontology ;
-                                                   owl:versionIRI <https://w3id.org/emmo/domain/chemical-substance/0.12.4/chemical-substance> ;
-                                                   owl:imports <https://w3id.org/emmo/domain/chemical-substance/0.12.4/dependencies> ;
+                                                   owl:versionIRI <https://w3id.org/emmo/domain/chemical-substance/0.13.1/chemical-substance> ;
+                                                   owl:imports <https://w3id.org/emmo/domain/chemical-substance/0.13.1/dependencies> ;
                                                    dcterms:abstract "This ontology provides terms for chemical substances that can be referenced and re-used other resources."@en ;
                                                    dcterms:bibliographicCitation "https://zenodo.org/doi/10.5281/zenodo.10254978" ;
                                                    dcterms:contributor <https://orcid.org/0000-0002-1560-809X> ;
                                                    dcterms:created "2023-09-28"^^xsd:date ;
                                                    dcterms:creator <https://orcid.org/0000-0002-8758-6109> ;
-                                                   dcterms:issued "2025-12-16"^^xsd:date ;
-                                                   dcterms:modified "2025-12-16"^^xsd:date ;
-                                                   dcterms:publisher "EMMO" ;
+                                                   dcterms:issued "2025-12-19"^^xsd:date ;
                                                    dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode" ;
+                                                   dcterms:modified "2025-12-19"^^xsd:date ;
+                                                   dcterms:publisher "EMMO" ;
                                                    dcterms:source " " ;
                                                    dcterms:title "Chemical Substance Domain Ontology"@en ;
                                                    bibo:doi "10.5281/zenodo.10254978" ;
                                                    vann:preferredNamespacePrefix "chems" ;
                                                    vann:preferredNamespaceUri "https://w3id.org/emmo/domain/chemical-substance" ;
                                                    owl:backwardCompatibleWith " " ;
-                                                   owl:priorVersion "0.12.3" ;
-                                                   owl:versionInfo "0.12.4" ;
+                                                   owl:priorVersion "0.12.4" ;
+                                                   owl:versionInfo "0.13.1" ;
                                                    foaf:logo " " .
 
 #################################################################
@@ -271,22 +271,6 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                                  owl:onProperty schema:manufacturer ;
                                                                  owl:someValuesFrom schema:Organization
                                                                ] .
-
-
-###  https://w3id.org/emmo/domain/chemical-substance#substance_c42ceab7_0d11_44ef_af71_be32524b1078
-:substance_c42ceab7_0d11_44ef_af71_be32524b1078 rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_436b11bd_1756_4821_9f14_c9ed6b67552e ;
-                                           skos:altLabel "Dihydrogen"@en ,
-                                                         "HydrogenGas"@en ,
-                                                         "MolecularHydrogen"@en ;
-                                           skos:prefLabel "Hydrogen"@en ;
-                                           emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q556" ;
-                                           emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/Hydrogen" ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An elemental substance consisting of hydrogen in its gas form (H2 molecule)."@en ;
-                                           emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "H2" ;
-                                           emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Hydrogen" ;
-                                           emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "hydrogen" ;
-                                           :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/H2/h1H" .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_0001e895_e74b_438f_b47f_b52f33d68331
@@ -1893,6 +1877,15 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/Ar" .
 
 
+###  https://w3id.org/emmo/domain/chemical-substance#substance_3830de41_f8bc_42c2_b40c_0dcccb5cd2bd
+:substance_3830de41_f8bc_42c2_b40c_0dcccb5cd2bd rdf:type owl:Class ;
+                                                rdfs:subClassOf :substance_5746aeda_6268_43f7_bd3b_f2d3d74bc45c ;
+                                                skos:altLabel "PFSA"@en ;
+                                                skos:note "widely used in fuel cell ion-exchange membranes"@en ;
+                                                skos:prefLabel "PerfluorosulfonicAcid"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a sulfonic acid compound in which the sulfonic acid functional group is bonded to a fully fluorinated carbon chain"@en .
+
+
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_383f6ea4_344d_4f3f_ae04_4c5005e9c8fd
 :substance_383f6ea4_344d_4f3f_ae04_4c5005e9c8fd rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_52da9471_9979_44b0_a415_63c72110fd43 ;
@@ -2997,6 +2990,13 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Strontium_carbonate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "strontium;carbonate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/CH2O3.Sr/c2-1(3)4;/h(H2,2,3,4);/q;+2/p-2" .
+
+
+###  https://w3id.org/emmo/domain/chemical-substance#substance_5746aeda_6268_43f7_bd3b_f2d3d74bc45c
+:substance_5746aeda_6268_43f7_bd3b_f2d3d74bc45c rdf:type owl:Class ;
+                                                rdfs:subClassOf :substance_b325bdd7_0adf_4522_a4ef_20cd6929e094 ;
+                                                skos:prefLabel "SulfonicAcid"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "an organic acid compound containing a sulfonic acid functional group consisting of a sulfur atom double-bonded to two oxygen atoms and single-bonded to a hydroxyl group"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_584bfc73_2715_417f_973c_552ae58529f5
@@ -4145,6 +4145,15 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C3AlF9O9S3" ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "aluminum;trifluoromethanesulfonate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/3CHF3O3S.Al/c3*2-1(3,4)8(5,6)7;/h3*(H,5,6,7);/q;;;+3/p-3" .
+
+
+###  https://w3id.org/emmo/domain/chemical-substance#substance_7fbf972d_73cb_40e4_9b25_3f1d38c7a981
+:substance_7fbf972d_73cb_40e4_9b25_3f1d38c7a981 rdf:type owl:Class ;
+                                                rdfs:subClassOf :substance_d131db99_0eb5_4edc_9063_0873f9ac3b49 ;
+                                                skos:altLabel "PEEK"@en ;
+                                                skos:note "known for its exceptional mechanical strength, chemical resistance, and high-temperature stability."@en ;
+                                                skos:prefLabel "PolyetherEtherKetone"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a polyaryletherketone polymer compound in which aromatic units are connected by two ether linkages and one ketone linkage in the repeating backbone structure"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_7fd3843d_f0b7_4490_bcf3_519fb9e2b150
@@ -5714,9 +5723,12 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_b325bdd7_0adf_4522_a4ef_20cd6929e094
 :substance_b325bdd7_0adf_4522_a4ef_20cd6929e094 rdf:type owl:Class ;
-                                                rdfs:subClassOf emmo:EMMO_704630b8_fee3_49b9_baca_40e2dd276370 ;
-                                                skos:prefLabel "OrganicAcidCompound"@en ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound containing one or more carboxylic acid functional groups (-COOH)"@en .
+                                                rdfs:subClassOf emmo:EMMO_704630b8_fee3_49b9_baca_40e2dd276370 ,
+                                                                :substance_cc155ed5_c60c_4d9f_bfad_fbf6b7c77e57 ;
+                                                skos:altLabel "OrganicAcidCompound"@en ;
+                                                skos:note "The most common organic acids are the carboxylic acids, whose acidity is associated with their carboxyl group –COOH. Sulfonic acids, containing the group –SO2OH, are relatively stronger acids. Alcohols, with –OH, can act as acids but they are usually very weak."@en ;
+                                                skos:prefLabel "OrganicAcid"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "an organic compound with acidic properties"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_b3708b26_f2dc_4a68_97c3_fced02c8d0e2
@@ -6381,6 +6393,22 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2K.H2S/h;;1H2/q2*+1;/p-1" .
 
 
+###  https://w3id.org/emmo/domain/chemical-substance#substance_c42ceab7_0d11_44ef_af71_be32524b1078
+:substance_c42ceab7_0d11_44ef_af71_be32524b1078 rdf:type owl:Class ;
+                                                rdfs:subClassOf emmo:EMMO_436b11bd_1756_4821_9f14_c9ed6b67552e ;
+                                                skos:altLabel "Dihydrogen"@en ,
+                                                              "HydrogenGas"@en ,
+                                                              "MolecularHydrogen"@en ;
+                                                skos:prefLabel "Hydrogen"@en ;
+                                                emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q556" ;
+                                                emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/Hydrogen" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An elemental substance consisting of hydrogen in its gas form (H2 molecule)."@en ;
+                                                emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "H2" ;
+                                                emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Hydrogen" ;
+                                                emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "hydrogen" ;
+                                                :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/H2/h1H" .
+
+
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_c4a7d7bd_497e_457e_b858_ff73254266d0
 :substance_c4a7d7bd_497e_457e_b858_ff73254266d0 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_7fd3843d_f0b7_4490_bcf3_519fb9e2b150 ;
@@ -6793,6 +6821,14 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 skos:altLabel "Sr(TFSI)2"@en ;
                                                 skos:prefLabel "StrontiumBistrifluoromethanesulfonylimide"@en ;
                                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of strontium cations bonded to bistrifluoromethanesulfonylimide anions"@en .
+
+
+###  https://w3id.org/emmo/domain/chemical-substance#substance_d131db99_0eb5_4edc_9063_0873f9ac3b49
+:substance_d131db99_0eb5_4edc_9063_0873f9ac3b49 rdf:type owl:Class ;
+                                                rdfs:subClassOf :substance_7e716191_b301_4d63_bb6b_93323ffe51bf ;
+                                                skos:altLabel "PAEK"@en ;
+                                                skos:prefLabel "Polyaryletherketone"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a polymer compound composed of aromatic rings linked by ether and ketone functional groups within the polymer backbone"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_d185fb35_17e0_44df_9a6b_5c93d56b9c99
@@ -8626,4 +8662,4 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
 emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc skos:prefLabel "deprecate_OrganicCompound"@en .
 
 
-###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
