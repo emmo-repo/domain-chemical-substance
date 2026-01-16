@@ -6,7 +6,7 @@
 <!-- markdownlint-disable MD033 -->
 [![DOI](https://zenodo.org/badge/697870611.svg)](https://zenodo.org/doi/10.5281/zenodo.10254978)
 
-# Chemical Substance Domain Ontology    
+# Chemical Substance Domain Ontology   
 
 <img src="docs/assets/img/fig/svg/domain-chemical-substance-logo.svg" alt="domain-chemical-substance-logo" width="100%">
 
