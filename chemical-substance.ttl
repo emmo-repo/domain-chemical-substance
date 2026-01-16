@@ -2088,8 +2088,8 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_15d08ff9_7685_4020_8481_d9c9b0052176 ;
                                                 skos:altLabel "LMFP" ;
                                                 skos:prefLabel "LithiumManganeseIronPhosphate"@en ;
-                                                emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "a chemical compound consisting of lithium, manganese, iron, phosphorous, and oxygen atoms in an olivine-type structure"@en ,
-                                                                                               "https://pubchem.ncbi.nlm.nih.gov/compound/22178930" .
+                                                emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/22178930" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of lithium, manganese, iron, phosphorous, and oxygen atoms in an olivine-type structure"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_4112b3b8_69fa_4f20_9f99_f572f57ab66f
