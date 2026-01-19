@@ -1,0 +1,34 @@
+<mxfile host="65bd71144e">
+    <diagram id="NrZ29duDLyXxqPhjrZT9" name="Page-1">
+        <mxGraphModel dx="839" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;font color=&quot;#e4c89e&quot; style=&quot;font-size: 104px;&quot;&gt;CHEMS&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;labelBorderColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="40" width="420" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font color=&quot;#e4c89e&quot;&gt;Chemical Substance Domain Ontology&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;labelBorderColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="160" width="420" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=104;fillColor=#231F20;strokeWidth=4;strokeColor=#E3f2eb;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="40" width="160.94" height="160.94" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="209.07" y="70.47" width="62.8" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=3;size=20;indent=5;fontColor=#E4C89E;fillColor=#FFFDE8;strokeColor=#808080;" vertex="1" parent="21">
+                    <mxGeometry x="22.38598360504869" y="6.570092977859969" width="18.224317510077174" height="61.64278008938203" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=104;fillColor=#fffde8;strokeWidth=4;strokeColor=#808080;" vertex="1" parent="21">
+                    <mxGeometry x="0.19628472017455958" y="37.391483022550986" width="62.60371527982543" height="62.60371527982543" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#808080;fontColor=#E4C89E;fillColor=#FFFDE8;strokeWidth=3;" vertex="1" parent="21">
+                    <mxGeometry x="18.321141711387625" width="25.924397004187057" height="6.5703703703703695" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.pie;startAngle=0.25159149638245415;endAngle=0.7532148140781375;strokeColor=#808080;strokeWidth=3;fontColor=#E4C89E;fillColor=#028CAE;" vertex="1" parent="21">
+                    <mxGeometry y="44.622222222222234" width="62.56668042696231" height="55.37777777777778" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
