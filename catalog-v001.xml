@@ -16,7 +16,7 @@
         <uri name="https://w3id.org/emmo/1.0.2/perspectives/holistic"           uri="https://raw.githubusercontent.com/emmo-repo/emmo/1.0.2/perspectives/holistic.ttl"/>
         <uri name="https://w3id.org/emmo/1.0.2/perspectives/structural"         uri="https://raw.githubusercontent.com/emmo-repo/emmo/1.0.2/perspectives/structural.ttl"/>
         <uri name="https://w3id.org/emmo/1.0.2/perspectives/persistence"        uri="https://raw.githubusercontent.com/emmo-repo/emmo/1.0.2/perspectives/persistence.ttl"/>
-        <uri name="https://w3id.org/emmo/1.0.2/perspectives/contrast"           uri="https://raw.githubusercontent.com/emmo-repo/emmo/1.0.2/perspectives/contrast.ttl"/>        
+        <uri name="https://w3id.org/emmo/1.0.2/perspectives/contrast"           uri="https://raw.githubusercontent.com/emmo-repo/emmo/1.0.2/perspectives/contrast.ttl"/>
         <uri name="https://w3id.org/emmo/1.0.2/perspectives/semiotics"          uri="https://raw.githubusercontent.com/emmo-repo/emmo/1.0.2/perspectives/semiotics.ttl"/>
 
         <uri name="https://w3id.org/emmo/1.0.2/reference"                    uri="https://raw.githubusercontent.com/emmo-repo/emmo/1.0.2/reference/reference.ttl"/>
