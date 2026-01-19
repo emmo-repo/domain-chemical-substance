@@ -1,12 +1,14 @@
 name: Deploy on GitHub Pages
-on: push
-#on:
-#  push:
-#    branches:
-#      - master
-#      - main
-#      - '[0-9]+.[0-9]+.[0-9]+'
-#      - '[0-9]+.[0-9]+.[0-9]+-*'
+
+# Only run this workflow on push to a release branch or master
+# on: push
+on:
+  push:
+    branches:
+      - master
+      - main
+      - '[0-9]+.[0-9]+.[0-9]+'
+      - '[0-9]+.[0-9]+.[0-9]+-*'
 
 
 env:
@@ -57,7 +59,7 @@ jobs:
         mkdir build
         cp README.md LICENSE build/.
 
-    - name: Create ${ONTOLOGY_NAME}-dependencies
+    - name: Create dependencies on github pages
       run: |
         ontoconvert \
             -saw \
