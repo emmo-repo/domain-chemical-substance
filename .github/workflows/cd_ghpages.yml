@@ -54,7 +54,7 @@ jobs:
         mkdir build
         cp README.md LICENSE build/.
 
-    - name: Copy readme and license files to gh-pages
+    - name: Create ${ONTOLOGY_NAME}-dependencies
       run: |
         ontoconvert \
             -saw \
