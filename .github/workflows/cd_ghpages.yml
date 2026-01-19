@@ -25,7 +25,7 @@ jobs:
     - name: Setup Python
       uses: actions/setup-python@v5
       with:
-        python-version: 3.11
+        python-version: 3.14
 
     - name: Install EMMOntoPy
       run: |
@@ -34,7 +34,6 @@ jobs:
 
     - name: Install tripper
       run: |
-        pip install .
         pip install "tripper[datadoc] @ git+https://github.com/EMMC-ASBL/tripper.git@master"
 
     - name: Install ROBOT
