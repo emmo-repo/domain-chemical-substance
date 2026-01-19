@@ -1,12 +1,12 @@
 name: Deploy on GitHub Pages
-#on: push
-on:
-  push:
-    branches:
-      - master
-      - main
-      - '[0-9]+.[0-9]+.[0-9]+'
-      - '[0-9]+.[0-9]+.[0-9]+-*'
+on: push
+#on:
+#  push:
+#    branches:
+#      - master
+#      - main
+#      - '[0-9]+.[0-9]+.[0-9]+'
+#      - '[0-9]+.[0-9]+.[0-9]+-*'
 
 
 env:
@@ -32,14 +32,12 @@ jobs:
       with:
         python-version: 3.14
 
-    - name: Install EMMOntoPy
+    - name: Install EMMOntoPy and tripper
       run: |
         pip install --upgrade pip
-        pip install "EMMOntoPy[ontodoc] @ git+https://github.com/emmo-repo/EMMOntoPy.git@master"
-
-    - name: Install tripper
-      run: |
-        pip install "tripper[datadoc] @ git+https://github.com/EMMC-ASBL/tripper.git@master"
+        pip install \
+            "EMMOntoPy[ontodoc] @ git+https://github.com/emmo-repo/EMMOntoPy.git@master" \
+            "tripper[datadoc] @ git+https://github.com/EMMC-ASBL/tripper.git@master"
 
     - name: Install ROBOT
       run: |
