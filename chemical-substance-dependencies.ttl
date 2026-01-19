@@ -7,3 +7,7 @@
         <https://w3id.org/emmo/1.0.2/disciplines/manufacturing> ,
         <https://w3id.org/emmo/1.0.2/disciplines/chemistry> ,
         <https://w3id.org/emmo/1.0.2/disciplines/materials> .
+
+# To get rid of foaf:Person and foaf:Organization at the top level, also import these:
+#    <https://w3id.org/emmo/1.0.2/disciplines/agency> ,
+#    <https://w3id.org/emmo/1.0.2/contributors-mappings> ,

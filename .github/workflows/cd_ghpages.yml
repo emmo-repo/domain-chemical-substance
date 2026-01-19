@@ -30,14 +30,12 @@ jobs:
     - name: Install EMMOntoPy
       run: |
         pip install --upgrade pip
-        #pip install EMMOntoPy
-        pip install -U git+https://github.com/emmo-repo/EMMOntoPy.git@annotating
+        pip install "EMMOntoPy[ontodoc] @ git+https://github.com/emmo-repo/EMMOntoPy.git@master"
 
-    - name: Install temgo and tripper
+    - name: Install tripper
       run: |
         pip install .
-        pip install tripper[datadoc]
-        pip install -U git+https://github.com/EMMC-ASBL/tripper.git@master
+        pip install "tripper[datadoc] @ git+https://github.com/EMMC-ASBL/tripper.git@master"
 
     - name: Install ROBOT
       run: |
