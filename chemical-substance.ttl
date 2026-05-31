@@ -12,7 +12,7 @@
 @prefix schema: <https://schema.org/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix annotations: <https://w3id.org/emmo/top/annotations#> .
-@base <https://w3id.org/emmo/domain/chemical-substance> .
+@base <https://w3id.org/emmo/domain/chemical-substance#> .
 
 <https://w3id.org/emmo/domain/chemical-substance> rdf:type owl:Ontology ;
                                                    owl:versionIRI <https://w3id.org/emmo/domain/chemical-substance/0.13.2/chemical-substance> ;
@@ -724,6 +724,21 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/Tc" .
 
 
+###  https://w3id.org/emmo/domain/chemical-substance#substance_0f2daeec_e213_4300_a142_b76cf75e4e51
+:substance_0f2daeec_e213_4300_a142_b76cf75e4e51 rdf:type owl:Class ;
+                                                rdfs:subClassOf emmo:EMMO_704630b8_fee3_49b9_baca_40e2dd276370 ;
+                                                skos:altLabel "C2H4"@en ,
+                                                              "Ethene"@en ;
+                                                skos:prefLabel "Ethylene"@en ;
+                                                emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q151313"@en ;
+                                                emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/6325" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of two carbon atoms joined by a double bond and bonded to four hydrogen atoms"@en ;
+                                                emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "C2H4" ;
+                                                emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Ethylene"@en ;
+                                                emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "ethene" ;
+                                                :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/C2H4/c1-2/h1-2H2" .
+
+
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_0f2f65a7_5cc4_4c86_a4d0_676771c646f1
 :substance_0f2f65a7_5cc4_4c86_a4d0_676771c646f1 rdf:type owl:Class ;
                                                 rdfs:subClassOf emmo:EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b ,
@@ -1349,9 +1364,10 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_29fd347b_6a15_4c98_a982_84cf555b0b86
 :substance_29fd347b_6a15_4c98_a982_84cf555b0b86 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_cc155ed5_c60c_4d9f_bfad_fbf6b7c77e57 ;
+                                                skos:note "This class classifies compounds by acid strength behavior in aqueous solution; it does not denote a solution class."@en ;
                                                 skos:prefLabel "WeakAcid"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q2823273"@en ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound that partially dissociates in aqueous solution to release hydrogen ions (H⁺), resulting in a lower level of acidity compared to strong acids"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "an acid compound classified as weak because it is only partially dissociated in aqueous solution under standard dilute conditions"@en ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Acid_strength#Weak_acids"@en .
 
 
@@ -3191,6 +3207,20 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/C5H10O2S/c1-5-2-3-8(6,7)4-5/h5H,2-4H2,1H3" .
 
 
+###  https://w3id.org/emmo/domain/chemical-substance#substance_5d1745e5_0d5e_42fc_b3d9_010daadf6891
+:substance_5d1745e5_0d5e_42fc_b3d9_010daadf6891 rdf:type owl:Class ;
+                                                rdfs:subClassOf emmo:EMMO_4e659c69_ca2d_4569_8a96_f99857a1fa32 ;
+                                                skos:altLabel "CO"@en ;
+                                                skos:prefLabel "CarbonMonoxide"@en ;
+                                                emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q2025"@en ;
+                                                emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/281" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of one carbon atom triple-bonded to one oxygen atom"@en ;
+                                                emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "CO" ;
+                                                emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Carbon_monoxide"@en ;
+                                                emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "carbon monoxide" ;
+                                                :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/CO/c1-2" .
+
+
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_5e44fe20_093d_4848_84ef_a20d69c17f3f
 :substance_5e44fe20_093d_4848_84ef_a20d69c17f3f rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_584bfc73_2715_417f_973c_552ae58529f5 ;
@@ -3927,6 +3957,21 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/3ClH.In/h3*1H;/q;;;+3/p-3" .
 
 
+###  https://w3id.org/emmo/domain/chemical-substance#substance_77e80b84_6a85_4899_afe7_c44eb3f2925a
+:substance_77e80b84_6a85_4899_afe7_c44eb3f2925a rdf:type owl:Class ;
+                                                rdfs:subClassOf emmo:EMMO_5cb107ba_7daa_46dd_8f9f_da22a6eac676 ,
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty <https://w3id.org/emmo/domain/electrochemistry#electrochemistry_8784ef24_320b_4a3d_b200_654aec6c271c> ;
+                                                                  owl:someValuesFrom :substance_aa740290_2568_4b54_9d0f_2edc88e333ba
+                                                                ] ;
+                                                skos:altLabel "HydrochloricAcid"@en ;
+                                                skos:note "Use HydrogenChloride for the isolated HCl compound; this class denotes the aqueous solution."@en ;
+                                                skos:prefLabel "HydrochloricAcidSolution"@en ;
+                                                emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q211044"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "an aqueous solution whose acid solute is hydrogen chloride"@en ;
+                                                emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Hydrochloric_acid"@en .
+
+
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_78400dc0_97b0_4d59_8ea6_30bb703f428c
 :substance_78400dc0_97b0_4d59_8ea6_30bb703f428c rdf:type owl:Class ;
                                                 rdfs:subClassOf emmo:EMMO_436b11bd_1756_4821_9f14_c9ed6b67552e ;
@@ -4070,10 +4115,11 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 rdfs:subClassOf emmo:EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b ;
                                                 owl:disjointWith :substance_cc155ed5_c60c_4d9f_bfad_fbf6b7c77e57 ;
                                                 skos:altLabel "AlkalineSubstance"@en ;
+                                                skos:note "This class classifies substances by base behavior; it does not denote a solution class."@en ;
                                                 skos:prefLabel "Base"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q11193"@en ;
                                                 emmo:EMMO_50c298c2_55a2_4068_b3ac_4e948c33181f "https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-01-18"@en ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "substance that decreases the concentration of hydrogen cations when dissolved"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical substance classified as a base because it decreases hydron concentration or accepts protons under relevant conditions; in this ontology, base strength classifications refer to aqueous solution behavior"@en ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Base_(chemistry)"@en ;
                                                 emmo:EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://doi.org/10.1351/goldbook.B00601"@en .
 
@@ -4739,8 +4785,9 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_8e5448fc_1916_4afb_9fd9_2489797f6922
 :substance_8e5448fc_1916_4afb_9fd9_2489797f6922 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_7beec353_bad9_46fc_a035_a76b131fb32b ;
+                                                skos:note "This class classifies compounds by base strength behavior in aqueous solution; it does not denote a solution class."@en ;
                                                 skos:prefLabel "WeakBase"@en ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound that partially dissociates in aqueous solution to release hydroxide ions (OH⁻)"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a base compound classified as weak because it is only partially protonated or only partially generates hydroxide in aqueous solution under standard dilute conditions"@en ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Base_(chemistry)#Weak_bases"@en .
 
 
@@ -5446,7 +5493,7 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/313" ;
                                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of hydrogen and chlorine atoms"@en ;
                                                 emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "HCl" ;
-                                                emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Hydrochloric_acid"@en ;
+                                                emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Hydrogen_chloride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "chlorane" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/ClH/h1H" .
 
@@ -6227,9 +6274,10 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_bed1a22c_8b61_467a_86a0_d24c7b910653
 :substance_bed1a22c_8b61_467a_86a0_d24c7b910653 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_7beec353_bad9_46fc_a035_a76b131fb32b ;
+                                                skos:note "This class classifies compounds by base strength behavior in aqueous solution; it does not denote a solution class."@en ;
                                                 skos:prefLabel "StrongBase"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q2886630"@en ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound that completely dissociates in aqueous solution to release hydroxide ions (OH⁻)"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a base compound classified as strong because it is essentially completely dissociated or protonated in aqueous solution under standard dilute conditions"@en ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Base_(chemistry)#Strong_bases"@en .
 
 
@@ -6706,9 +6754,11 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_cc155ed5_c60c_4d9f_bfad_fbf6b7c77e57
 :substance_cc155ed5_c60c_4d9f_bfad_fbf6b7c77e57 rdf:type owl:Class ;
                                                 rdfs:subClassOf emmo:EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b ;
+                                                skos:note "This class classifies substances by acid behavior; it does not denote a solution class."@en ;
                                                 skos:prefLabel "Acid"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q11158" ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "substance that increases the concentration of hydrogen cations when dissolved"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical substance classified as an acid because it donates protons or increases hydron concentration under relevant conditions; in this ontology, acid strength classifications refer to aqueous solution behavior"@en ,
+                                                                                               "substance that increases the concentration of hydrogen cations when dissolved"@en ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Acid"@en ;
                                                 emmo:EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://doi.org/10.1351/goldbook.A00071"@en .
 
@@ -8155,9 +8205,10 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_f5b930f9_2f95_4268_993c_ff6b57ae7691
 :substance_f5b930f9_2f95_4268_993c_ff6b57ae7691 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_cc155ed5_c60c_4d9f_bfad_fbf6b7c77e57 ;
+                                                skos:note "This class classifies compounds by acid strength behavior in aqueous solution; it does not denote a solution class."@en ;
                                                 skos:prefLabel "StrongAcid"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q5611096"@en ;
-                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound that completely dissociates in aqueous solution to release hydrogen ions (H⁺), resulting in a high level of acidity"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "an acid compound classified as strong because it is essentially completely dissociated in aqueous solution under standard dilute conditions"@en ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Acid_strength#Strong_acids"@en .
 
 
@@ -8534,8 +8585,8 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_fef7bf51_9187_4c3b_94e8_91ac7593fd21
 :substance_fef7bf51_9187_4c3b_94e8_91ac7593fd21 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_0160f86c_e567_40d4_a457_25cf170e7ef2 ;
-                                                skos:altLabel "SiO2" ,
-                                                              "Silica"@en ;
+                                                skos:altLabel "Silica"@en ,
+                                                              "SiO2" ;
                                                 skos:prefLabel "SiliconDioxide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q116269" ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/24261" ;
@@ -8682,4 +8733,4 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
 emmo:material_c5c9cf9f_252e_4b28_90f6_56b500db67fc skos:prefLabel "deprecate_OrganicCompound"@en .
 
 
-###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
