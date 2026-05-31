@@ -850,6 +850,15 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/3ClHO4.In/c3*2-1(3,4)5;/h3*(H,2,3,4,5);/q;;;+3/p-3" .
 
 
+###  https://w3id.org/emmo/domain/chemical-substance#substance_180ac854_f837_46ed_a4d8_4407b91fb95a
+:substance_180ac854_f837_46ed_a4d8_4407b91fb95a rdf:type owl:Class ;
+                                                rdfs:subClassOf :substance_dc68514f_b592_4e1b_a00f_fbb29f2fafbd ;
+                                                skos:note "Poly(arylene imidazolium)s are a distinct class of cationic polymers featuring imidazolium-functionalized arylene backbones, widely used in ion-conducting membranes and electrochemical applications. They exhibit unique properties such as ionic conductivity, thermal stability, and tunable charge transport behavior. Including this term is necessary to clearly distinguish this polymer family within broader polymer and ionic liquid material ontologies."@en ,
+                                                          "This polymer class is primarily used in advanced electrochemical systems such as fuel cell membranes and CO2 separation materials. The absence of standardized ontology entries motivates explicit inclusion for interoperability in materials informatics frameworks."@en ;
+                                                skos:prefLabel "PolyAryleneImidazolium"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A cationic polymer consisting of an arylene backbone functionalized with imidazolium groups, forming an ion-conducting polymeric material."@en .
+
+
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_191c3c02_4930_44d4_bf20_0d79ed41f8c5
 :substance_191c3c02_4930_44d4_bf20_0d79ed41f8c5 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_bc76f17d_931a_4728_9663_9f8ed208d5e4 ;
@@ -1573,6 +1582,15 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/Al.4ClH.Li/h;4*1H;/q+3;;;;;+1/p-4" .
 
 
+###  https://w3id.org/emmo/domain/chemical-substance#substance_2e88fcc8_43b3_48f6_9e5b_165746374117
+:substance_2e88fcc8_43b3_48f6_9e5b_165746374117 rdf:type owl:Class ;
+                                                rdfs:subClassOf :substance_dc68514f_b592_4e1b_a00f_fbb29f2fafbd ;
+                                                skos:note "Poly(aryl piperidinium)s are a class of cationic polymers featuring piperidinium-functionalized aryl backbones, commonly used in anion exchange membranes and electrochemical energy systems. They are structurally and functionally distinct from other ionic polymers such as imidazolium- or ammonium-based systems. Including this term enables precise semantic classification of emerging membrane materials in electrochemical and polymer ontologies."@en ,
+                                                          "Poly(aryl piperidinium)s are an emerging class of anion exchange membrane materials used in alkaline fuel cells and related electrochemical devices. Their distinct backbone–cation architecture differentiates them from imidazolium- and ammonium-based polymer electrolytes, motivating explicit ontology representation for materials informatics and energy systems modeling."@en ;
+                                                skos:prefLabel "PolyArylPiperidinium"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A cationic polymer consisting of an aryl backbone functionalized with piperidinium groups, used primarily in ion-conducting membrane materials."@en .
+
+
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_2eaab67b_5117_41a6_b485_2bd53564e44c
 :substance_2eaab67b_5117_41a6_b485_2bd53564e44c rdf:type owl:Class ;
                                                 rdfs:subClassOf emmo:EMMO_436b11bd_1756_4821_9f14_c9ed6b67552e ,
@@ -1651,6 +1669,26 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Ammonium_chloride"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "azanium;chloride" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/ClH.H3N/h1H;1H3" .
+
+
+###  https://w3id.org/emmo/domain/chemical-substance#substance_30265e11_d1e9_4103_854b_2fed8f4d8aad
+:substance_30265e11_d1e9_4103_854b_2fed8f4d8aad rdf:type owl:Class ;
+                                                rdfs:subClassOf :substance_90b8c156_30bc_4394_ace7_8f703fb675d5 ;
+                                                skos:altLabel "TaO2" ;
+                                                skos:prefLabel "TantalumIVOxide"@en ;
+                                                emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q4332868" ;
+                                                emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/tantalum-oxide-_TaO2" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of tantalum in the +5 oxidation state and oxygen atoms"@en .
+
+
+###  https://w3id.org/emmo/domain/chemical-substance#substance_3032a52b_72ee_4f3f_95d7_5011e0967e85
+:substance_3032a52b_72ee_4f3f_95d7_5011e0967e85 rdf:type owl:Class ;
+                                                rdfs:subClassOf :substance_dc68514f_b592_4e1b_a00f_fbb29f2fafbd ;
+                                                skos:note "Quaternary ammonium polysulfones are a class of anion exchange polymers where quaternary ammonium functional groups are grafted onto a polysulfone backbone, enabling ionic conductivity in alkaline electrochemical systems. They are structurally distinct from other ion-conducting polymers such as imidazolium-functionalized or piperidinium-based materials due to their sulfone-containing aromatic backbone. Including this term supports precise semantic classification of anion exchange membrane materials in energy and polymer ontologies."@en ,
+                                                          "Quaternary ammonium polysulfones are widely used in anion exchange membranes for fuel cells, electrolyzers, and related alkaline electrochemical devices."@en ;
+                                                skos:prefLabel "QuaternaryAmmoniumPolySulfone"@en ;
+                                                emmo:EMMO_4c8480cf_56de_41da_8699_f12a9033313a "Quaternary ammonium polysulfones are chemically and functionally distinct from piperidinium- and imidazolium-functionalized polymers due to differences in cation stability and hydroxide conductivity behavior."@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A polysulfone-based polymer functionalized with quaternary ammonium groups, used as an anion-conducting membrane material in electrochemical applications."@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_3061643c_9dea_4e98_bc1f_6e1a28567c1d
@@ -3099,6 +3137,19 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/S.Zn" .
 
 
+###  https://w3id.org/emmo/domain/chemical-substance#substance_5a4a9e9f_a1fe_42e6_8382_6a5edfa6b4a5
+:substance_5a4a9e9f_a1fe_42e6_8382_6a5edfa6b4a5 rdf:type owl:Class ;
+                                                rdfs:subClassOf emmo:EMMO_12a9a254_9791_4a00_b045_f397bc3ab2bc ;
+                                                skos:note "Air is a ubiquitous and chemically relevant mixture that acts as a reactant, solvent, and environmental medium in many chemical processes. It is essential for representing atmospheric conditions, gas-phase reactions, and exposure contexts in chemical substance modeling. Including “Air” ensures consistent reference to a well-defined, commonly used mixture across domains."@en ,
+                                                          "Air should be modeled as a natural, variable-composition mixture rather than a pure substance, with potential extensions to specify dry air, humid air, or polluted air where needed."@en ;
+                                                skos:prefLabel "Air"@en ;
+                                                emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q7391292" ;
+                                                emmo:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25 "https://dbpedia.org/resource/Air" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a homogeneous mixture of gases constituting Earth’s atmosphere, primarily composed of nitrogen, oxygen, argon, and trace gases"@en ;
+                                                emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Air" ;
+                                                emmo:EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://goldbook.iupac.org/terms/view/C01214" .
+
+
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_5a4d05f1_dd15_465b_8b44_704238e20813
 :substance_5a4d05f1_dd15_465b_8b44_704238e20813 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_b474f792_011e_4c9a_8dee_b99d6459cd66 ;
@@ -3812,6 +3863,17 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Copper(II)_perchlorate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "copper;diperchlorate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2ClHO4.Cu/c2*2-1(3,4)5;/h2*(H,2,3,4,5);/q;;+2/p-2" .
+
+
+###  https://w3id.org/emmo/domain/chemical-substance#substance_72b0e356_5160_42f5_82bd_848227de8e90
+:substance_72b0e356_5160_42f5_82bd_848227de8e90 rdf:type owl:Class ;
+                                                rdfs:subClassOf :substance_d131db99_0eb5_4edc_9063_0873f9ac3b49 ;
+                                                skos:altLabel "PEK"@en ;
+                                                skos:note "PolyEtherKetone should be treated as a separate entry from Polyetheretherketone (PEEK) and used only when the polymer backbone specifically corresponds to the PEK structure within the PAEK family." ;
+                                                skos:prefLabel "PolyEtherKetone"@en ;
+                                                emmo:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25 "http://dbpedia.org/page/Polyether_ketone" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A high-performance thermoplastic polymer in the polyaryletherketone (PAEK) family composed of repeating ether and ketone linkages with a higher ketone-to-ether ratio than PEEK."@en ;
+                                                emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Polyether_ketone" .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_73ce979c_af17_4187_81a7_7206bde39ec6
@@ -4865,6 +4927,13 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/Na.H2O/h;1H2/q+1;/p-1" .
 
 
+###  https://w3id.org/emmo/domain/chemical-substance#substance_90b8c156_30bc_4394_ace7_8f703fb675d5
+:substance_90b8c156_30bc_4394_ace7_8f703fb675d5 rdf:type owl:Class ;
+                                                rdfs:subClassOf :substance_b474f792_011e_4c9a_8dee_b99d6459cd66 ;
+                                                skos:prefLabel "TantalumOxideCompound"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of tantalum and oxygen atoms"@en .
+
+
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_90f71119_f476_4033_b6ee_6342680322e5
 :substance_90f71119_f476_4033_b6ee_6342680322e5 rdf:type owl:Class ;
                                                 rdfs:subClassOf emmo:EMMO_436b11bd_1756_4821_9f14_c9ed6b67552e ,
@@ -5248,6 +5317,15 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/CCl3F/c2-1(3,4)5" .
 
 
+###  https://w3id.org/emmo/domain/chemical-substance#substance_9f3b59a2_b2af_4b5b_919c_0c68d10f3edf
+:substance_9f3b59a2_b2af_4b5b_919c_0c68d10f3edf rdf:type owl:Class ;
+                                                rdfs:subClassOf :substance_b325bdd7_0adf_4522_a4ef_20cd6929e094 ;
+                                                skos:note "Perfluorocarboxylic acids (PFCAs) are a distinct and widely recognized subclass of PFAS with a shared structural motif and consistent chemical behavior. They are frequently referenced in environmental science, toxicology, and regulatory frameworks as a separate category from other fluorinated substances. Including this term enables precise semantic classification and interoperability across chemical substance ontologies."@en ,
+                                                          "Perfluorocarboxylic acids include compounds such as trifluoroacetic acid and perfluorooctanoic acid, which are relevant due to their persistence, bioaccumulation potential, and industrial use. The class is commonly treated"@en ;
+                                                skos:prefLabel "PerfluorocarboxylicAcid"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A perfluoroalkyl substance consisting of a fully fluorinated carbon chain terminating in a carboxylic acid functional group."@en .
+
+
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_9f40a798_f293_487a_a263_fc703778ae25
 :substance_9f40a798_f293_487a_a263_fc703778ae25 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_bc76f17d_931a_4728_9663_9f8ed208d5e4 ;
@@ -5331,6 +5409,18 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Sodium"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "sodium" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/Na" .
+
+
+###  https://w3id.org/emmo/domain/chemical-substance#substance_a1777149_5ad3_4074_a2ad_eb64ac0ead11
+:substance_a1777149_5ad3_4074_a2ad_eb64ac0ead11 rdf:type owl:Class ;
+                                                rdfs:subClassOf :substance_90b8c156_30bc_4394_ace7_8f703fb675d5 ;
+                                                skos:altLabel "Ta2O5" ,
+                                                              "TantalumPentoxide" ;
+                                                skos:prefLabel "TantalumVOxide"@en ;
+                                                emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q425103" ;
+                                                emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/62157" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of tantalum in the +5 oxidation state and oxygen atoms"@en ;
+                                                emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Tantalum_pentoxide" .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_a2b46543_4d0f_488a_b51a_7ed3a4149170
@@ -6407,6 +6497,15 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of calcium cations bonded to anions"@en .
 
 
+###  https://w3id.org/emmo/domain/chemical-substance#substance_c1755292_fb2a_46a9_aeb1_84067b0a087c
+:substance_c1755292_fb2a_46a9_aeb1_84067b0a087c rdf:type owl:Class ;
+                                                rdfs:subClassOf :substance_dc68514f_b592_4e1b_a00f_fbb29f2fafbd ;
+                                                skos:note "Poly(aryl piperidinium)s are a class of cationic polymers featuring piperidinium-functionalized aryl backbones, commonly used in anion exchange membranes and electrochemical energy systems. They are structurally and functionally distinct from other ionic polymers such as imidazolium- or ammonium-based systems. Including this term enables precise semantic classification of emerging membrane materials in electrochemical and polymer ontologies."@en ,
+                                                          "Poly(aryl piperidinium)s are an emerging class of anion exchange membrane materials used in alkaline fuel cells and related electrochemical devices. Their distinct backbone–cation architecture differentiates them from imidazolium- and ammonium-based polymer electrolytes, motivating explicit ontology representation for materials informatics and energy systems modeling."@en ;
+                                                skos:prefLabel "PolyArylAmmonium"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A cationic polymer consisting of an aryl backbone functionalized with piperidinium groups, used primarily in ion-conducting membrane materials."@en .
+
+
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_c1b3e4ab_f4c2_443e_9143_99e7c3654448
 :substance_c1b3e4ab_f4c2_443e_9143_99e7c3654448 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_4ad18bbe_6478_4009_8f80_b669a6ae3f7a ;
@@ -6678,6 +6777,14 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_b474f792_011e_4c9a_8dee_b99d6459cd66 ;
                                                 skos:prefLabel "RhodiumOxideCompound"@en ;
                                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of rhodium and oxygen atoms"@en .
+
+
+###  https://w3id.org/emmo/domain/chemical-substance#substance_c883ca6e_ad5a_4eff_91b9_153322ef8324
+:substance_c883ca6e_ad5a_4eff_91b9_153322ef8324 rdf:type owl:Class ;
+                                                rdfs:subClassOf :substance_90b8c156_30bc_4394_ace7_8f703fb675d5 ;
+                                                skos:altLabel "Ta2O3" ;
+                                                skos:prefLabel "TantalumIIIOxide"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of tantalum in the +3 oxidation state and oxygen atoms"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_c9141094_0700_41ec_8373_4fc52b2f1615
@@ -7698,6 +7805,15 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/2O.V" .
 
 
+###  https://w3id.org/emmo/domain/chemical-substance#substance_e392ec4c_2c20_4df2_ad25_4fdc5ce4341c
+:substance_e392ec4c_2c20_4df2_ad25_4fdc5ce4341c rdf:type owl:Class ;
+                                                rdfs:subClassOf :substance_90b8c156_30bc_4394_ace7_8f703fb675d5 ;
+                                                skos:altLabel "TaO" ;
+                                                skos:prefLabel "TantalumIIOxide"@en ;
+                                                emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/10198074" ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of tantalum in the +2 oxidation state and oxygen atoms"@en .
+
+
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_e3a3dc4f_b910_49e3_b66d_c25ce4889d68
 :substance_e3a3dc4f_b910_49e3_b66d_c25ce4889d68 rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_bc76f17d_931a_4728_9663_9f8ed208d5e4 ;
@@ -8132,6 +8248,16 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_8c40be1f_0931_4db9_832f_cb63556f6a5a ;
                                                 skos:prefLabel "AluminiumSaltCompound"@en ;
                                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of aluminium cations bonded to anions"@en .
+
+
+###  https://w3id.org/emmo/domain/chemical-substance#substance_f375bff6_79d0_472a_9469_393bf1dbfae2
+:substance_f375bff6_79d0_472a_9469_393bf1dbfae2 rdf:type owl:Class ;
+                                                rdfs:subClassOf :substance_dc68514f_b592_4e1b_a00f_fbb29f2fafbd ;
+                                                skos:altLabel "SPEEK"@en ;
+                                                skos:note "Sulfonated polyetheretherketone (SPEEK) is a chemically modified derivative of PEEK in which sulfonic acid groups are introduced to the aromatic backbone, enabling proton-conducting behavior. It must be explicitly distinguished from base PEEK due to its fundamentally altered ion transport, hydrophilicity, and membrane performance characteristics. Including this term enables precise representation of proton exchange membrane materials in electrochemical and polymer ontologies."@en ;
+                                                skos:prefLabel "SulfonatedPolyEtherEtherKetone"@en ;
+                                                emmo:EMMO_4c8480cf_56de_41da_8699_f12a9033313a "SPEEK should be modeled as a functionalized derivative of PEEK rather than a separate base polymer class. This distinction is important for accurately representing proton exchange membrane behavior in fuel cells and related electrochemical systems."@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A sulfonated derivative of polyetheretherketone (PEEK) containing sulfonic acid (–SO₃H) functional groups that enable proton conduction."@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_f3e7979a_e3ef_450a_8762_7d8778afe478
