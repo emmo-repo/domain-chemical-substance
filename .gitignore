@@ -117,3 +117,4 @@ desktop.ini
 *.csv~
 *.json~
 /.project
+.settings/

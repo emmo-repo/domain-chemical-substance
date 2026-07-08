@@ -49,6 +49,13 @@ docs = [
   "pypandoc-binary>=1.14",
 ]
 
+dev = [
+  "pytest",
+]
+
+[project.scripts]
+bump-version = "domain_chemical_substance_tooling.bump_version:main"
+
 [tool.ontology]
 robot_version = "1.9.6"
 

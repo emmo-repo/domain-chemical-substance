@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this ontology, please cite it using this metadata."
+title: "Chemical Substance Domain Ontology"
+type: dataset
+authors:
+  - family-names: Clark
+    given-names: Simon
+    orcid: "https://orcid.org/0000-0002-8758-6109"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.10254978"
+    description: "Concept DOI for all versions (Zenodo)"
+repository-code: "https://github.com/emmo-repo/domain-chemical-substance"
+url: "https://w3id.org/emmo/domain/chemical-substance"
+license: CC-BY-4.0
+version: "0.14.1"
+date-released: "2026-07-08"
+keywords:
+  - ontology
+  - EMMO
+  - semantic web
+  - FAIR data
+  - chemistry
+  - chemical substances

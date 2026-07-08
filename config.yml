@@ -15,3 +15,13 @@ output:
   rst_file: "docs/chemical-substance.rst"
 
 emmocheck_classes: []
+
+version_tooling:
+  main_ttl: "chemical-substance.ttl"
+  ttl_files:
+    - "chemical-substance.ttl"
+    - "chemical-substance-dependencies.ttl"
+  catalog_files:
+    - "catalog-v001.xml"
+  uri_segments:
+    - "emmo/domain/chemical-substance/"
