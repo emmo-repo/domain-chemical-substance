@@ -8,7 +8,9 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: Se
 ## [0.14.1] - 2026-07-08
 
 ### Fixed
-- Corrected LiOH and Ba(DFOB)2 labels and formulae; added missing salt subclass axioms (issues #34–#36).
+- Lithium hydroxide: corrected `skos:altLabel` `OH` → `LiOH` and chemical formula `HLiO` → `LiOH`.
+- Barium DFOB complex: corrected `skos:altLabel` `a(DFOB)2` → `Ba(DFOB)2`.
+- Added missing salt superclass axioms (several substances now also `rdfs:subClassOf` `substance_7fd3843d…`).
 - Catalog rebuilt on EMMO 1.0.2 — was mixed 1.0.2/1.0.3 and could not resolve the actual EMMO import offline.
 
 ### Added
