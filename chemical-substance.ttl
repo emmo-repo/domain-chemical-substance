@@ -15,25 +15,26 @@
 @base <https://w3id.org/emmo/domain/chemical-substance#> .
 
 <https://w3id.org/emmo/domain/chemical-substance> rdf:type owl:Ontology ;
-                                                   owl:versionIRI <https://w3id.org/emmo/domain/chemical-substance/0.14.0/chemical-substance> ;
-                                                   owl:imports <https://w3id.org/emmo/domain/chemical-substance/0.14.0/dependencies> ;
+                                                   owl:versionIRI <https://w3id.org/emmo/domain/chemical-substance/0.14.1/chemical-substance> ;
+                                                   owl:imports <https://w3id.org/emmo/domain/chemical-substance/0.14.1/dependencies> ;
                                                    dcterms:abstract "This ontology provides terms for chemical substances that can be referenced and re-used other resources."@en ;
                                                    dcterms:bibliographicCitation "https://zenodo.org/doi/10.5281/zenodo.10254978" ;
                                                    dcterms:contributor <https://orcid.org/0000-0002-1560-809X> ;
                                                    dcterms:created "2023-09-28"^^xsd:date ;
                                                    dcterms:creator <https://orcid.org/0000-0002-8758-6109> ;
-                                                   dcterms:issued "2026-05-31"^^xsd:date ;
-                                                   dcterms:modified "2026-05-31"^^xsd:date ;
+                                                   dcterms:issued "2026-07-08"^^xsd:date ;
+                                                   dcterms:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+                                                   dcterms:modified "2026-07-08"^^xsd:date ;
                                                    dcterms:publisher "EMMO" ;
-                                                   dcterms:source " " ;
                                                    dcterms:title "Chemical Substance Domain Ontology"@en ;
                                                    bibo:doi "10.5281/zenodo.10254978" ;
+                                                   bibo:status "unstable" ;
                                                    vann:preferredNamespacePrefix "chems" ;
                                                    vann:preferredNamespaceUri "https://w3id.org/emmo/domain/chemical-substance" ;
-                                                   owl:backwardCompatibleWith " " ;
-                                                   owl:priorVersion "0.13.2" ;
-                                                   owl:versionInfo "0.14.0" ;
-                                                   foaf:logo " " .
+                                                   owl:backwardCompatibleWith "0.14.0" ;
+                                                   owl:priorVersion "0.14.0" ;
+                                                   owl:versionInfo "0.14.1" ;
+                                                   foaf:logo "https://raw.githubusercontent.com/emmo-repo/domain-chemical-substance/master/docs/assets/img/fig/png/domain-chemical-substance-logo.png" .
 
 #################################################################
 #    Annotation properties
@@ -965,7 +966,8 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_1dd8fd65_919b_40d1_a78c_9409b28e323e
 :substance_1dd8fd65_919b_40d1_a78c_9409b28e323e rdf:type owl:Class ;
-                                                rdfs:subClassOf :substance_5a5e8609_83bf_46d1_a1b0_eaafa27aaed4 ;
+                                                rdfs:subClassOf emmo:EMMO_704630b8_fee3_49b9_baca_40e2dd276370 ,
+                                                                :substance_7fd3843d_f0b7_4490_bcf3_519fb9e2b150 ;
                                                 skos:altLabel "MA"@en ,
                                                               "MeOAc"@en ,
                                                               "MethylEthanoate"@en ;
@@ -1721,7 +1723,8 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_31d0d139_7b45_4d1e_8603_92cc12da2fad
 :substance_31d0d139_7b45_4d1e_8603_92cc12da2fad rdf:type owl:Class ;
-                                                rdfs:subClassOf emmo:EMMO_704630b8_fee3_49b9_baca_40e2dd276370 ;
+                                                rdfs:subClassOf emmo:EMMO_704630b8_fee3_49b9_baca_40e2dd276370 ,
+                                                                :substance_7fd3843d_f0b7_4490_bcf3_519fb9e2b150 ;
                                                 skos:altLabel "VC"@en ;
                                                 skos:prefLabel "VinyleneCarbonate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q2802973"@en ;
@@ -3504,12 +3507,12 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
 :substance_65032a2b_f5ce_44e4_8798_6bd989e6785f rdf:type owl:Class ;
                                                 rdfs:subClassOf emmo:EMMO_4e659c69_ca2d_4569_8a96_f99857a1fa32 ,
                                                                 :substance_bed1a22c_8b61_467a_86a0_d24c7b910653 ;
-                                                skos:altLabel "OH"@en ;
+                                                skos:altLabel "LiOH"@en ;
                                                 skos:prefLabel "LithiumHydroxide"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q407613"@en ;
                                                 emmo:EMMO_371f5265_fa29_4081_b722_2c530b1fdddb "https://pubchem.ncbi.nlm.nih.gov/compound/3939" ;
                                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of lithium and hydroxide ions"@en ;
-                                                emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "HLiO" ;
+                                                emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "LiOH" ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Lithium_hydroxide"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "lithium;hydroxide" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/Li.H2O/h;1H2/q+1;/p-1" .
@@ -5392,7 +5395,7 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_a092c93d_1d03_4d74_b0d7_7ed51b0a3eca
 :substance_a092c93d_1d03_4d74_b0d7_7ed51b0a3eca rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_7dd5ebb3_1084_485a_9fbf_05954cd2da84 ;
-                                                skos:altLabel "a(DFOB)2"@en ;
+                                                skos:altLabel "Ba(DFOB)2"@en ;
                                                 skos:prefLabel "BariumDifluorooxalatoborate"@en ;
                                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to difluorooxalatoborate anions"@en .
 
@@ -8105,7 +8108,8 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_edef7f16_a517_4577_91b1_a90099869f1b
 :substance_edef7f16_a517_4577_91b1_a90099869f1b rdf:type owl:Class ;
-                                                rdfs:subClassOf emmo:EMMO_704630b8_fee3_49b9_baca_40e2dd276370 ;
+                                                rdfs:subClassOf emmo:EMMO_704630b8_fee3_49b9_baca_40e2dd276370 ,
+                                                                :substance_7fd3843d_f0b7_4490_bcf3_519fb9e2b150 ;
                                                 skos:altLabel "VEC"@en ;
                                                 skos:prefLabel "VinylEthyleneCarbonate"@en ;
                                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q72516362"@en ;
@@ -8315,7 +8319,8 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_f57d5d5e_15a4_40de_a8d1_c3504f3c8827
 :substance_f57d5d5e_15a4_40de_a8d1_c3504f3c8827 rdf:type owl:Class ;
-                                                rdfs:subClassOf emmo:EMMO_704630b8_fee3_49b9_baca_40e2dd276370 ;
+                                                rdfs:subClassOf emmo:EMMO_704630b8_fee3_49b9_baca_40e2dd276370 ,
+                                                                :substance_7fd3843d_f0b7_4490_bcf3_519fb9e2b150 ;
                                                 skos:altLabel "3Glyme"@en ,
                                                               "TriethyleneGlycolDimethylEther"@en ;
                                                 skos:prefLabel "Triglyme"@en ;

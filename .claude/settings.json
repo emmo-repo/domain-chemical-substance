@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"c:/Users/simonc/Documents/Github-local/Ontologies/domain-battery/.venv/Scripts/python.exe\" src/domain_electrochemistry_tooling/bump_version.py --version 0.35.1 --dry-run)",
+      "Bash(c:/Users/simonc/Documents/Github-local/Ontologies/domain-battery/.venv/Scripts/python.exe src/domain_electrochemistry_tooling/bump_version.py --version 0.35.1)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\simonc\\Documents\\Github-local\\Ontologies\\domain-electrochemistry"
+    ]
+  }
+}
