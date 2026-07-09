@@ -118,3 +118,7 @@ desktop.ini
 *.json~
 /.project
 .settings/
+
+# Generated ontology artifacts (built by CI: docs -> gh-pages, release -> GitHub Release assets)
+*-inferred.ttl
+build/
