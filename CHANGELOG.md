@@ -5,6 +5,14 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: Se
 
 ## [Unreleased]
 
+## [0.14.2] - 2026-07-09
+
+### Fixed
+- EMMO now loads in Protégé (and any OWL tool that resolves imports by declared IRI). The dependencies module imported the non-canonical `https://w3id.org/emmo/1.0.2/emmo`; EMMO 1.0.2's file declares its version IRI as `https://w3id.org/emmo/1.0.2`, so tools keyed on the declared IRI resolved the import to an empty ontology and loaded no EMMO terms. Now imports the canonical `https://w3id.org/emmo/1.0.2` (matching the other EMMO domain ontologies), and the catalog wizard entry maps that IRI. Verified: a catalog-resolved load now brings in 1921 EMMO core classes.
+
+### Changed
+- The inferred ontology (`chemical-substance-inferred.ttl`) is no longer tracked in git — it is a generated build artifact. CI regenerates it and publishes it to gh-pages (`/inferred`, latest) and attaches a freshly reasoned copy to each GitHub Release (per version). The `release` workflow reasons it at tag time; the docs workflow backfills the per-version `versions/` archive from Release assets. You no longer generate or commit it by hand.
+
 ## [0.14.1] - 2026-07-08
 
 ### Fixed
