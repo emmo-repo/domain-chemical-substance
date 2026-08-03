@@ -15,25 +15,25 @@
 @base <https://w3id.org/emmo/domain/chemical-substance#> .
 
 <https://w3id.org/emmo/domain/chemical-substance> rdf:type owl:Ontology ;
-                                                   owl:versionIRI <https://w3id.org/emmo/domain/chemical-substance/0.14.2/chemical-substance> ;
-                                                   owl:imports <https://w3id.org/emmo/domain/chemical-substance/0.14.2/dependencies> ;
+                                                   owl:versionIRI <https://w3id.org/emmo/domain/chemical-substance/0.15.0/chemical-substance> ;
+                                                   owl:imports <https://w3id.org/emmo/domain/chemical-substance/0.15.0/dependencies> ;
                                                    dcterms:abstract "This ontology provides terms for chemical substances that can be referenced and re-used other resources."@en ;
                                                    dcterms:bibliographicCitation "https://zenodo.org/doi/10.5281/zenodo.10254978" ;
                                                    dcterms:contributor <https://orcid.org/0000-0002-1560-809X> ;
                                                    dcterms:created "2023-09-28"^^xsd:date ;
                                                    dcterms:creator <https://orcid.org/0000-0002-8758-6109> ;
-                                                   dcterms:issued "2026-07-09"^^xsd:date ;
+                                                   dcterms:issued "2026-08-03"^^xsd:date ;
                                                    dcterms:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
-                                                   dcterms:modified "2026-07-09"^^xsd:date ;
+                                                   dcterms:modified "2026-08-03"^^xsd:date ;
                                                    dcterms:publisher "EMMO" ;
                                                    dcterms:title "Chemical Substance Domain Ontology"@en ;
                                                    bibo:doi "10.5281/zenodo.10254978" ;
                                                    bibo:status "unstable" ;
                                                    vann:preferredNamespacePrefix "chems" ;
                                                    vann:preferredNamespaceUri "https://w3id.org/emmo/domain/chemical-substance" ;
-                                                   owl:backwardCompatibleWith "0.14.1" ;
-                                                   owl:priorVersion "0.14.1" ;
-                                                   owl:versionInfo "0.14.2" ;
+                                                   owl:backwardCompatibleWith "0.14.2" ;
+                                                   owl:priorVersion "0.14.2" ;
+                                                   owl:versionInfo "0.15.0" ;
                                                    foaf:logo "https://raw.githubusercontent.com/emmo-repo/domain-chemical-substance/master/docs/assets/img/fig/png/domain-chemical-substance-logo.png" .
 
 #################################################################
@@ -2098,6 +2098,23 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/Cu.HI/h;1H/q+1;/p-1" .
 
 
+###  https://w3id.org/emmo/domain/chemical-substance#substance_3f061928_e90f_4414_9308_d4c843ebb79a
+:substance_3f061928_e90f_4414_9308_d4c843ebb79a rdf:type owl:Class ;
+                                                rdfs:subClassOf emmo:EMMO_f678173d_f036_4df1_a86b_2894560be617 ,
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ;
+                                                                  owl:someValuesFrom :substance_68c0876b_cb62_41cd_846d_95cc9d9a8733
+                                                                ] ,
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ;
+                                                                  owl:someValuesFrom :substance_d53259a7_0d9c_48b9_a6c1_4418169df303
+                                                                ] ;
+                                                skos:altLabel "Si-Gr"@en ,
+                                                              "SiGr"@en ;
+                                                skos:prefLabel "SiliconGraphite"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a composite material consisting of silicon and graphite constituents, used as a negative electrode active material in lithium-ion batteries, where the silicon raises the specific capacity and the graphite matrix buffers the silicon volume change and provides electronic conductivity"@en .
+
+
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_3f5d5e9c_adb6_4fbb_88a5_1d5472e2c99f
 :substance_3f5d5e9c_adb6_4fbb_88a5_1d5472e2c99f rdf:type owl:Class ;
                                                 rdfs:subClassOf :substance_92667c34_98eb_4bc9_a0d4_6dd44e5b287a ;
@@ -3095,6 +3112,17 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Magnesium"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "magnesium" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/Mg" .
+
+
+###  https://w3id.org/emmo/domain/chemical-substance#substance_592acd61_23c8_4a1a_b41b_1eeabedc0710
+:substance_592acd61_23c8_4a1a_b41b_1eeabedc0710 rdf:type owl:Class ;
+                                                rdfs:subClassOf :substance_3ac62305_acd6_4312_9e31_4f824bd2530d ;
+                                                skos:altLabel "NMC532"@en ;
+                                                skos:prefLabel "LithiumNickelManganeseCobaltOxide532"@en ;
+                                                emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q121086662"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a lithium nickel manganese cobalt oxide in which nickel, manganese and cobalt are present in the molar ratio 5:3:2, used as a positive electrode active material in lithium-ion batteries"@en ;
+                                                emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "LiNi0.5Mn0.3Co0.2O2" ;
+                                                emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Lithium_nickel_manganese_cobalt_oxides"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_597d0bee_eb9b_4264_9888_2c1400690a5d
@@ -5400,6 +5428,16 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical compound consisting of barium cations bonded to difluorooxalatoborate anions"@en .
 
 
+###  https://w3id.org/emmo/domain/chemical-substance#substance_a0b57956_8ba1_4021_ade9_44a87d103d90
+:substance_a0b57956_8ba1_4021_ade9_44a87d103d90 rdf:type owl:Class ;
+                                                rdfs:subClassOf :substance_3ac62305_acd6_4312_9e31_4f824bd2530d ;
+                                                skos:altLabel "NMC111"@en ;
+                                                skos:prefLabel "LithiumNickelManganeseCobaltOxide111"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a lithium nickel manganese cobalt oxide in which nickel, manganese and cobalt are present in the equimolar ratio 1:1:1, used as a positive electrode active material in lithium-ion batteries"@en ;
+                                                emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "LiNi1/3Mn1/3Co1/3O2" ;
+                                                emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Lithium_nickel_manganese_cobalt_oxides"@en .
+
+
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_a16a1bae_7844_42fd_bb6d_979195d6c933
 :substance_a16a1bae_7844_42fd_bb6d_979195d6c933 rdf:type owl:Class ;
                                                 rdfs:subClassOf emmo:EMMO_436b11bd_1756_4821_9f14_c9ed6b67552e ,
@@ -6968,6 +7006,17 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/C2H2O4/c3-1(4)2(5)6/h(H,3,4)(H,5,6)" .
 
 
+###  https://w3id.org/emmo/domain/chemical-substance#substance_cfcde9c2_3a9c_4add_b27e_0ba0cedf1c70
+:substance_cfcde9c2_3a9c_4add_b27e_0ba0cedf1c70 rdf:type owl:Class ;
+                                                rdfs:subClassOf :substance_3ac62305_acd6_4312_9e31_4f824bd2530d ;
+                                                skos:altLabel "NMC622"@en ;
+                                                skos:prefLabel "LithiumNickelManganeseCobaltOxide622"@en ;
+                                                emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q121086348"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a lithium nickel manganese cobalt oxide in which nickel, manganese and cobalt are present in the molar ratio 6:2:2, used as a positive electrode active material in lithium-ion batteries"@en ;
+                                                emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "LiNi0.6Mn0.2Co0.2O2" ;
+                                                emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Lithium_nickel_manganese_cobalt_oxides"@en .
+
+
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_d071c9d0_1358_4d9f_9690_53b7d69e025c
 :substance_d071c9d0_1358_4d9f_9690_53b7d69e025c rdf:type owl:Class ;
                                                 rdfs:subClassOf emmo:EMMO_436b11bd_1756_4821_9f14_c9ed6b67552e ,
@@ -7899,6 +7948,17 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class ;
                                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Sodium_tetrafluoroborate"@en ;
                                                 emmo:EMMO_f652e7d2_0b33_4d10_8d0f_2f70089982ba "sodium;tetrafluoroborate" ;
                                                 :substance_33ab8162_934b_4e36_bb43_5528d867d6d6 "InChI=1S/BF4.Na/c2-1(3,4)5;/q-1;+1" .
+
+
+###  https://w3id.org/emmo/domain/chemical-substance#substance_e877987f_3b08_4e21_8f2e_c280e6bef52f
+:substance_e877987f_3b08_4e21_8f2e_c280e6bef52f rdf:type owl:Class ;
+                                                rdfs:subClassOf :substance_3ac62305_acd6_4312_9e31_4f824bd2530d ;
+                                                skos:altLabel "NMC811"@en ;
+                                                skos:prefLabel "LithiumNickelManganeseCobaltOxide811"@en ;
+                                                emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q121086674"@en ;
+                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a nickel-rich lithium nickel manganese cobalt oxide in which nickel, manganese and cobalt are present in the molar ratio 8:1:1, used as a high-energy positive electrode active material in lithium-ion batteries"@en ;
+                                                emmo:EMMO_b8c10b72_7cc1_4e82_b4ab_728faf504919 "LiNi0.8Mn0.1Co0.1O2" ;
+                                                emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Lithium_nickel_manganese_cobalt_oxides"@en .
 
 
 ###  https://w3id.org/emmo/domain/chemical-substance#substance_e884ea99_9b69_4b8e_b932_9c47e1c8ce0c
