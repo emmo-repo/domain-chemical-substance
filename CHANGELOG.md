@@ -5,6 +5,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: Se
 
 ## [Unreleased]
 
+### Added
+- Scheduled (weekly + post-release) CI check that the public w3id.org IRIs resolve.
+- The docs workflow now also redeploys automatically after each successful release (`workflow_run`), so the `versions/` archive picks up the new inferred release asset without a manual dispatch.
+
 ## [0.14.2] - 2026-07-09
 
 ### Fixed
